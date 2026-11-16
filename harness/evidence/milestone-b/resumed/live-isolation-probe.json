@@ -1,0 +1,20 @@
+{
+  "at": "2026-11-04T03:37:15.702Z",
+  "dataHash": "165595c81dc7dd8eb2edea9bea08468fe8f8aad09bc970bc2b08ca28880ce23b",
+  "builds": [
+    {
+      "port": 4300,
+      "entry": "/assets/index-CSdJS6tH.js",
+      "entrySha256": "a9d0531168559a824948b2e418602f81b0cfd8b3ffe4754221db02f8ec0d4f31",
+      "modelBytes": 952896,
+      "audioRevision": 1
+    },
+    {
+      "port": 4301,
+      "entry": "/assets/index-CSdJS6tH.js",
+      "entrySha256": "a9d0531168559a824948b2e418602f81b0cfd8b3ffe4754221db02f8ec0d4f31",
+      "modelBytes": 952896,
+      "audioRevision": 9
+    }
+  ]
+}

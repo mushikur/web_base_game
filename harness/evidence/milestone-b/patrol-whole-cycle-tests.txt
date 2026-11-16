@@ -1,0 +1,16 @@
+✔ factory spawn validation rejects a civilian's phase-resolved location instead of its temporary reset base (1.3791ms)
+✔ random factory starts retain full NPC clearance through the first capped frame across patrol phases (21.1628ms)
+✔ a stationary new-game spawn stays outside every civilian throughout the complete authored patrol cycle (12.7743ms)
+✔ footprint clearance rejects navigation edges, obstruction corners, water overlap and invalid geometry (1.7038ms)
+✔ all current and future occupancy categories exclude the full player footprint (0.3508ms)
+✔ trusted factory publication rejects client approval, unknown points, y and mismatched world (4.5321ms)
+✔ finite injectable shuffle chooses only safe trusted points and reports all occupied (0.7556ms)
+✔ all curated starts clear authored southern street buildings, parked vehicles, poles and enlarged puddles (0.4849ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 203.2963

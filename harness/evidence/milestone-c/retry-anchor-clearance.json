@@ -1,0 +1,98 @@
+{
+  "at": "2026-11-05T04:19:35.632Z",
+  "radius": 0.32,
+  "rows": [
+    {
+      "area": "committee-lane",
+      "old": {
+        "x": -41,
+        "z": 44
+      },
+      "current": {
+        "x": -42,
+        "z": 43
+      },
+      "oldClear": false,
+      "currentClear": true,
+      "oldBlockers": [
+        {
+          "id": "committee-lane:parked-cng",
+          "x": -40,
+          "z": 45,
+          "w": 1.6,
+          "d": 2.9,
+          "h": 1.9
+        }
+      ]
+    },
+    {
+      "area": "microphone-square",
+      "old": {
+        "x": 29,
+        "z": 74
+      },
+      "current": {
+        "x": 28,
+        "z": 73
+      },
+      "oldClear": false,
+      "currentClear": true,
+      "oldBlockers": [
+        {
+          "id": "microphone-square:parked-cng",
+          "x": 30,
+          "z": 75,
+          "w": 1.6,
+          "d": 2.9,
+          "h": 1.9
+        }
+      ]
+    },
+    {
+      "area": "poster-quarter",
+      "old": {
+        "x": 73,
+        "z": 16
+      },
+      "current": {
+        "x": 72,
+        "z": 15
+      },
+      "oldClear": false,
+      "currentClear": true,
+      "oldBlockers": [
+        {
+          "id": "poster-quarter:parked-cng",
+          "x": 74,
+          "z": 17,
+          "w": 1.6,
+          "d": 2.9,
+          "h": 1.9
+        }
+      ]
+    },
+    {
+      "area": "power-house",
+      "old": {
+        "x": 85,
+        "z": 83
+      },
+      "current": {
+        "x": 84,
+        "z": 82
+      },
+      "oldClear": false,
+      "currentClear": true,
+      "oldBlockers": [
+        {
+          "id": "power-house:parked-cng",
+          "x": 86,
+          "z": 84,
+          "w": 1.6,
+          "d": 2.9,
+          "h": 1.9
+        }
+      ]
+    }
+  ]
+}

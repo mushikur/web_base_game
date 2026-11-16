@@ -1,0 +1,12 @@
+{
+  "qa": {
+    "port": 4301,
+    "pid": 9596
+  },
+  "startedAt": "2026-11-03T09:47:52.6884004Z",
+  "executable": "C:\\Program Files\\nodejs\\node.exe",
+  "primary": {
+    "port": 4300,
+    "pid": 24176
+  }
+}

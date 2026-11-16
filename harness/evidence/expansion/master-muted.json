@@ -1,0 +1,203 @@
+{
+  "state": "running",
+  "unlocked": true,
+  "catalogSource": "published",
+  "revision": 1,
+  "context": "exploration",
+  "activeVoices": 6,
+  "outputRms": 0,
+  "dropped": 0,
+  "eventCounts": {
+    "music-exploration": 1,
+    "footstep": 15,
+    "bell": 1,
+    "tea": 2,
+    "microphone": 1,
+    "conversation": 1,
+    "bus": 1,
+    "crow": 1,
+    "construction": 1
+  },
+  "recent": [
+    {
+      "event": "music-exploration",
+      "at": 0.2
+    },
+    {
+      "event": "footstep",
+      "at": 1.872,
+      "surface": "concrete",
+      "frame": 15.168694446375435,
+      "foot": "জয়নাল ভাই:R"
+    },
+    {
+      "event": "bell",
+      "at": 3.1706666666666665
+    },
+    {
+      "event": "footstep",
+      "at": 3.7306666666666666,
+      "surface": "concrete",
+      "frame": 15.10955623218566,
+      "foot": "আসমা আপা:R"
+    },
+    {
+      "event": "footstep",
+      "at": 3.832,
+      "surface": "concrete",
+      "frame": 15.131490355079599,
+      "foot": "রহিম চাচা:R"
+    },
+    {
+      "event": "footstep",
+      "at": 3.9546666666666668,
+      "surface": "concrete",
+      "frame": 15.227015151515166,
+      "foot": "নীলা:R"
+    },
+    {
+      "event": "tea",
+      "at": 5.16
+    },
+    {
+      "event": "footstep",
+      "at": 5.472,
+      "surface": "concrete",
+      "frame": 45.26681838542839,
+      "foot": "আসমা আপা:L"
+    },
+    {
+      "event": "footstep",
+      "at": 5.56,
+      "surface": "concrete",
+      "frame": 45.035385596645206,
+      "foot": "রহিম চাচা:L"
+    },
+    {
+      "event": "footstep",
+      "at": 5.674666666666667,
+      "surface": "concrete",
+      "frame": 45.21510980694986,
+      "foot": "নীলা:L"
+    },
+    {
+      "event": "microphone",
+      "at": 6.1706666666666665
+    },
+    {
+      "event": "footstep",
+      "at": 6.941333333333334,
+      "surface": "concrete",
+      "frame": 15.077537330961334,
+      "foot": "আসমা আপা:R"
+    },
+    {
+      "event": "footstep",
+      "at": 7.032,
+      "surface": "concrete",
+      "frame": 15.1211477732314,
+      "foot": "রহিম চাচা:R"
+    },
+    {
+      "event": "footstep",
+      "at": 7.152,
+      "surface": "concrete",
+      "frame": 15.247747582749142,
+      "foot": "নীলা:R"
+    },
+    {
+      "event": "conversation",
+      "at": 7.1706666666666665
+    },
+    {
+      "event": "bus",
+      "at": 8.181333333333333
+    },
+    {
+      "event": "footstep",
+      "at": 8.592,
+      "surface": "concrete",
+      "frame": 45.10470509059394,
+      "foot": "আসমা আপা:L"
+    },
+    {
+      "event": "footstep",
+      "at": 8.690666666666667,
+      "surface": "concrete",
+      "frame": 45.21497371541642,
+      "foot": "রহিম চাচা:L"
+    },
+    {
+      "event": "footstep",
+      "at": 8.792,
+      "surface": "concrete",
+      "frame": 45.11284171511083,
+      "foot": "নীলা:L"
+    },
+    {
+      "event": "crow",
+      "at": 9.170666666666667
+    },
+    {
+      "event": "tea",
+      "at": 11.072
+    },
+    {
+      "event": "construction",
+      "at": 13.197333333333333
+    },
+    {
+      "event": "footstep",
+      "at": 13.392,
+      "surface": "concrete",
+      "frame": 15.255488805594538,
+      "foot": "জয়নাল ভাই:R"
+    },
+    {
+      "event": "footstep",
+      "at": 13.56,
+      "surface": "concrete",
+      "frame": 15.19110577313501,
+      "foot": "আসমা আপা:R"
+    }
+  ],
+  "settings": {
+    "master": {
+      "volume": 0.75,
+      "muted": true
+    },
+    "music": {
+      "volume": 0.23,
+      "muted": false
+    },
+    "environment": {
+      "volume": 0.75,
+      "muted": false
+    },
+    "footsteps": {
+      "volume": 0.75,
+      "muted": false
+    },
+    "vehicles": {
+      "volume": 0.75,
+      "muted": false
+    },
+    "combat": {
+      "volume": 0.75,
+      "muted": false
+    },
+    "voices": {
+      "volume": 0.75,
+      "muted": false
+    },
+    "crowd": {
+      "volume": 0.75,
+      "muted": false
+    },
+    "interface": {
+      "volume": 0.75,
+      "muted": false
+    }
+  },
+  "lastError": ""
+}

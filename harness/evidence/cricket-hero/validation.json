@@ -1,0 +1,38 @@
+{
+  "errors": 0,
+  "warnings": 13106,
+  "infos": 29,
+  "hints": 0,
+  "issues": [
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+    },
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+    },
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+    },
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+    },
+    {
+      "code": "UNUSED_OBJECT",
+      "message": "This object may be unused.",
+      "severity": 2,
+      "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_0"
+    }
+  ]
+}

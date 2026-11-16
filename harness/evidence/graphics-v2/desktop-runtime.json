@@ -1,0 +1,131 @@
+{
+  "viewport": {
+    "height": 713,
+    "width": 1372
+  },
+  "runtime": {
+    "fpsAverage": 60.00077110802578,
+    "fpsSampleCount": 600,
+    "cameraDistance": 4.8,
+    "hdrReady": true,
+    "ambientOcclusion": true,
+    "actorStates": [
+      {
+        "name": "সজল পথিক",
+        "role": "civilian",
+        "animation": "Pickup",
+        "localGarments": []
+      },
+      {
+        "name": "বজলু প্রতিশ্রুতি",
+        "role": "leader",
+        "animation": "Idle",
+        "localGarments": [
+          "বজলু প্রতিশ্রুতি/Optional moustache",
+          "বজলু প্রতিশ্রুতি/Woven cotton optional tunic"
+        ]
+      },
+      {
+        "name": "পল্টু পোস্টার",
+        "role": "worker",
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "মন্টু মাইক",
+        "role": "worker",
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "কমল কমিটি",
+        "role": "worker",
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "রহিম চাচা",
+        "role": "civilian",
+        "animation": "Walk",
+        "localGarments": []
+      },
+      {
+        "name": "আসমা আপা",
+        "role": "civilian",
+        "animation": "Idle",
+        "localGarments": [
+          "আসমা আপা/Woven cotton optional tunic",
+          "আসমা আপা/Optional woven dupatta",
+          "আসমা আপা/Optional long hair"
+        ]
+      },
+      {
+        "name": "জয়নাল ভাই",
+        "role": "civilian",
+        "animation": "Walk",
+        "localGarments": [
+          "জয়নাল ভাই/Optional moustache"
+        ]
+      },
+      {
+        "name": "নীলা",
+        "role": "civilian",
+        "animation": "Walk",
+        "localGarments": [
+          "নীলা/Woven cotton optional tunic",
+          "নীলা/Optional woven dupatta",
+          "নীলা/Optional long hair"
+        ]
+      },
+      {
+        "name": "চা-মামা কুদ্দুস",
+        "role": "civilian",
+        "animation": "Idle",
+        "localGarments": [
+          "চা-মামা কুদ্দুস/Optional moustache"
+        ]
+      }
+    ],
+    "meshes": 267,
+    "activeMeshes": 135,
+    "drawCalls": 255,
+    "position": [
+      1.2982011922218217,
+      0,
+      -3.1561238078351783
+    ],
+    "cameraPosition": [
+      1.2982011922218217,
+      2.4939999999999998,
+      -7.956123807835178
+    ],
+    "skeletons": 10,
+    "animationGroups": 60,
+    "physics": true,
+    "audio": "running",
+    "ready": true,
+    "playing": true,
+    "paused": false,
+    "score": 32,
+    "health": 100,
+    "egg": 0,
+    "sandal": 6,
+    "selected": "sandal",
+    "message": "রাবারের স্যান্ডেল কুড়িয়েছেন! সঙ্গে এখন ৬টি।",
+    "subtitle": "",
+    "target": "",
+    "targetHealth": 60,
+    "fps": 60,
+    "x": 1.2982011922218217,
+    "z": -3.1561238078351783,
+    "yaw": 0,
+    "nearPickup": false,
+    "throws": 6,
+    "hits": 4,
+    "civilianHits": 0,
+    "quality": "desktop",
+    "evening": false,
+    "muted": false,
+    "error": ""
+  }
+}

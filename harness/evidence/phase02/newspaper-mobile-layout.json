@@ -1,0 +1,18 @@
+{
+  "edition": [
+    377,
+    377
+  ],
+  "font": true,
+  "image": [
+    true,
+    640,
+    360
+  ],
+  "lang": "bn-BD",
+  "replacement": false,
+  "viewport": [
+    390,
+    845
+  ]
+}

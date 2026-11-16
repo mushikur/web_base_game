@@ -1,0 +1,265 @@
+{
+  "kind": "Read-only current production HTTP delivery after service restart and voice clarity fix; not browser or listening verification",
+  "startedAt": "2026-11-03T09:48:38.312Z",
+  "completedAt": "2026-11-03T09:48:38.537Z",
+  "scope": "HTTP GET/HEAD only. No account, session, content/data mutation, process change or service restart. Evidence backup and JSON are the only writes.",
+  "previousStoppedProbeArchive": {
+    "path": "server-production-probe-service-stopped.json",
+    "status": "created"
+  },
+  "services": [
+    {
+      "port": 4300,
+      "base": "http://127.0.0.1:4300",
+      "health": {
+        "path": "/api/health",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8",
+        "cacheControl": "no-store",
+        "declaredBytes": 0,
+        "durationMs": 28,
+        "bytes": 28,
+        "result": {
+          "ok": true,
+          "testMode": false
+        }
+      },
+      "publishedContent": {
+        "path": "/api/content",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8",
+        "cacheControl": "no-store",
+        "declaredBytes": 0,
+        "durationMs": 11,
+        "bytes": 57250,
+        "publicRevision": 1,
+        "assets": 88,
+        "tracks": 5,
+        "cues": 59
+      },
+      "game": {
+        "index": {
+          "path": "/",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "cacheControl": "no-cache",
+          "declaredBytes": 876,
+          "durationMs": 3,
+          "bytes": 876,
+          "languageBengali": true,
+          "exactDiskMatch": true
+        },
+        "entry": {
+          "path": "/assets/index-K1hxA3tH.js",
+          "status": 200,
+          "contentType": "text/javascript; charset=utf-8",
+          "cacheControl": "no-cache",
+          "declaredBytes": 252585,
+          "durationMs": 5,
+          "bytes": 252585,
+          "sha256": "79f0cc560dafb627e1a9af67fe4d3e4b9cf8cf44b6669c2bc2f6e90528989255",
+          "diskSha256": "79f0cc560dafb627e1a9af67fe4d3e4b9cf8cf44b6669c2bc2f6e90528989255",
+          "exactDiskMatch": true,
+          "entryMatchesCurrentDist": true
+        }
+      },
+      "admin": {
+        "index": {
+          "path": "/admin/",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "cacheControl": "no-cache",
+          "declaredBytes": 446,
+          "durationMs": 6,
+          "bytes": 446,
+          "languageBengali": true,
+          "exactDiskMatch": true
+        },
+        "entry": {
+          "path": "/admin/assets/index-XTbHxmde.js",
+          "status": 200,
+          "contentType": "text/javascript; charset=utf-8",
+          "cacheControl": "no-cache",
+          "declaredBytes": 241619,
+          "durationMs": 15,
+          "bytes": 241619,
+          "sha256": "ae8581dbbb41b93619d0f7401bd199e22d9a6ed11c645a1ad2b809d6297c74fa",
+          "diskSha256": "ae8581dbbb41b93619d0f7401bd199e22d9a6ed11c645a1ad2b809d6297c74fa",
+          "exactDiskMatch": true,
+          "entryMatchesCurrentDist": true
+        }
+      },
+      "publishedAudioHEAD": {
+        "checked": 88,
+        "successful": 88,
+        "failures": []
+      },
+      "selectedAssetHEAD": [
+        {
+          "path": "/assets/models/dhaka-character.glb",
+          "status": 200,
+          "contentType": "model/gltf-binary",
+          "cacheControl": "no-cache",
+          "declaredBytes": 930760,
+          "durationMs": 3,
+          "bytes": 0
+        },
+        {
+          "path": "/assets/models/foot-contacts.json",
+          "status": 200,
+          "contentType": "application/json; charset=utf-8",
+          "cacheControl": "no-cache",
+          "declaredBytes": 534,
+          "durationMs": 4,
+          "bytes": 0
+        },
+        {
+          "path": "/assets/audio/voices/voice-spawn-0.wav",
+          "status": 200,
+          "contentType": "audio/wav",
+          "cacheControl": "no-cache",
+          "declaredBytes": 106028,
+          "durationMs": 4,
+          "bytes": 0
+        },
+        {
+          "path": "/assets/noto-sans-bengali-bengali-400-normal-BFibWJDZ.woff2",
+          "status": 200,
+          "contentType": "font/woff2",
+          "cacheControl": "no-cache",
+          "declaredBytes": 44352,
+          "durationMs": 4,
+          "bytes": 0
+        }
+      ],
+      "pass": true
+    },
+    {
+      "port": 4301,
+      "base": "http://127.0.0.1:4301",
+      "health": {
+        "path": "/api/health",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8",
+        "cacheControl": "no-store",
+        "declaredBytes": 0,
+        "durationMs": 9,
+        "bytes": 27,
+        "result": {
+          "ok": true,
+          "testMode": true
+        }
+      },
+      "publishedContent": {
+        "path": "/api/content",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8",
+        "cacheControl": "no-store",
+        "declaredBytes": 0,
+        "durationMs": 6,
+        "bytes": 57250,
+        "publicRevision": 6,
+        "assets": 88,
+        "tracks": 5,
+        "cues": 59
+      },
+      "game": {
+        "index": {
+          "path": "/",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "cacheControl": "no-cache",
+          "declaredBytes": 876,
+          "durationMs": 3,
+          "bytes": 876,
+          "languageBengali": true,
+          "exactDiskMatch": true
+        },
+        "entry": {
+          "path": "/assets/index-K1hxA3tH.js",
+          "status": 200,
+          "contentType": "text/javascript; charset=utf-8",
+          "cacheControl": "no-cache",
+          "declaredBytes": 252585,
+          "durationMs": 7,
+          "bytes": 252585,
+          "sha256": "79f0cc560dafb627e1a9af67fe4d3e4b9cf8cf44b6669c2bc2f6e90528989255",
+          "diskSha256": "79f0cc560dafb627e1a9af67fe4d3e4b9cf8cf44b6669c2bc2f6e90528989255",
+          "exactDiskMatch": true,
+          "entryMatchesCurrentDist": true
+        }
+      },
+      "admin": {
+        "index": {
+          "path": "/admin/",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "cacheControl": "no-cache",
+          "declaredBytes": 446,
+          "durationMs": 6,
+          "bytes": 446,
+          "languageBengali": true,
+          "exactDiskMatch": true
+        },
+        "entry": {
+          "path": "/admin/assets/index-XTbHxmde.js",
+          "status": 200,
+          "contentType": "text/javascript; charset=utf-8",
+          "cacheControl": "no-cache",
+          "declaredBytes": 241619,
+          "durationMs": 19,
+          "bytes": 241619,
+          "sha256": "ae8581dbbb41b93619d0f7401bd199e22d9a6ed11c645a1ad2b809d6297c74fa",
+          "diskSha256": "ae8581dbbb41b93619d0f7401bd199e22d9a6ed11c645a1ad2b809d6297c74fa",
+          "exactDiskMatch": true,
+          "entryMatchesCurrentDist": true
+        }
+      },
+      "publishedAudioHEAD": {
+        "checked": 88,
+        "successful": 88,
+        "failures": []
+      },
+      "selectedAssetHEAD": [
+        {
+          "path": "/assets/models/dhaka-character.glb",
+          "status": 200,
+          "contentType": "model/gltf-binary",
+          "cacheControl": "no-cache",
+          "declaredBytes": 930760,
+          "durationMs": 4,
+          "bytes": 0
+        },
+        {
+          "path": "/assets/models/foot-contacts.json",
+          "status": 200,
+          "contentType": "application/json; charset=utf-8",
+          "cacheControl": "no-cache",
+          "declaredBytes": 534,
+          "durationMs": 4,
+          "bytes": 0
+        },
+        {
+          "path": "/assets/audio/voices/voice-spawn-0.wav",
+          "status": 200,
+          "contentType": "audio/wav",
+          "cacheControl": "no-cache",
+          "declaredBytes": 106028,
+          "durationMs": 4,
+          "bytes": 0
+        },
+        {
+          "path": "/assets/noto-sans-bengali-bengali-400-normal-BFibWJDZ.woff2",
+          "status": 200,
+          "contentType": "font/woff2",
+          "cacheControl": "no-cache",
+          "declaredBytes": 44352,
+          "durationMs": 4,
+          "bytes": 0
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "allPassed": true
+}

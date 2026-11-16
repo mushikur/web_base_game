@@ -1,0 +1,217 @@
+{
+  "scripts": [
+    "/assets/index-DCSOLXSg.js"
+  ],
+  "diagnostics": {
+    "fpsAverage": 62.182023742259986,
+    "fpsSampleCount": 11,
+    "fpsSampleDurationMs": 176.89999999990687,
+    "fpsMethod": "visible frame count / elapsed frame time",
+    "pageVisible": true,
+    "playerMotionsSeen": [
+      "Idle"
+    ],
+    "cameraPerspective": true,
+    "cameraDistance": 4.8,
+    "hdrReady": true,
+    "ambientOcclusion": true,
+    "actorStates": [
+      {
+        "name": "সজল পথিক",
+        "role": "civilian",
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "বজলু প্রতিশ্রুতি",
+        "role": "leader",
+        "animation": "Idle",
+        "localGarments": [
+          "বজলু প্রতিশ্রুতি/Optional moustache",
+          "বজলু প্রতিশ্রুতি/Woven cotton optional tunic"
+        ]
+      },
+      {
+        "name": "পল্টু পোস্টার",
+        "role": "worker",
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "মন্টু মাইক",
+        "role": "worker",
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "কমল কমিটি",
+        "role": "worker",
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "রহিম চাচা",
+        "role": "civilian",
+        "animation": "Walk",
+        "localGarments": []
+      },
+      {
+        "name": "আসমা আপা",
+        "role": "civilian",
+        "animation": "Walk",
+        "localGarments": [
+          "আসমা আপা/Woven cotton optional tunic",
+          "আসমা আপা/Optional woven dupatta",
+          "আসমা আপা/Optional long hair"
+        ]
+      },
+      {
+        "name": "জয়নাল ভাই",
+        "role": "civilian",
+        "animation": "Idle",
+        "localGarments": [
+          "জয়নাল ভাই/Optional moustache"
+        ]
+      },
+      {
+        "name": "নীলা",
+        "role": "civilian",
+        "animation": "Walk",
+        "localGarments": [
+          "নীলা/Woven cotton optional tunic",
+          "নীলা/Optional woven dupatta",
+          "নীলা/Optional long hair"
+        ]
+      },
+      {
+        "name": "চা-মামা কুদ্দুস",
+        "role": "civilian",
+        "animation": "Idle",
+        "localGarments": [
+          "চা-মামা কুদ্দুস/Optional moustache"
+        ]
+      }
+    ],
+    "meshes": 277,
+    "activeMeshes": 170,
+    "drawCalls": 282,
+    "position": [
+      0,
+      0,
+      -9
+    ],
+    "cameraPosition": [
+      0.19850649569331802,
+      2.5544644536391083,
+      -13.620148225719367
+    ],
+    "skeletons": 10,
+    "animationGroups": 60,
+    "physics": true,
+    "audio": "running",
+    "audioDetails": {
+      "state": "running",
+      "unlocked": true,
+      "catalogSource": "published",
+      "revision": 6,
+      "context": "exploration",
+      "activeVoices": 4,
+      "music": {
+        "trackId": "track-exploration",
+        "assetId": "music-exploration",
+        "configuredVolume": 0.55,
+        "gain": 0.01612759754061699,
+        "loop": true
+      },
+      "loops": [
+        {
+          "id": "cng",
+          "assetId": "cng",
+          "category": "vehicles",
+          "gain": 0.07997921109199524
+        },
+        {
+          "id": "traffic",
+          "assetId": "traffic",
+          "category": "environment",
+          "gain": 0.09597505629062653
+        }
+      ],
+      "repetitions": {},
+      "outputRms": 0.01460193743787335,
+      "dropped": 0,
+      "eventCounts": {
+        "music-exploration": 1
+      },
+      "recent": [
+        {
+          "event": "music-exploration",
+          "at": 0.021333333333333333
+        }
+      ],
+      "settings": {
+        "master": {
+          "volume": 0.75,
+          "muted": false
+        },
+        "music": {
+          "volume": 0.23,
+          "muted": false
+        },
+        "environment": {
+          "volume": 0.75,
+          "muted": false
+        },
+        "footsteps": {
+          "volume": 0.75,
+          "muted": false
+        },
+        "vehicles": {
+          "volume": 0.75,
+          "muted": false
+        },
+        "combat": {
+          "volume": 0.75,
+          "muted": false
+        },
+        "voices": {
+          "volume": 0.75,
+          "muted": false
+        },
+        "crowd": {
+          "volume": 0.75,
+          "muted": false
+        },
+        "interface": {
+          "volume": 0.75,
+          "muted": false
+        }
+      },
+      "lastError": ""
+    },
+    "ready": true,
+    "playing": true,
+    "paused": false,
+    "score": 0,
+    "health": 100,
+    "egg": 0,
+    "sandal": 0,
+    "selected": "egg",
+    "message": "সজল, আগে ডিম আর স্যান্ডেল কুড়িয়ে নিন।",
+    "subtitle": "চা-মামা: চা খাইয়া যান, প্রতিশ্রুতি ফ্রি!",
+    "target": "",
+    "targetHealth": 100,
+    "fps": 56,
+    "x": 0,
+    "z": -9,
+    "yaw": 0,
+    "nearPickup": false,
+    "throws": 0,
+    "hits": 0,
+    "civilianHits": 0,
+    "quality": "desktop",
+    "evening": false,
+    "muted": false,
+    "error": ""
+  }
+}

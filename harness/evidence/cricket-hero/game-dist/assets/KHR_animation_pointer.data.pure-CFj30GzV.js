@@ -1,0 +1,1 @@
+export{h as _RegisterKHRAnimationPointerData}from"./game-MaT_LGRI.js";

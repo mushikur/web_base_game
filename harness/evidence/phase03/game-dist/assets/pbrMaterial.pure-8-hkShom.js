@@ -1,0 +1,1 @@
+export{j as PBRMaterial,M as RegisterPBRMaterial,N as RegisterPbrMaterial}from"./game-BehXrYB0.js";

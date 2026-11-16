@@ -1,0 +1,1950 @@
+{
+  "kind": "HTTP production-service probe; not browser verification",
+  "startedAt": "2026-11-03T03:26:50.991Z",
+  "completedAt": "2026-11-03T03:27:09.081Z",
+  "scope": "Read-only HTTP GET/HEAD requests; no sessions, credentials, data mutations, or service restarts.",
+  "services": [
+    {
+      "port": 4300,
+      "base": "http://127.0.0.1:4300",
+      "health": {
+        "path": "/api/health",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8",
+        "bytes": 28,
+        "cacheControl": "no-store",
+        "durationMs": 167,
+        "result": {
+          "ok": true,
+          "testMode": false
+        }
+      },
+      "publishedContent": {
+        "path": "/api/content",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8",
+        "bytes": 57250,
+        "cacheControl": "no-store",
+        "durationMs": 17,
+        "schemaVersion": 1,
+        "publicRevision": 1,
+        "assets": 88,
+        "tracks": 5,
+        "cues": 59
+      },
+      "gameIndex": {
+        "path": "/",
+        "status": 200,
+        "contentType": "text/html; charset=utf-8",
+        "bytes": 876,
+        "cacheControl": "no-cache",
+        "durationMs": 30,
+        "bengaliLanguageTag": true
+      },
+      "distJavaScript": {
+        "checked": 371,
+        "statusCounts": {
+          "200": 371
+        },
+        "failures": [],
+        "entry": {
+          "path": "/assets/index-uokt1e3p.js",
+          "status": 200,
+          "contentType": "text/javascript; charset=utf-8",
+          "bytes": 252578,
+          "sha256": "764598372f0f7798692d477a71110d3f6481a2427feb47d2b039e13c1d92418b",
+          "matchesCurrentDist": true
+        }
+      },
+      "indexLinkedAssets": [
+        {
+          "path": "/assets/index-uokt1e3p.js",
+          "status": 200,
+          "contentType": "text/javascript; charset=utf-8",
+          "bytes": 252578,
+          "cacheControl": "no-cache",
+          "durationMs": 39
+        },
+        {
+          "path": "/assets/rolldown-runtime-XKyaHtl9.js",
+          "status": 200,
+          "contentType": "text/javascript; charset=utf-8",
+          "bytes": 726,
+          "cacheControl": "no-cache",
+          "durationMs": 42
+        },
+        {
+          "path": "/assets/index-DATow1Op.css",
+          "status": 200,
+          "contentType": "text/css; charset=utf-8",
+          "bytes": 26115,
+          "cacheControl": "no-cache",
+          "durationMs": 46
+        }
+      ],
+      "coreAssets": [
+        {
+          "path": "/assets/models/dhaka-character.glb",
+          "status": 200,
+          "contentType": "model/gltf-binary",
+          "bytes": 930760,
+          "cacheControl": "no-cache",
+          "durationMs": 75
+        },
+        {
+          "path": "/assets/models/foot-contacts.json",
+          "status": 200,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": 534,
+          "cacheControl": "no-cache",
+          "durationMs": 81
+        },
+        {
+          "path": "/assets/environment/dhaka-daylight-sky-1k.hdr",
+          "status": 200,
+          "contentType": "application/octet-stream",
+          "bytes": 1435119,
+          "cacheControl": "no-cache",
+          "durationMs": 80
+        },
+        {
+          "path": "/assets/HavokPhysics-BqNY-4N9.wasm",
+          "status": 200,
+          "contentType": "application/wasm",
+          "bytes": 2094563,
+          "cacheControl": "no-cache",
+          "durationMs": 83
+        },
+        {
+          "path": "/assets/textures/rickshaw-art-color.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 366942,
+          "cacheControl": "no-cache",
+          "durationMs": 91
+        },
+        {
+          "path": "/assets/textures/cng-enamel-color.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 268228,
+          "cacheControl": "no-cache",
+          "durationMs": 95
+        },
+        {
+          "path": "/assets/noto-sans-bengali-bengali-400-normal-BFibWJDZ.woff2",
+          "status": 200,
+          "contentType": "font/woff2",
+          "bytes": 44352,
+          "cacheControl": "no-cache",
+          "durationMs": 98
+        }
+      ],
+      "publishedAudioAssets": {
+        "checked": 88,
+        "statusCounts": {
+          "200": 88
+        },
+        "failures": [],
+        "checks": [
+          {
+            "id": "jump",
+            "path": "/assets/audio/jump.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 45
+          },
+          {
+            "id": "landing",
+            "path": "/assets/audio/landing.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 51
+          },
+          {
+            "id": "pickup",
+            "path": "/assets/audio/pickup.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 52
+          },
+          {
+            "id": "equip",
+            "path": "/assets/audio/equip.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 54
+          },
+          {
+            "id": "throw",
+            "path": "/assets/audio/throw.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 58
+          },
+          {
+            "id": "hand",
+            "path": "/assets/audio/hand.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 64
+          },
+          {
+            "id": "sandal",
+            "path": "/assets/audio/sandal.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 66
+          },
+          {
+            "id": "egg",
+            "path": "/assets/audio/egg.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 71
+          },
+          {
+            "id": "rubberStone",
+            "path": "/assets/audio/rubberStone.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 48
+          },
+          {
+            "id": "baton",
+            "path": "/assets/audio/baton.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 46
+          },
+          {
+            "id": "spark",
+            "path": "/assets/audio/spark.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 49
+          },
+          {
+            "id": "hit",
+            "path": "/assets/audio/hit.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 48
+          },
+          {
+            "id": "marker",
+            "path": "/assets/audio/marker.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 46
+          },
+          {
+            "id": "complete",
+            "path": "/assets/audio/complete.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 72044,
+            "cacheControl": "no-cache",
+            "durationMs": 55
+          },
+          {
+            "id": "enter",
+            "path": "/assets/audio/enter.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 55
+          },
+          {
+            "id": "exit",
+            "path": "/assets/audio/exit.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 52
+          },
+          {
+            "id": "door",
+            "path": "/assets/audio/door.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 50
+          },
+          {
+            "id": "horn",
+            "path": "/assets/audio/horn.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 52844,
+            "cacheControl": "no-cache",
+            "durationMs": 49
+          },
+          {
+            "id": "engineStart",
+            "path": "/assets/audio/engineStart.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 64
+          },
+          {
+            "id": "engineIdle",
+            "path": "/assets/audio/engineIdle.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 192044,
+            "cacheControl": "no-cache",
+            "durationMs": 66
+          },
+          {
+            "id": "acceleration",
+            "path": "/assets/audio/acceleration.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 65
+          },
+          {
+            "id": "brake",
+            "path": "/assets/audio/brake.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 77
+          },
+          {
+            "id": "collision",
+            "path": "/assets/audio/collision.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 78
+          },
+          {
+            "id": "siren",
+            "path": "/assets/audio/siren.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 192044,
+            "cacheControl": "no-cache",
+            "durationMs": 78
+          },
+          {
+            "id": "newspaper",
+            "path": "/assets/audio/newspaper.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 78
+          },
+          {
+            "id": "menu",
+            "path": "/assets/audio/menu.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 78
+          },
+          {
+            "id": "traffic",
+            "path": "/assets/audio/traffic.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 192044,
+            "cacheControl": "no-cache",
+            "durationMs": 90
+          },
+          {
+            "id": "bell",
+            "path": "/assets/audio/bell.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 88
+          },
+          {
+            "id": "cng",
+            "path": "/assets/audio/cng.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 192044,
+            "cacheControl": "no-cache",
+            "durationMs": 94
+          },
+          {
+            "id": "bus",
+            "path": "/assets/audio/bus.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 52844,
+            "cacheControl": "no-cache",
+            "durationMs": 90
+          },
+          {
+            "id": "tea",
+            "path": "/assets/audio/tea.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 88
+          },
+          {
+            "id": "crow",
+            "path": "/assets/audio/crow.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 88
+          },
+          {
+            "id": "construction",
+            "path": "/assets/audio/construction.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 52844,
+            "cacheControl": "no-cache",
+            "durationMs": 95
+          },
+          {
+            "id": "rain",
+            "path": "/assets/audio/rain.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 192044,
+            "cacheControl": "no-cache",
+            "durationMs": 85
+          },
+          {
+            "id": "insects",
+            "path": "/assets/audio/insects.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 192044,
+            "cacheControl": "no-cache",
+            "durationMs": 62
+          },
+          {
+            "id": "microphone",
+            "path": "/assets/audio/microphone.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 63
+          },
+          {
+            "id": "step-asphalt-0",
+            "path": "/assets/audio/step-asphalt-0.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 60
+          },
+          {
+            "id": "step-asphalt-1",
+            "path": "/assets/audio/step-asphalt-1.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 77
+          },
+          {
+            "id": "step-asphalt-2",
+            "path": "/assets/audio/step-asphalt-2.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 77
+          },
+          {
+            "id": "step-concrete-0",
+            "path": "/assets/audio/step-concrete-0.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 65
+          },
+          {
+            "id": "step-concrete-1",
+            "path": "/assets/audio/step-concrete-1.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 71
+          },
+          {
+            "id": "step-concrete-2",
+            "path": "/assets/audio/step-concrete-2.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 71
+          },
+          {
+            "id": "step-brick-0",
+            "path": "/assets/audio/step-brick-0.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 69
+          },
+          {
+            "id": "step-brick-1",
+            "path": "/assets/audio/step-brick-1.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 67
+          },
+          {
+            "id": "step-brick-2",
+            "path": "/assets/audio/step-brick-2.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 68
+          },
+          {
+            "id": "step-dirt-0",
+            "path": "/assets/audio/step-dirt-0.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 49
+          },
+          {
+            "id": "step-dirt-1",
+            "path": "/assets/audio/step-dirt-1.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 48
+          },
+          {
+            "id": "step-dirt-2",
+            "path": "/assets/audio/step-dirt-2.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 67
+          },
+          {
+            "id": "step-mud-0",
+            "path": "/assets/audio/step-mud-0.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 67
+          },
+          {
+            "id": "step-mud-1",
+            "path": "/assets/audio/step-mud-1.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 65
+          },
+          {
+            "id": "step-mud-2",
+            "path": "/assets/audio/step-mud-2.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 65
+          },
+          {
+            "id": "step-water-0",
+            "path": "/assets/audio/step-water-0.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 65
+          },
+          {
+            "id": "step-water-1",
+            "path": "/assets/audio/step-water-1.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 83
+          },
+          {
+            "id": "step-water-2",
+            "path": "/assets/audio/step-water-2.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 70
+          },
+          {
+            "id": "step-metal-0",
+            "path": "/assets/audio/step-metal-0.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 83
+          },
+          {
+            "id": "step-metal-1",
+            "path": "/assets/audio/step-metal-1.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 70
+          },
+          {
+            "id": "step-metal-2",
+            "path": "/assets/audio/step-metal-2.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 70
+          },
+          {
+            "id": "step-shop-0",
+            "path": "/assets/audio/step-shop-0.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 71
+          },
+          {
+            "id": "step-shop-1",
+            "path": "/assets/audio/step-shop-1.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 70
+          },
+          {
+            "id": "step-shop-2",
+            "path": "/assets/audio/step-shop-2.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 71
+          },
+          {
+            "id": "music-menu",
+            "path": "/assets/audio/music-menu.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 1047316,
+            "cacheControl": "no-cache",
+            "durationMs": 51
+          },
+          {
+            "id": "music-exploration",
+            "path": "/assets/audio/music-exploration.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 1047316,
+            "cacheControl": "no-cache",
+            "durationMs": 50
+          },
+          {
+            "id": "music-mission",
+            "path": "/assets/audio/music-mission.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 886198,
+            "cacheControl": "no-cache",
+            "durationMs": 57
+          },
+          {
+            "id": "music-chase",
+            "path": "/assets/audio/music-chase.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 743270,
+            "cacheControl": "no-cache",
+            "durationMs": 51
+          },
+          {
+            "id": "music-newspaper",
+            "path": "/assets/audio/music-newspaper.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 1047316,
+            "cacheControl": "no-cache",
+            "durationMs": 51
+          },
+          {
+            "id": "voice-spawn-0",
+            "path": "/assets/audio/voices/voice-spawn-0.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 106028,
+            "cacheControl": "no-cache",
+            "durationMs": 50
+          },
+          {
+            "id": "voice-idle-1",
+            "path": "/assets/audio/voices/voice-idle-1.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 68140,
+            "cacheControl": "no-cache",
+            "durationMs": 51
+          },
+          {
+            "id": "voice-detected-2",
+            "path": "/assets/audio/voices/voice-detected-2.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 89644,
+            "cacheControl": "no-cache",
+            "durationMs": 52
+          },
+          {
+            "id": "voice-firstHit-3",
+            "path": "/assets/audio/voices/voice-firstHit-3.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 52268,
+            "cacheControl": "no-cache",
+            "durationMs": 52
+          },
+          {
+            "id": "voice-repeatHit-4",
+            "path": "/assets/audio/voices/voice-repeatHit-4.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 55340,
+            "cacheControl": "no-cache",
+            "durationMs": 52
+          },
+          {
+            "id": "voice-egg-5",
+            "path": "/assets/audio/voices/voice-egg-5.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 79404,
+            "cacheControl": "no-cache",
+            "durationMs": 80
+          },
+          {
+            "id": "voice-sandal-6",
+            "path": "/assets/audio/voices/voice-sandal-6.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 60460,
+            "cacheControl": "no-cache",
+            "durationMs": 61
+          },
+          {
+            "id": "voice-rubberStone-7",
+            "path": "/assets/audio/voices/voice-rubberStone-7.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 59436,
+            "cacheControl": "no-cache",
+            "durationMs": 61
+          },
+          {
+            "id": "voice-baton-8",
+            "path": "/assets/audio/voices/voice-baton-8.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 71212,
+            "cacheControl": "no-cache",
+            "durationMs": 65
+          },
+          {
+            "id": "voice-spark-9",
+            "path": "/assets/audio/voices/voice-spark-9.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 88108,
+            "cacheControl": "no-cache",
+            "durationMs": 125
+          },
+          {
+            "id": "voice-lowResolve-10",
+            "path": "/assets/audio/voices/voice-lowResolve-10.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 75308,
+            "cacheControl": "no-cache",
+            "durationMs": 123
+          },
+          {
+            "id": "voice-escape-11",
+            "path": "/assets/audio/voices/voice-escape-11.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 67116,
+            "cacheControl": "no-cache",
+            "durationMs": 124
+          },
+          {
+            "id": "voice-chased-12",
+            "path": "/assets/audio/voices/voice-chased-12.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 87084,
+            "cacheControl": "no-cache",
+            "durationMs": 124
+          },
+          {
+            "id": "voice-defeated-13",
+            "path": "/assets/audio/voices/voice-defeated-13.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 123948,
+            "cacheControl": "no-cache",
+            "durationMs": 164
+          },
+          {
+            "id": "voice-ambulance-14",
+            "path": "/assets/audio/voices/voice-ambulance-14.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 93228,
+            "cacheControl": "no-cache",
+            "durationMs": 164
+          },
+          {
+            "id": "voice-complete-15",
+            "path": "/assets/audio/voices/voice-complete-15.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 61996,
+            "cacheControl": "no-cache",
+            "durationMs": 161
+          },
+          {
+            "id": "voice-slogan-16",
+            "path": "/assets/audio/voices/voice-slogan-16.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 66092,
+            "cacheControl": "no-cache",
+            "durationMs": 170
+          },
+          {
+            "id": "voice-slogan-17",
+            "path": "/assets/audio/voices/voice-slogan-17.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 84524,
+            "cacheControl": "no-cache",
+            "durationMs": 169
+          },
+          {
+            "id": "voice-slogan-18",
+            "path": "/assets/audio/voices/voice-slogan-18.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 72236,
+            "cacheControl": "no-cache",
+            "durationMs": 195
+          },
+          {
+            "id": "voice-slogan-19",
+            "path": "/assets/audio/voices/voice-slogan-19.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 67628,
+            "cacheControl": "no-cache",
+            "durationMs": 196
+          },
+          {
+            "id": "voice-conversation-20",
+            "path": "/assets/audio/voices/voice-conversation-20.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 110124,
+            "cacheControl": "no-cache",
+            "durationMs": 198
+          },
+          {
+            "id": "voice-conversation-21",
+            "path": "/assets/audio/voices/voice-conversation-21.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 92204,
+            "cacheControl": "no-cache",
+            "durationMs": 171
+          },
+          {
+            "id": "voice-conversation-22",
+            "path": "/assets/audio/voices/voice-conversation-22.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 105516,
+            "cacheControl": "no-cache",
+            "durationMs": 182
+          }
+        ]
+      },
+      "audioRangeSample": {
+        "path": "/assets/audio/jump.wav",
+        "status": 206,
+        "bytes": 128,
+        "signature": "RIFF"
+      },
+      "adminIndex": {
+        "path": "/admin/",
+        "status": 200,
+        "contentType": "text/html; charset=utf-8",
+        "bytes": 446,
+        "cacheControl": "no-cache",
+        "durationMs": 18,
+        "bengaliLanguageTag": true
+      },
+      "adminLinkedAssets": [
+        {
+          "path": "/admin/assets/index-XTbHxmde.js",
+          "status": 200,
+          "contentType": "text/javascript; charset=utf-8",
+          "bytes": 241619,
+          "cacheControl": "no-cache",
+          "durationMs": 27
+        },
+        {
+          "path": "/admin/assets/index-mycADR7w.css",
+          "status": 200,
+          "contentType": "text/css; charset=utf-8",
+          "bytes": 8783,
+          "cacheControl": "no-cache",
+          "durationMs": 35
+        }
+      ]
+    },
+    {
+      "port": 4301,
+      "base": "http://127.0.0.1:4301",
+      "health": {
+        "path": "/api/health",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8",
+        "bytes": 27,
+        "cacheControl": "no-store",
+        "durationMs": 25,
+        "result": {
+          "ok": true,
+          "testMode": true
+        }
+      },
+      "publishedContent": {
+        "path": "/api/content",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8",
+        "bytes": 57250,
+        "cacheControl": "no-store",
+        "durationMs": 24,
+        "schemaVersion": 1,
+        "publicRevision": 6,
+        "assets": 88,
+        "tracks": 5,
+        "cues": 59
+      },
+      "gameIndex": {
+        "path": "/",
+        "status": 200,
+        "contentType": "text/html; charset=utf-8",
+        "bytes": 876,
+        "cacheControl": "no-cache",
+        "durationMs": 15,
+        "bengaliLanguageTag": true
+      },
+      "distJavaScript": {
+        "checked": 371,
+        "statusCounts": {
+          "200": 371
+        },
+        "failures": [],
+        "entry": {
+          "path": "/assets/index-uokt1e3p.js",
+          "status": 200,
+          "contentType": "text/javascript; charset=utf-8",
+          "bytes": 252578,
+          "sha256": "764598372f0f7798692d477a71110d3f6481a2427feb47d2b039e13c1d92418b",
+          "matchesCurrentDist": true
+        }
+      },
+      "indexLinkedAssets": [
+        {
+          "path": "/assets/index-uokt1e3p.js",
+          "status": 200,
+          "contentType": "text/javascript; charset=utf-8",
+          "bytes": 252578,
+          "cacheControl": "no-cache",
+          "durationMs": 31
+        },
+        {
+          "path": "/assets/rolldown-runtime-XKyaHtl9.js",
+          "status": 200,
+          "contentType": "text/javascript; charset=utf-8",
+          "bytes": 726,
+          "cacheControl": "no-cache",
+          "durationMs": 33
+        },
+        {
+          "path": "/assets/index-DATow1Op.css",
+          "status": 200,
+          "contentType": "text/css; charset=utf-8",
+          "bytes": 26115,
+          "cacheControl": "no-cache",
+          "durationMs": 39
+        }
+      ],
+      "coreAssets": [
+        {
+          "path": "/assets/models/dhaka-character.glb",
+          "status": 200,
+          "contentType": "model/gltf-binary",
+          "bytes": 930760,
+          "cacheControl": "no-cache",
+          "durationMs": 38
+        },
+        {
+          "path": "/assets/models/foot-contacts.json",
+          "status": 200,
+          "contentType": "application/json; charset=utf-8",
+          "bytes": 534,
+          "cacheControl": "no-cache",
+          "durationMs": 40
+        },
+        {
+          "path": "/assets/environment/dhaka-daylight-sky-1k.hdr",
+          "status": 200,
+          "contentType": "application/octet-stream",
+          "bytes": 1435119,
+          "cacheControl": "no-cache",
+          "durationMs": 46
+        },
+        {
+          "path": "/assets/HavokPhysics-BqNY-4N9.wasm",
+          "status": 200,
+          "contentType": "application/wasm",
+          "bytes": 2094563,
+          "cacheControl": "no-cache",
+          "durationMs": 52
+        },
+        {
+          "path": "/assets/textures/rickshaw-art-color.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 366942,
+          "cacheControl": "no-cache",
+          "durationMs": 54
+        },
+        {
+          "path": "/assets/textures/cng-enamel-color.webp",
+          "status": 200,
+          "contentType": "image/webp",
+          "bytes": 268228,
+          "cacheControl": "no-cache",
+          "durationMs": 60
+        },
+        {
+          "path": "/assets/noto-sans-bengali-bengali-400-normal-BFibWJDZ.woff2",
+          "status": 200,
+          "contentType": "font/woff2",
+          "bytes": 44352,
+          "cacheControl": "no-cache",
+          "durationMs": 60
+        }
+      ],
+      "publishedAudioAssets": {
+        "checked": 88,
+        "statusCounts": {
+          "200": 88
+        },
+        "failures": [],
+        "checks": [
+          {
+            "id": "jump",
+            "path": "/assets/audio/jump.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 83
+          },
+          {
+            "id": "landing",
+            "path": "/assets/audio/landing.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 99
+          },
+          {
+            "id": "pickup",
+            "path": "/assets/audio/pickup.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 112
+          },
+          {
+            "id": "equip",
+            "path": "/assets/audio/equip.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 128
+          },
+          {
+            "id": "throw",
+            "path": "/assets/audio/throw.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 134
+          },
+          {
+            "id": "hand",
+            "path": "/assets/audio/hand.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 142
+          },
+          {
+            "id": "sandal",
+            "path": "/assets/audio/sandal.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 147
+          },
+          {
+            "id": "egg",
+            "path": "/assets/audio/egg.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 174
+          },
+          {
+            "id": "rubberStone",
+            "path": "/assets/audio/rubberStone.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 116
+          },
+          {
+            "id": "baton",
+            "path": "/assets/audio/baton.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 125
+          },
+          {
+            "id": "spark",
+            "path": "/assets/audio/spark.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 128
+          },
+          {
+            "id": "hit",
+            "path": "/assets/audio/hit.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 122
+          },
+          {
+            "id": "marker",
+            "path": "/assets/audio/marker.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 117
+          },
+          {
+            "id": "complete",
+            "path": "/assets/audio/complete.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 72044,
+            "cacheControl": "no-cache",
+            "durationMs": 129
+          },
+          {
+            "id": "enter",
+            "path": "/assets/audio/enter.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 134
+          },
+          {
+            "id": "exit",
+            "path": "/assets/audio/exit.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 119
+          },
+          {
+            "id": "door",
+            "path": "/assets/audio/door.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 121
+          },
+          {
+            "id": "horn",
+            "path": "/assets/audio/horn.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 52844,
+            "cacheControl": "no-cache",
+            "durationMs": 106
+          },
+          {
+            "id": "engineStart",
+            "path": "/assets/audio/engineStart.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 104
+          },
+          {
+            "id": "engineIdle",
+            "path": "/assets/audio/engineIdle.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 192044,
+            "cacheControl": "no-cache",
+            "durationMs": 118
+          },
+          {
+            "id": "acceleration",
+            "path": "/assets/audio/acceleration.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 132
+          },
+          {
+            "id": "brake",
+            "path": "/assets/audio/brake.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 128
+          },
+          {
+            "id": "collision",
+            "path": "/assets/audio/collision.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 141
+          },
+          {
+            "id": "siren",
+            "path": "/assets/audio/siren.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 192044,
+            "cacheControl": "no-cache",
+            "durationMs": 150
+          },
+          {
+            "id": "newspaper",
+            "path": "/assets/audio/newspaper.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 172
+          },
+          {
+            "id": "menu",
+            "path": "/assets/audio/menu.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 185
+          },
+          {
+            "id": "traffic",
+            "path": "/assets/audio/traffic.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 192044,
+            "cacheControl": "no-cache",
+            "durationMs": 199
+          },
+          {
+            "id": "bell",
+            "path": "/assets/audio/bell.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 188
+          },
+          {
+            "id": "cng",
+            "path": "/assets/audio/cng.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 192044,
+            "cacheControl": "no-cache",
+            "durationMs": 200
+          },
+          {
+            "id": "bus",
+            "path": "/assets/audio/bus.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 52844,
+            "cacheControl": "no-cache",
+            "durationMs": 197
+          },
+          {
+            "id": "tea",
+            "path": "/assets/audio/tea.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 200
+          },
+          {
+            "id": "crow",
+            "path": "/assets/audio/crow.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 209
+          },
+          {
+            "id": "construction",
+            "path": "/assets/audio/construction.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 52844,
+            "cacheControl": "no-cache",
+            "durationMs": 196
+          },
+          {
+            "id": "rain",
+            "path": "/assets/audio/rain.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 192044,
+            "cacheControl": "no-cache",
+            "durationMs": 203
+          },
+          {
+            "id": "insects",
+            "path": "/assets/audio/insects.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 192044,
+            "cacheControl": "no-cache",
+            "durationMs": 200
+          },
+          {
+            "id": "microphone",
+            "path": "/assets/audio/microphone.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 20204,
+            "cacheControl": "no-cache",
+            "durationMs": 195
+          },
+          {
+            "id": "step-asphalt-0",
+            "path": "/assets/audio/step-asphalt-0.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 184
+          },
+          {
+            "id": "step-asphalt-1",
+            "path": "/assets/audio/step-asphalt-1.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 178
+          },
+          {
+            "id": "step-asphalt-2",
+            "path": "/assets/audio/step-asphalt-2.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 159
+          },
+          {
+            "id": "step-concrete-0",
+            "path": "/assets/audio/step-concrete-0.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 152
+          },
+          {
+            "id": "step-concrete-1",
+            "path": "/assets/audio/step-concrete-1.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 157
+          },
+          {
+            "id": "step-concrete-2",
+            "path": "/assets/audio/step-concrete-2.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 153
+          },
+          {
+            "id": "step-brick-0",
+            "path": "/assets/audio/step-brick-0.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 147
+          },
+          {
+            "id": "step-brick-1",
+            "path": "/assets/audio/step-brick-1.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 148
+          },
+          {
+            "id": "step-brick-2",
+            "path": "/assets/audio/step-brick-2.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 149
+          },
+          {
+            "id": "step-dirt-0",
+            "path": "/assets/audio/step-dirt-0.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 155
+          },
+          {
+            "id": "step-dirt-1",
+            "path": "/assets/audio/step-dirt-1.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 158
+          },
+          {
+            "id": "step-dirt-2",
+            "path": "/assets/audio/step-dirt-2.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 142
+          },
+          {
+            "id": "step-mud-0",
+            "path": "/assets/audio/step-mud-0.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 140
+          },
+          {
+            "id": "step-mud-1",
+            "path": "/assets/audio/step-mud-1.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 126
+          },
+          {
+            "id": "step-mud-2",
+            "path": "/assets/audio/step-mud-2.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 119
+          },
+          {
+            "id": "step-water-0",
+            "path": "/assets/audio/step-water-0.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 130
+          },
+          {
+            "id": "step-water-1",
+            "path": "/assets/audio/step-water-1.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 132
+          },
+          {
+            "id": "step-water-2",
+            "path": "/assets/audio/step-water-2.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 132
+          },
+          {
+            "id": "step-metal-0",
+            "path": "/assets/audio/step-metal-0.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 126
+          },
+          {
+            "id": "step-metal-1",
+            "path": "/assets/audio/step-metal-1.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 132
+          },
+          {
+            "id": "step-metal-2",
+            "path": "/assets/audio/step-metal-2.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 122
+          },
+          {
+            "id": "step-shop-0",
+            "path": "/assets/audio/step-shop-0.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 118
+          },
+          {
+            "id": "step-shop-1",
+            "path": "/assets/audio/step-shop-1.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 116
+          },
+          {
+            "id": "step-shop-2",
+            "path": "/assets/audio/step-shop-2.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 15404,
+            "cacheControl": "no-cache",
+            "durationMs": 103
+          },
+          {
+            "id": "music-menu",
+            "path": "/assets/audio/music-menu.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 1047316,
+            "cacheControl": "no-cache",
+            "durationMs": 91
+          },
+          {
+            "id": "music-exploration",
+            "path": "/assets/audio/music-exploration.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 1047316,
+            "cacheControl": "no-cache",
+            "durationMs": 87
+          },
+          {
+            "id": "music-mission",
+            "path": "/assets/audio/music-mission.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 886198,
+            "cacheControl": "no-cache",
+            "durationMs": 101
+          },
+          {
+            "id": "music-chase",
+            "path": "/assets/audio/music-chase.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 743270,
+            "cacheControl": "no-cache",
+            "durationMs": 98
+          },
+          {
+            "id": "music-newspaper",
+            "path": "/assets/audio/music-newspaper.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 1047316,
+            "cacheControl": "no-cache",
+            "durationMs": 96
+          },
+          {
+            "id": "voice-spawn-0",
+            "path": "/assets/audio/voices/voice-spawn-0.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 106028,
+            "cacheControl": "no-cache",
+            "durationMs": 95
+          },
+          {
+            "id": "voice-idle-1",
+            "path": "/assets/audio/voices/voice-idle-1.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 68140,
+            "cacheControl": "no-cache",
+            "durationMs": 103
+          },
+          {
+            "id": "voice-detected-2",
+            "path": "/assets/audio/voices/voice-detected-2.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 89644,
+            "cacheControl": "no-cache",
+            "durationMs": 103
+          },
+          {
+            "id": "voice-firstHit-3",
+            "path": "/assets/audio/voices/voice-firstHit-3.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 52268,
+            "cacheControl": "no-cache",
+            "durationMs": 100
+          },
+          {
+            "id": "voice-repeatHit-4",
+            "path": "/assets/audio/voices/voice-repeatHit-4.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 55340,
+            "cacheControl": "no-cache",
+            "durationMs": 102
+          },
+          {
+            "id": "voice-egg-5",
+            "path": "/assets/audio/voices/voice-egg-5.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 79404,
+            "cacheControl": "no-cache",
+            "durationMs": 90
+          },
+          {
+            "id": "voice-sandal-6",
+            "path": "/assets/audio/voices/voice-sandal-6.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 60460,
+            "cacheControl": "no-cache",
+            "durationMs": 89
+          },
+          {
+            "id": "voice-rubberStone-7",
+            "path": "/assets/audio/voices/voice-rubberStone-7.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 59436,
+            "cacheControl": "no-cache",
+            "durationMs": 92
+          },
+          {
+            "id": "voice-baton-8",
+            "path": "/assets/audio/voices/voice-baton-8.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 71212,
+            "cacheControl": "no-cache",
+            "durationMs": 96
+          },
+          {
+            "id": "voice-spark-9",
+            "path": "/assets/audio/voices/voice-spark-9.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 88108,
+            "cacheControl": "no-cache",
+            "durationMs": 87
+          },
+          {
+            "id": "voice-lowResolve-10",
+            "path": "/assets/audio/voices/voice-lowResolve-10.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 75308,
+            "cacheControl": "no-cache",
+            "durationMs": 93
+          },
+          {
+            "id": "voice-escape-11",
+            "path": "/assets/audio/voices/voice-escape-11.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 67116,
+            "cacheControl": "no-cache",
+            "durationMs": 96
+          },
+          {
+            "id": "voice-chased-12",
+            "path": "/assets/audio/voices/voice-chased-12.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 87084,
+            "cacheControl": "no-cache",
+            "durationMs": 101
+          },
+          {
+            "id": "voice-defeated-13",
+            "path": "/assets/audio/voices/voice-defeated-13.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 123948,
+            "cacheControl": "no-cache",
+            "durationMs": 107
+          },
+          {
+            "id": "voice-ambulance-14",
+            "path": "/assets/audio/voices/voice-ambulance-14.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 93228,
+            "cacheControl": "no-cache",
+            "durationMs": 109
+          },
+          {
+            "id": "voice-complete-15",
+            "path": "/assets/audio/voices/voice-complete-15.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 61996,
+            "cacheControl": "no-cache",
+            "durationMs": 117
+          },
+          {
+            "id": "voice-slogan-16",
+            "path": "/assets/audio/voices/voice-slogan-16.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 66092,
+            "cacheControl": "no-cache",
+            "durationMs": 112
+          },
+          {
+            "id": "voice-slogan-17",
+            "path": "/assets/audio/voices/voice-slogan-17.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 84524,
+            "cacheControl": "no-cache",
+            "durationMs": 113
+          },
+          {
+            "id": "voice-slogan-18",
+            "path": "/assets/audio/voices/voice-slogan-18.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 72236,
+            "cacheControl": "no-cache",
+            "durationMs": 111
+          },
+          {
+            "id": "voice-slogan-19",
+            "path": "/assets/audio/voices/voice-slogan-19.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 67628,
+            "cacheControl": "no-cache",
+            "durationMs": 117
+          },
+          {
+            "id": "voice-conversation-20",
+            "path": "/assets/audio/voices/voice-conversation-20.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 110124,
+            "cacheControl": "no-cache",
+            "durationMs": 103
+          },
+          {
+            "id": "voice-conversation-21",
+            "path": "/assets/audio/voices/voice-conversation-21.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 92204,
+            "cacheControl": "no-cache",
+            "durationMs": 90
+          },
+          {
+            "id": "voice-conversation-22",
+            "path": "/assets/audio/voices/voice-conversation-22.wav",
+            "status": 200,
+            "contentType": "audio/wav",
+            "bytes": 105516,
+            "cacheControl": "no-cache",
+            "durationMs": 78
+          }
+        ]
+      },
+      "audioRangeSample": {
+        "path": "/assets/audio/jump.wav",
+        "status": 206,
+        "bytes": 128,
+        "signature": "RIFF"
+      },
+      "adminIndex": {
+        "path": "/admin/",
+        "status": 200,
+        "contentType": "text/html; charset=utf-8",
+        "bytes": 446,
+        "cacheControl": "no-cache",
+        "durationMs": 16,
+        "bengaliLanguageTag": true
+      },
+      "adminLinkedAssets": [
+        {
+          "path": "/admin/assets/index-XTbHxmde.js",
+          "status": 200,
+          "contentType": "text/javascript; charset=utf-8",
+          "bytes": 241619,
+          "cacheControl": "no-cache",
+          "durationMs": 22
+        },
+        {
+          "path": "/admin/assets/index-mycADR7w.css",
+          "status": 200,
+          "contentType": "text/css; charset=utf-8",
+          "bytes": 8783,
+          "cacheControl": "no-cache",
+          "durationMs": 22
+        }
+      ]
+    }
+  ]
+}

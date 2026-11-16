@@ -1,0 +1,13 @@
+{
+  "primaryContentSha256": "165595C81DC7DD8EB2EDEA9BEA08468FE8F8AAD09BC970BC2B08CA28880CE23B",
+  "startedAt": "2026-11-04T03:34:11.0791531Z",
+  "qa": {
+    "port": 4301,
+    "pid": 1532
+  },
+  "primary": {
+    "port": 4300,
+    "pid": 16588,
+    "game": "harness/accepted-builds/milestone-b-20261104/game"
+  }
+}

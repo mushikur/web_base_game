@@ -1,0 +1,65 @@
+{
+  "auditedAt": "2026-11-03T17:45:27.180Z",
+  "status": "partial-acceptance-not-complete",
+  "build": {
+    "tests": 57,
+    "pass": 57,
+    "fail": 0,
+    "entry": "index-CmxIvYoq.js",
+    "css": "index-hKJLPJH0.css"
+  },
+  "mobile": {
+    "viewport": {
+      "height": 844,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    "completedStep": 10,
+    "score": 5,
+    "egg": 5,
+    "throws": 1,
+    "hits": 1,
+    "targetHealth": 75,
+    "blockedSeat": [
+      4,
+      0.3400000035762787,
+      2.6700000762939453
+    ],
+    "exitPosition": [
+      2.619999885559082,
+      0,
+      1.9199999570846558
+    ],
+    "completionFps": {
+      "frames": 600,
+      "elapsedMs": 10000.099999997765,
+      "average": 59.99940000601335
+    }
+  },
+  "replayAndSkip": {
+    "preservedPosition": [
+      2.619999885559082,
+      0,
+      1.9199999570846558
+    ],
+    "score": 5,
+    "egg": 5,
+    "dontShow": true,
+    "reloadObserved": false
+  },
+  "map": {
+    "clientWidth": 365,
+    "height": 749.9796752929688,
+    "scrollWidth": 365,
+    "viewport": 390,
+    "width": 366.27435302734375,
+    "x": 11.992694854736328,
+    "y": 47.08806610107422
+  },
+  "remaining": [
+    "latest-build desktop regression",
+    "final performance evidence",
+    "preference reload",
+    "server asset/data hashes"
+  ]
+}

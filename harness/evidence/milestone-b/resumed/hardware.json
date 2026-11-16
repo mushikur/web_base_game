@@ -1,0 +1,17 @@
+{
+  "gpu": {
+    "Name": "Intel(R) Graphics",
+    "DriverVersion": "32.0.101.7076",
+    "CurrentRefreshRate": 60
+  },
+  "capturedAt": "2026-11-03T18:43:56.0366208Z",
+  "battery": {
+    "BatteryStatus": 1,
+    "EstimatedChargeRemaining": 9
+  },
+  "cpu": {
+    "Name": "Intel(R) Core(TM) 5 210H",
+    "NumberOfCores": 8,
+    "NumberOfLogicalProcessors": 12
+  }
+}

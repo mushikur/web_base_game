@@ -1,0 +1,779 @@
+{
+  "before": {
+    "fpsAverage": 33.85335853527802,
+    "fpsSampleCount": 600,
+    "fpsSampleDurationMs": 17723.5,
+    "fpsMethod": "visible frame count / elapsed frame time",
+    "pageVisible": true,
+    "playerMotionsSeen": [
+      "Idle",
+      "Walk",
+      "Pickup"
+    ],
+    "cameraPerspective": true,
+    "cameraDistance": 4.8,
+    "hdrReady": true,
+    "ambientOcclusion": false,
+    "actorStates": [
+      {
+        "name": "সজল পথিক",
+        "role": "civilian",
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "বজলু প্রতিশ্রুতি",
+        "role": "leader",
+        "animation": "Idle",
+        "localGarments": [
+          "বজলু প্রতিশ্রুতি/Optional moustache",
+          "বজলু প্রতিশ্রুতি/Woven cotton optional tunic"
+        ]
+      },
+      {
+        "name": "পল্টু পোস্টার",
+        "role": "worker",
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "মন্টু মাইক",
+        "role": "worker",
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "কমল কমিটি",
+        "role": "worker",
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "রহিম চাচা",
+        "role": "civilian",
+        "animation": "Walk",
+        "localGarments": []
+      },
+      {
+        "name": "আসমা আপা",
+        "role": "civilian",
+        "animation": "Walk",
+        "localGarments": [
+          "আসমা আপা/Woven cotton optional tunic",
+          "আসমা আপা/Optional woven dupatta",
+          "আসমা আপা/Optional long hair"
+        ]
+      },
+      {
+        "name": "জয়নাল ভাই",
+        "role": "civilian",
+        "animation": "Walk",
+        "localGarments": [
+          "জয়নাল ভাই/Optional moustache"
+        ]
+      },
+      {
+        "name": "নীলা",
+        "role": "civilian",
+        "animation": "Walk",
+        "localGarments": [
+          "নীলা/Woven cotton optional tunic",
+          "নীলা/Optional woven dupatta",
+          "নীলা/Optional long hair"
+        ]
+      },
+      {
+        "name": "চা-মামা কুদ্দুস",
+        "role": "civilian",
+        "animation": "Idle",
+        "localGarments": [
+          "চা-মামা কুদ্দুস/Optional moustache"
+        ]
+      }
+    ],
+    "meshes": 272,
+    "activeMeshes": 77,
+    "drawCalls": 190,
+    "position": [
+      0.2154229538009202,
+      0,
+      -0.7788134828800648
+    ],
+    "cameraPosition": [
+      0.2154229538009202,
+      2.4939999999999998,
+      -5.578813482880065
+    ],
+    "skeletons": 10,
+    "animationGroups": 60,
+    "physics": true,
+    "audio": "running",
+    "audioDetails": {
+      "state": "running",
+      "unlocked": true,
+      "catalogSource": "published",
+      "revision": 6,
+      "context": "mission",
+      "activeVoices": 4,
+      "music": {
+        "trackId": "track-mission",
+        "assetId": "music-mission",
+        "configuredVolume": 0.55,
+        "gain": 0.550000011920929,
+        "loop": true
+      },
+      "loops": [
+        {
+          "id": "cng",
+          "assetId": "cng",
+          "category": "vehicles",
+          "gain": 0.15000000596046448
+        },
+        {
+          "id": "traffic",
+          "assetId": "traffic",
+          "category": "environment",
+          "gain": 0.18000000715255737
+        }
+      ],
+      "repetitions": {
+        "cue-bell": 12,
+        "cue-tea": 21,
+        "cue-microphone": 8,
+        "voice-cue-22": 4,
+        "cue-bus": 8,
+        "cue-crow": 10,
+        "cue-construction": 6,
+        "voice-cue-20": 1,
+        "cue-pickup": 2,
+        "voice-cue-21": 3,
+        "voice-cue-17": 1
+      },
+      "outputRms": 0.0070156375262442955,
+      "dropped": 0,
+      "eventCounts": {
+        "music-exploration": 1,
+        "footstep": 249,
+        "bell": 12,
+        "tea": 21,
+        "microphone": 8,
+        "conversation": 8,
+        "bus": 8,
+        "crow": 10,
+        "construction": 6,
+        "pickup": 2,
+        "music-mission": 1,
+        "slogan": 1
+      },
+      "recent": [
+        {
+          "event": "footstep",
+          "at": 143.512,
+          "surface": "concrete",
+          "frame": 45.4772406043489,
+          "foot": "রহিম চাচা:L"
+        },
+        {
+          "event": "footstep",
+          "at": 143.54933333333332,
+          "surface": "concrete",
+          "frame": 45.77237525450537,
+          "foot": "আসমা আপা:L"
+        },
+        {
+          "event": "footstep",
+          "at": 143.85066666666665,
+          "surface": "concrete",
+          "frame": 15.605238998453288,
+          "foot": "জয়নাল ভাই:R"
+        },
+        {
+          "event": "footstep",
+          "at": 144.552,
+          "surface": "concrete",
+          "frame": 45.10409105024061,
+          "foot": "নীলা:L"
+        },
+        {
+          "event": "footstep",
+          "at": 144.97066666666666,
+          "surface": "concrete",
+          "frame": 15.510942449248859,
+          "foot": "রহিম চাচা:R"
+        },
+        {
+          "event": "footstep",
+          "at": 145.01066666666668,
+          "surface": "concrete",
+          "frame": 15.480626800930466,
+          "foot": "আসমা আপা:R"
+        },
+        {
+          "event": "footstep",
+          "at": 145.56,
+          "surface": "concrete",
+          "frame": 45.24153623598394,
+          "foot": "জয়নাল ভাই:L"
+        },
+        {
+          "event": "microphone",
+          "at": 146.26133333333334
+        },
+        {
+          "event": "footstep",
+          "at": 146.6,
+          "surface": "concrete",
+          "frame": 45.200033996238474,
+          "foot": "রহিম চাচা:L"
+        },
+        {
+          "event": "footstep",
+          "at": 146.632,
+          "surface": "concrete",
+          "frame": 45.15498815260804,
+          "foot": "আসমা আপা:L"
+        },
+        {
+          "event": "tea",
+          "at": 146.73066666666668
+        },
+        {
+          "event": "conversation",
+          "at": 146.80266666666665
+        },
+        {
+          "event": "footstep",
+          "at": 147.032,
+          "surface": "concrete",
+          "frame": 15.15891014819718,
+          "foot": "জয়নাল ভাই:R"
+        },
+        {
+          "event": "footstep",
+          "at": 148.69066666666666,
+          "surface": "concrete",
+          "frame": 45.332594910284115,
+          "foot": "জয়নাল ভাই:L"
+        },
+        {
+          "event": "footstep",
+          "at": 149.58133333333333,
+          "surface": "concrete",
+          "frame": 15.160639010977844,
+          "foot": "নীলা:R"
+        },
+        {
+          "event": "construction",
+          "at": 150.976
+        },
+        {
+          "event": "footstep",
+          "at": 151.28,
+          "surface": "concrete",
+          "frame": 45.11589365172023,
+          "foot": "নীলা:L"
+        },
+        {
+          "event": "footstep",
+          "at": 151.62133333333333,
+          "surface": "concrete",
+          "frame": 15.264855067882898,
+          "foot": "রহিম চাচা:R"
+        },
+        {
+          "event": "footstep",
+          "at": 151.62133333333333,
+          "surface": "concrete",
+          "frame": 15.065752005260409,
+          "foot": "আসমা আপা:R"
+        },
+        {
+          "event": "tea",
+          "at": 152.016
+        },
+        {
+          "event": "footstep",
+          "at": 152.8,
+          "surface": "concrete",
+          "frame": 15.559868218008447,
+          "foot": "নীলা:R"
+        },
+        {
+          "event": "footstep",
+          "at": 153.352,
+          "surface": "concrete",
+          "frame": 45.04744854862814,
+          "foot": "রহিম চাচা:L"
+        },
+        {
+          "event": "footstep",
+          "at": 153.37066666666666,
+          "surface": "concrete",
+          "frame": 45.37333226407942,
+          "foot": "আসমা আপা:L"
+        },
+        {
+          "event": "footstep",
+          "at": 153.70133333333334,
+          "surface": "concrete",
+          "frame": 15.212008303384602,
+          "foot": "জয়নাল ভাই:R"
+        }
+      ],
+      "settings": {
+        "master": {
+          "volume": 0.75,
+          "muted": false
+        },
+        "music": {
+          "volume": 0.23,
+          "muted": false
+        },
+        "environment": {
+          "volume": 0.75,
+          "muted": false
+        },
+        "footsteps": {
+          "volume": 0.75,
+          "muted": false
+        },
+        "vehicles": {
+          "volume": 0.75,
+          "muted": false
+        },
+        "combat": {
+          "volume": 0.75,
+          "muted": false
+        },
+        "voices": {
+          "volume": 0.75,
+          "muted": false
+        },
+        "crowd": {
+          "volume": 0.75,
+          "muted": false
+        },
+        "interface": {
+          "volume": 0.75,
+          "muted": false
+        }
+      },
+      "lastError": ""
+    },
+    "ready": true,
+    "playing": true,
+    "paused": false,
+    "score": 0,
+    "health": 100,
+    "egg": 12,
+    "sandal": 0,
+    "selected": "egg",
+    "message": "রাস্তা খুলুন, পথচারীদের ছাড়ুন।",
+    "subtitle": "",
+    "target": "",
+    "targetHealth": 100,
+    "fps": 31,
+    "x": 0.2154229538009202,
+    "z": -0.7788134828800648,
+    "yaw": 0,
+    "nearPickup": false,
+    "throws": 0,
+    "hits": 0,
+    "civilianHits": 0,
+    "quality": "mobile",
+    "evening": false,
+    "muted": false,
+    "error": ""
+  },
+  "after": {
+    "fpsAverage": 35.38153084090105,
+    "fpsSampleCount": 600,
+    "fpsSampleDurationMs": 16958,
+    "fpsMethod": "visible frame count / elapsed frame time",
+    "pageVisible": true,
+    "playerMotionsSeen": [
+      "Idle",
+      "Walk",
+      "Pickup",
+      "Throw"
+    ],
+    "cameraPerspective": true,
+    "cameraDistance": 4.8,
+    "hdrReady": true,
+    "ambientOcclusion": false,
+    "actorStates": [
+      {
+        "name": "সজল পথিক",
+        "role": "civilian",
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "বজলু প্রতিশ্রুতি",
+        "role": "leader",
+        "animation": "Idle",
+        "localGarments": [
+          "বজলু প্রতিশ্রুতি/Optional moustache",
+          "বজলু প্রতিশ্রুতি/Woven cotton optional tunic"
+        ]
+      },
+      {
+        "name": "পল্টু পোস্টার",
+        "role": "worker",
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "মন্টু মাইক",
+        "role": "worker",
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "কমল কমিটি",
+        "role": "worker",
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "রহিম চাচা",
+        "role": "civilian",
+        "animation": "Walk",
+        "localGarments": []
+      },
+      {
+        "name": "আসমা আপা",
+        "role": "civilian",
+        "animation": "Walk",
+        "localGarments": [
+          "আসমা আপা/Woven cotton optional tunic",
+          "আসমা আপা/Optional woven dupatta",
+          "আসমা আপা/Optional long hair"
+        ]
+      },
+      {
+        "name": "জয়নাল ভাই",
+        "role": "civilian",
+        "animation": "Idle",
+        "localGarments": [
+          "জয়নাল ভাই/Optional moustache"
+        ]
+      },
+      {
+        "name": "নীলা",
+        "role": "civilian",
+        "animation": "Walk",
+        "localGarments": [
+          "নীলা/Woven cotton optional tunic",
+          "নীলা/Optional woven dupatta",
+          "নীলা/Optional long hair"
+        ]
+      },
+      {
+        "name": "চা-মামা কুদ্দুস",
+        "role": "civilian",
+        "animation": "Idle",
+        "localGarments": [
+          "চা-মামা কুদ্দুস/Optional moustache"
+        ]
+      }
+    ],
+    "meshes": 272,
+    "activeMeshes": 77,
+    "drawCalls": 190,
+    "position": [
+      0.2154229538009202,
+      0,
+      -0.7788134828800648
+    ],
+    "cameraPosition": [
+      0.2154229538009202,
+      2.4939999999999998,
+      -5.578813482880065
+    ],
+    "skeletons": 10,
+    "animationGroups": 60,
+    "physics": true,
+    "audio": "running",
+    "audioDetails": {
+      "state": "running",
+      "unlocked": true,
+      "catalogSource": "published",
+      "revision": 6,
+      "context": "mission",
+      "activeVoices": 5,
+      "music": {
+        "trackId": "track-mission",
+        "assetId": "music-mission",
+        "configuredVolume": 0.55,
+        "gain": 0.550000011920929,
+        "loop": true
+      },
+      "loops": [
+        {
+          "id": "cng",
+          "assetId": "cng",
+          "category": "vehicles",
+          "gain": 0.15000000596046448
+        },
+        {
+          "id": "traffic",
+          "assetId": "traffic",
+          "category": "environment",
+          "gain": 0.18000000715255737
+        }
+      ],
+      "repetitions": {
+        "cue-bell": 16,
+        "cue-tea": 26,
+        "cue-microphone": 10,
+        "voice-cue-22": 4,
+        "cue-bus": 10,
+        "cue-crow": 12,
+        "cue-construction": 7,
+        "voice-cue-20": 2,
+        "cue-pickup": 2,
+        "voice-cue-21": 4,
+        "voice-cue-17": 1,
+        "voice-cue-19": 1,
+        "cue-throw": 1,
+        "cue-egg": 1,
+        "cue-hit": 1,
+        "voice-cue-3": 1,
+        "voice-cue-18": 2
+      },
+      "outputRms": 0.034792068684421536,
+      "dropped": 0,
+      "eventCounts": {
+        "music-exploration": 1,
+        "footstep": 308,
+        "bell": 16,
+        "tea": 26,
+        "microphone": 10,
+        "conversation": 10,
+        "bus": 10,
+        "crow": 12,
+        "construction": 7,
+        "pickup": 2,
+        "music-mission": 1,
+        "slogan": 4,
+        "throw": 1,
+        "egg": 1,
+        "hit": 1,
+        "firstHit": 1
+      },
+      "recent": [
+        {
+          "event": "tea",
+          "at": 179.776
+        },
+        {
+          "event": "footstep",
+          "at": 181.42133333333334,
+          "surface": "concrete",
+          "frame": 45.09957279206137,
+          "foot": "নীলা:L"
+        },
+        {
+          "event": "footstep",
+          "at": 181.73866666666666,
+          "surface": "concrete",
+          "frame": 15.069465039445893,
+          "foot": "রহিম চাচা:R"
+        },
+        {
+          "event": "footstep",
+          "at": 181.76,
+          "surface": "concrete",
+          "frame": 15.124424381022575,
+          "foot": "আসমা আপা:R"
+        },
+        {
+          "event": "construction",
+          "at": 182.12533333333334
+        },
+        {
+          "event": "footstep",
+          "at": 182.89066666666668,
+          "surface": "concrete",
+          "frame": 15.149722859441965,
+          "foot": "নীলা:R"
+        },
+        {
+          "event": "footstep",
+          "at": 183.49066666666667,
+          "surface": "concrete",
+          "frame": 45.76547762978683,
+          "foot": "রহিম চাচা:L"
+        },
+        {
+          "event": "footstep",
+          "at": 183.49066666666667,
+          "surface": "concrete",
+          "frame": 45.271343947633866,
+          "foot": "আসমা আপা:L"
+        },
+        {
+          "event": "footstep",
+          "at": 183.792,
+          "surface": "concrete",
+          "frame": 15.179344247722947,
+          "foot": "জয়নাল ভাই:R"
+        },
+        {
+          "event": "tea",
+          "at": 183.94133333333335
+        },
+        {
+          "event": "footstep",
+          "at": 184.54133333333334,
+          "surface": "concrete",
+          "frame": 45.13801240066449,
+          "foot": "নীলা:L"
+        },
+        {
+          "event": "footstep",
+          "at": 184.93066666666667,
+          "surface": "concrete",
+          "frame": 15.137667251384741,
+          "foot": "রহিম চাচা:R"
+        },
+        {
+          "event": "footstep",
+          "at": 184.96,
+          "surface": "concrete",
+          "frame": 15.098238739090277,
+          "foot": "আসমা আপা:R"
+        },
+        {
+          "event": "footstep",
+          "at": 185.52,
+          "surface": "concrete",
+          "frame": 45.549207929901684,
+          "foot": "জয়নাল ভাই:L"
+        },
+        {
+          "event": "footstep",
+          "at": 186.6,
+          "surface": "concrete",
+          "frame": 45.35761913539049,
+          "foot": "রহিম চাচা:L"
+        },
+        {
+          "event": "footstep",
+          "at": 186.62133333333333,
+          "surface": "concrete",
+          "frame": 45.44692684159463,
+          "foot": "আসমা আপা:L"
+        },
+        {
+          "event": "footstep",
+          "at": 186.98133333333334,
+          "surface": "concrete",
+          "frame": 15.136601956880511,
+          "foot": "জয়নাল ভাই:R"
+        },
+        {
+          "event": "microphone",
+          "at": 187.34133333333332
+        },
+        {
+          "event": "conversation",
+          "at": 188.01066666666668
+        },
+        {
+          "event": "footstep",
+          "at": 188.64,
+          "surface": "concrete",
+          "frame": 45.17443534509481,
+          "foot": "জয়নাল ভাই:L"
+        },
+        {
+          "event": "footstep",
+          "at": 189.54133333333334,
+          "surface": "concrete",
+          "frame": 15.606123264063116,
+          "foot": "নীলা:R"
+        },
+        {
+          "event": "bell",
+          "at": 190.832
+        },
+        {
+          "event": "slogan",
+          "at": 190.94133333333335
+        },
+        {
+          "event": "footstep",
+          "at": 191.26133333333334,
+          "surface": "concrete",
+          "frame": 45.35194218037999,
+          "foot": "নীলা:L"
+        }
+      ],
+      "settings": {
+        "master": {
+          "volume": 0.75,
+          "muted": false
+        },
+        "music": {
+          "volume": 0.23,
+          "muted": false
+        },
+        "environment": {
+          "volume": 0.75,
+          "muted": false
+        },
+        "footsteps": {
+          "volume": 0.75,
+          "muted": false
+        },
+        "vehicles": {
+          "volume": 0.75,
+          "muted": false
+        },
+        "combat": {
+          "volume": 0.75,
+          "muted": false
+        },
+        "voices": {
+          "volume": 0.75,
+          "muted": false
+        },
+        "crowd": {
+          "volume": 0.75,
+          "muted": false
+        },
+        "interface": {
+          "volume": 0.75,
+          "muted": false
+        }
+      },
+      "lastError": ""
+    },
+    "ready": true,
+    "playing": true,
+    "paused": false,
+    "score": 5,
+    "health": 100,
+    "egg": 11,
+    "sandal": 0,
+    "selected": "egg",
+    "message": "রাস্তা খুলুন, পথচারীদের ছাড়ুন।",
+    "subtitle": "কমিটি জিন্দাবাদ!",
+    "target": "",
+    "targetHealth": 75,
+    "fps": 27,
+    "x": 0.2154229538009202,
+    "z": -0.7788134828800648,
+    "yaw": 0,
+    "nearPickup": false,
+    "throws": 1,
+    "hits": 1,
+    "civilianHits": 0,
+    "quality": "mobile",
+    "evening": false,
+    "muted": false,
+    "error": ""
+  }
+}

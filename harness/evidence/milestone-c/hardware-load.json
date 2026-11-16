@@ -1,0 +1,73 @@
+{
+  "processes": [
+    {
+      "Name": "chrome#10",
+      "IDProcess": 25008,
+      "PercentProcessorTime": 8,
+      "WorkingSet": 348164096
+    },
+    {
+      "Name": "chrome",
+      "IDProcess": 21872,
+      "PercentProcessorTime": 4,
+      "WorkingSet": 248877056
+    },
+    {
+      "Name": "node_repl#6",
+      "IDProcess": 18856,
+      "PercentProcessorTime": 0,
+      "WorkingSet": 18997248
+    },
+    {
+      "Name": "node_repl#5",
+      "IDProcess": 21668,
+      "PercentProcessorTime": 0,
+      "WorkingSet": 19308544
+    },
+    {
+      "Name": "node_repl#4",
+      "IDProcess": 11520,
+      "PercentProcessorTime": 0,
+      "WorkingSet": 19066880
+    },
+    {
+      "Name": "node_repl#3",
+      "IDProcess": 17288,
+      "PercentProcessorTime": 0,
+      "WorkingSet": 18989056
+    },
+    {
+      "Name": "node_repl#2",
+      "IDProcess": 7352,
+      "PercentProcessorTime": 0,
+      "WorkingSet": 25415680
+    },
+    {
+      "Name": "node_repl#1",
+      "IDProcess": 22240,
+      "PercentProcessorTime": 0,
+      "WorkingSet": 13070336
+    }
+  ],
+  "at": "2026-11-04T05:52:08.0661802Z",
+  "memory": [
+    {
+      "AvailableMBytes": 4282,
+      "PercentCommittedBytesInUse": 55
+    }
+  ],
+  "cpu": [
+    {
+      "Name": "Intel(R) Core(TM) 5 210H",
+      "CurrentClockSpeed": 2200,
+      "MaxClockSpeed": 2200,
+      "LoadPercentage": 43
+    }
+  ],
+  "battery": [
+    {
+      "BatteryStatus": 1,
+      "EstimatedChargeRemaining": 74
+    }
+  ]
+}

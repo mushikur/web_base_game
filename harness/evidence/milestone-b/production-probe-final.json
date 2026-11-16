@@ -1,0 +1,84 @@
+{
+  "at": "2026-11-03T18:10:14.357Z",
+  "services": [
+    {
+      "port": 4300,
+      "status": 200,
+      "assets": [
+        {
+          "path": "/assets/index-Bol4r5V1.js",
+          "bytes": 272023,
+          "sha256": "d86c9fd0e33968bc28d9a620cffc94e621f7d070cdc544ffa7b3ae531e68044c"
+        },
+        {
+          "path": "/assets/rolldown-runtime-XKyaHtl9.js",
+          "bytes": 726,
+          "sha256": "548d1dbf321e7d2ae804fcc158b588706a7c52f8ca175de1490c6ccb4dbe55b7"
+        },
+        {
+          "path": "/assets/index-hKJLPJH0.css",
+          "bytes": 34973,
+          "sha256": "6d9a50e8bfa3b3235a2001312ab5ef406748b5c5fb81b520c6cdad45c13f6e6e"
+        },
+        {
+          "path": "/assets/game-BjTwHhyS.js",
+          "bytes": 2713694,
+          "sha256": "df417d51dc696afb35426f2ef0d8b5570739bac51dac6b66ffee6de36be63e94"
+        }
+      ],
+      "character": {
+        "bytes": 952896,
+        "sha256": "41798de6425d8faa6308183dab5825951dfeef287b2d2c442fb04ae4ba4cf789"
+      },
+      "spawnRegistry": {
+        "source": "factory",
+        "revision": 1,
+        "registeredLocations": 6
+      },
+      "audioRevision": 1
+    },
+    {
+      "port": 4301,
+      "status": 200,
+      "assets": [
+        {
+          "path": "/assets/index-Bol4r5V1.js",
+          "bytes": 272023,
+          "sha256": "d86c9fd0e33968bc28d9a620cffc94e621f7d070cdc544ffa7b3ae531e68044c"
+        },
+        {
+          "path": "/assets/rolldown-runtime-XKyaHtl9.js",
+          "bytes": 726,
+          "sha256": "548d1dbf321e7d2ae804fcc158b588706a7c52f8ca175de1490c6ccb4dbe55b7"
+        },
+        {
+          "path": "/assets/index-hKJLPJH0.css",
+          "bytes": 34973,
+          "sha256": "6d9a50e8bfa3b3235a2001312ab5ef406748b5c5fb81b520c6cdad45c13f6e6e"
+        },
+        {
+          "path": "/assets/game-BjTwHhyS.js",
+          "bytes": 2713694,
+          "sha256": "df417d51dc696afb35426f2ef0d8b5570739bac51dac6b66ffee6de36be63e94"
+        }
+      ],
+      "character": {
+        "bytes": 952896,
+        "sha256": "41798de6425d8faa6308183dab5825951dfeef287b2d2c442fb04ae4ba4cf789"
+      },
+      "spawnRegistry": {
+        "source": "factory",
+        "revision": 1,
+        "registeredLocations": 6
+      },
+      "audioRevision": 9
+    }
+  ],
+  "primaryAudioUnchanged": true,
+  "primaryHash": "165595c81dc7dd8eb2edea9bea08468fe8f8aad09bc970bc2b08ca28880ce23b",
+  "qaPublishedConfigRestored": true,
+  "qaDraftConfigRestored": true,
+  "qaPublishedRevision": 9,
+  "qaDraftRevision": 10,
+  "foregroundGate": "Pending: user cannot keep preview foreground; no final FPS qualification or latest full-cycle idle observation claimed."
+}

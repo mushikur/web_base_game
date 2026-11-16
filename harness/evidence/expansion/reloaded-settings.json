@@ -1,0 +1,51 @@
+{
+  "state": "not-started",
+  "unlocked": false,
+  "catalogSource": "builtin",
+  "revision": 1,
+  "context": "menu",
+  "activeVoices": 0,
+  "outputRms": 0,
+  "dropped": 0,
+  "eventCounts": {},
+  "recent": [],
+  "settings": {
+    "master": {
+      "volume": 0.75,
+      "muted": false
+    },
+    "music": {
+      "volume": 0.23,
+      "muted": false
+    },
+    "environment": {
+      "volume": 0.75,
+      "muted": false
+    },
+    "footsteps": {
+      "volume": 0.75,
+      "muted": false
+    },
+    "vehicles": {
+      "volume": 0.75,
+      "muted": false
+    },
+    "combat": {
+      "volume": 0.75,
+      "muted": false
+    },
+    "voices": {
+      "volume": 0.75,
+      "muted": false
+    },
+    "crowd": {
+      "volume": 0.75,
+      "muted": false
+    },
+    "interface": {
+      "volume": 0.75,
+      "muted": false
+    }
+  },
+  "lastError": ""
+}

@@ -1,0 +1,615 @@
+
+> neta-uthche@0.1.0 typecheck
+> tsc --noEmit
+
+
+> neta-uthche@0.1.0 lint
+> eslint .
+
+
+> neta-uthche@0.1.0 test
+> node --experimental-strip-types --test tests/*.test.ts
+
+✔ shipped GLB contains a complete skinned slice character and required motions (29.1703ms)
+✔ MP3 validation requires a framed stream instead of an incidental sync sequence (5.5079ms)
+✔ audio administration authenticates, validates uploads and persists real publish/rollback (4254.7839ms)
+✔ audio settings recover malformed storage and keep every bus independently bounded (45.0309ms)
+✔ actual gait-phase crossings produce alternating contacts without timers or idle steps (1.9943ms)
+✔ surface audio follows the street's actual surface patches and wall occlusion (112.9694ms)
+✔ all original audio bank entries are audible local PCM with bounded download size (2548.693ms)
+✔ boarding adds clips without modifying accepted character geometry, rig or six old motions (340.215ms)
+✔ boarding clips contain timed, finite, normalized animation of the existing skeleton (9.2103ms)
+✔ entering reaches the folded seated pose, seated loops, and exit unfolds continuously (5.8066ms)
+✔ a legal roadside walking pose can begin and finish the actual CNG approach without a larger boarding radius rejecting it (113.8461ms)
+✔ matching the walking radius still rejects CNG body penetration and unrelated doorway obstructions (2.2896ms)
+✔ boarding walks to the door, enters continuously, follows the seat and exits to ground (41.3681ms)
+✔ door arrival turns continuously at 60 Hz and uses Idle for stationary alignment (2.1777ms)
+✔ entry begins at actual ground height when the authored outside anchor is on a raised curb (2.0248ms)
+✔ busy, distant or obstructed vehicles cannot claim occupancy or move the player (1.1824ms)
+✔ a new approach obstruction stops at the last safe position and releases occupancy (22.1948ms)
+✔ entry obstruction freezes motion and animation together, then resumes once clear (5.3632ms)
+✔ blocked exits keep the player seated, while an alternate safe door is selected (3.391ms)
+✔ an exit obstruction freezes at the last safe pose and resumes without a ground-height pop (2.4307ms)
+✔ reset releases occupancy without inventing a position, and invalid tick times do nothing (5.5636ms)
+✔ approach planning validates thin-wall crossings, routes around obstacles and fails finitely when enclosed (5.5035ms)
+✔ accepted build stays isolated from new preview writes and cannot expose outside files (2082.0178ms)
+✔ leader actually notices, seeks cover, changes heading, flees and emits bounded harmless props (28.8017ms)
+✔ tutorial and pause suppress dangerous behavior before state/actions, with no stale motion burst (2.1947ms)
+✔ unreachable cover never slides through a wall or produces movement facts (2.0215ms)
+✔ height clearance preserves accepted curbs, rejects the dais ledge and permits a real ramp (0.7781ms)
+✔ egg and sandal reactions differ and duplicate impact ids cannot restart reaction (1.3264ms)
+✔ workers warn, follow, dodge incoming props and scatter after completion (4.8891ms)
+✔ workers yield to a siren at one bounded safe goal and exhausted workers rest without a siren (6.2279ms)
+✔ an exhausted worker remains solid but walks clear of the ambulance bay, then rests without regaining resolve (134.1537ms)
+✔ exhausted-worker siren recovery respects pause, tutorial and real route obstructions (286.5923ms)
+✔ civilians yield at traffic crossings, visit shops, react to sirens and return to patrol (10.8472ms)
+✔ all four outer approaches back away and bypass a live obstruction into the original aligned bay (1195.08ms)
+✔ all four outer departures keep a standing road blocker intact and reach the same observed exit (2915.7155ms)
+✔ the hub northern junction has a checked early-obstruction approach without crossing the median or bus (508.6713ms)
+✔ the hub departure uses the actual junction around a person and observes the original exit (3986.849ms)
+✔ a solid hub median-lane obstruction waits honestly and resumes only after it is removed (233.9969ms)
+BJS - [11:35:55]: Babylon.js v9.33.1 - Null engine
+✔ mission motion bank preserves every base byte and matches all17 real rest joints (77.3617ms)
+✔ required gestures contain finite normalized joint motions with positive exact durations and seamless loops (214.3286ms)
+✔ defeated and resting pelvis poses join without a positional pop (2.604ms)
+✔ Babylon actually imports the meshless bank and maps its motions onto real skinned instance joints (10298.1181ms)
+✔ full rotated body detects thin posts, inside-body NPCs and conservative walking detours (3.995ms)
+✔ all5 authored ambulance approaches clear their complete actual body footprint (969.507ms)
+✔ each real area can evacuate a leader from its dais/escape position via actual body-safe doors (10386.6804ms)
+✔ an occupied actual hub bay waits until the worker really yields to the approaching siren (2830.165ms)
+✔ all5 full evacuations and every hub cover/escape anchor retain real crew occupancy (29358.7102ms)
+✔ ambulance completes exactly once only after actual assistance, loading, door closure and observed exit (644.4241ms)
+✔ blocked vehicle route waits indefinitely and resumes only when actually clear (120.079ms)
+✔ blocked rear door cannot complete loading, and pause freezes every actor and stage clock (512.8571ms)
+✔ cancel/retry resets only the intended request token, while invalid routes cannot start (0.922ms)
+✔ C discovery, route and entrance observations guard real state progression (7.693ms)
+✔ C reroute replaces only a selected objective and leaves known areas discovered (0.6963ms)
+✔ C actual impacts are single-use, civilian-safe and request fleeing before observed route entry (1.696ms)
+✔ C zero resolve requests evacuation without an impossible extra flee event (4.2632ms)
+✔ C bounds warning, return, failure cleanup and retry preserve earlier completion (1.7609ms)
+✔ C tutorial gate prevents hits and dangerous failure observations (0.5736ms)
+✔ C all five completion facts survive checkpoint and corrupted records repair independently (3.8225ms)
+✔ C stale sequence and replayed effect cannot award another result (32.4079ms)
+✔ C navigation normalizes getter-backed runtime vectors for direct and detour routes (65.6043ms)
+✔ C connected roads reach all five entrances from B's protected starts without wall crossing (173.2109ms)
+✔ C hub pedestrian gap accepts on-foot radius while the ambulance uses the wide west lane (1.1667ms)
+✔ C paths reject unbuilt land, inflated blocked corners and a closed road (4.1632ms)
+✔ C committee route detours around the retained hub ambulance's whole solid body (136.9645ms)
+✔ C area anchors and evacuation route endpoints remain in authored walkable bounds (3.3012ms)
+✔ C every actor reset anchor clears the real outer-sector geometry and parked CNG (2.4808ms)
+✔ C routes use the actual resident outer-sector collision blueprints (1157.2889ms)
+✔ C surface facade preserves every sampled hub surface and height exactly (120.7298ms)
+✔ C original platform has a real traversable east ramp without a walk-through ledge (2.5752ms)
+✔ C map transform uses world bounds and all visible content uses Bengali Unicode (2.4434ms)
+BJS - [11:35:53]: Babylon.js v9.33.1 - Null engine
+✔ sector quality limits real shadow casters independently and preserves retained PBR geometry (5188.3081ms)
+ℹ {"mode":"NullEngine geometry/resource test; no visual/FPS acceptance","high":{"active":2,"visible":8,"shadowed":2,"casters":63},"low":{"active":1,"visible":7,"shadowed":0},"repeatedProfileCycles":3,"warmedLow":{"meshes":178,"materials":88,"textures":83}}
+✔ streaming constructs no city at startup and measures nearest region edge (30.326ms)
+✔ activation and geometry use hysteresis without repeatedly reconstructing (1.8664ms)
+✔ pinned ambulance routes survive distance while distant encounter AI sleeps (1.2351ms)
+✔ cold release is exactly once and reload is a new generation without domain mutation (55.0917ms)
+✔ at most two overlapping encounters run and invalid configuration is rejected (1.4824ms)
+✔ sector resources preserve shared vehicle materials and never adopt foreign hub resources (1.3555ms)
+✔ warm cache has a hard bound and resources dispose before their owner is forgotten (2.0403ms)
+✔ environment and traffic share a scene lease without destroying each other's live palette (1.9676ms)
+✔ scripted C traffic loops join with continuous position and heading (174.292ms)
+✔ traffic yields before touching a player, resumes after clearance, freezes during tutorial and pause (2.2839ms)
+✔ traffic lookahead respects lateral clearance and caps background steps (0.5706ms)
+BJS - [11:35:53]: Babylon.js v9.33.1 - Null engine
+✔ moving CNG retains all three real wheel centers and default parked silhouette (8726.0447ms)
+ℹ {"mode":"NullEngine geometry/resource checks; no visual or FPS claim","firstLoad":[{"id":"committee-lane","meshes":39},{"id":"microphone-square","meshes":53},{"id":"poster-quarter","meshes":55},{"id":"road:north-link","meshes":5},{"id":"road:committee-cross","meshes":8},{"id":"road:committee-entry","meshes":2},{"id":"road:east-cross","meshes":8},{"id":"road:square-entry","meshes":8},{"id":"road:poster-entry","meshes":2}],"coldAfterWarmTour":{"meshes":30,"materials":39,"textures":42},"repeatedTours":3,"trafficDrivers":2}
+BJS - [11:35:55]: Babylon.js v9.33.1 - Null engine
+✔ carried banner follows the original rig and releases only its owned resources (2809.3207ms)
+BJS - [11:35:53]: Babylon.js v9.33.1 - Null engine
+BJS - [11:35:53]: Babylon.js v9.33.1 - Null engine
+BJS - [11:35:53]: Babylon.js v9.33.1 - Null engine
+BJS - [11:35:53]: Babylon.js v9.33.1 - Null engine
+✔ tea-shop camera retracts before the side wall at the observed grazing position (97.5186ms)
+✔ the observed tight tea counter cannot push the retracted camera through its near surface (8.2556ms)
+✔ sub-minimum ray hits resolve before the wall and avatar opacity restores only after clearance (16.9839ms)
+✔ camera bounds retain the authored wall's world height and are independent of batching (9.6404ms)
+✔ FPS uses elapsed time, excludes hidden/resume gaps and bounds its view (17.5208ms)
+✔ photo-led materials ship complete local PBR sets within the mobile download budget (681.6028ms)
+✔ factory spawn validation rejects a civilian's phase-resolved location instead of its temporary reset base (3.7755ms)
+✔ random factory starts retain full NPC clearance through the first capped frame across patrol phases (88.781ms)
+✔ a stationary new-game spawn stays outside every civilian throughout the complete authored patrol cycle (81.2473ms)
+✔ Phase 01 faces are bound to the unchanged animated rig and retain the original motion bank (71.7447ms)
+✔ civilian contact resets the combo, gives zero points, and changes the Bengali ending (8.4582ms)
+✔ mixed action hits require a real encounter and final evacuation to finish each area (7.4877ms)
+✔ short and distant throws retain gravity and intercept an observed moving target (3.3353ms)
+✔ continuous physics positions detect a crossing without inventing a nearby miss (0.8377ms)
+✔ a player cannot cross an occupied body or become trapped by initial overlap (1.2357ms)
+✔ four Bengali profiles retain the accepted desktop/mobile budgets (6.9937ms)
+✔ lower presets reduce pixel, shadow, effect and streaming work monotonically (0.6959ms)
+✔ profile preferences validate the version and cannot select inherited or unknown IDs (14.3367ms)
+✔ civilian hits never award mission points (18.7708ms)
+✔ projectile trajectory reaches its target under gravity (1.4864ms)
+✔ street colliders block inflated footprints but allow clear pavement (0.7963ms)
+✔ Bengali Unicode survives content and numeral formatting (50.689ms)
+✔ spawn seed is atomic/create-only and invalid stored data is preserved without touching audio (242.0287ms)
+✔ public spawn read needs no Admin setup and survives audio publication, rollback and restart (1024.0548ms)
+✔ footprint clearance rejects navigation edges, obstruction corners, water overlap and invalid geometry (6.365ms)
+✔ all current and future occupancy categories exclude the full player footprint (1.719ms)
+✔ trusted factory publication rejects client approval, unknown points, y and mismatched world (10.5605ms)
+✔ finite injectable shuffle chooses only safe trusted points and reports all occupied (2.4835ms)
+✔ all curated starts clear authored southern street buildings, parked vehicles, poles and enlarged puddles (1.8153ms)
+✔ pause during pending bootstrap cannot start stale audio, and resume restores cached layers (282.307ms)
+✔ first brick and mud contacts use bootstrap-decoded buffers even when their initial download was slow (18.9012ms)
+✔ published enabled, file and volume changes reconcile active traffic, CNG and rain layers (51.211ms)
+✔ music edits published while paused apply on resume after the context unlocks (21.8883ms)
+✔ non-loop playlist fades naturally, advances once and remains finished after its final track (21.9989ms)
+✔ overlapping and replaced previews preserve paused world gates and only the latest audition (41.1147ms)
+✔ a suppressed voice does not consume its repetition limit before a source actually starts (11.4393ms)
+✔ WebAudio listener and source coordinates convert Dhaka world Z consistently (34.9492ms)
+✔ category auditions play enabled published speech and effects at configured gains without booting the world (37.3839ms)
+✔ missing enabled category audition reports Bengali and never substitutes the menu beep (19.0046ms)
+✔ replacement speech waits for decoding and equal-priority speech preserves the current sentence (16.4177ms)
+✔ one impact keeps combat FX but selects one prioritized mouth-positioned voice and preserves wall occlusion (15.4282ms)
+✔ ambient conversation, stage slogans and microphone originate at authored speech heights (18.2052ms)
+✔ shipped escape and completion cues start their real voice and effect graph from mission events (32.0448ms)
+✔ tutorial advances ten Bengali lessons only from ordered actual observations (33.2253ms)
+✔ blocked, invalid and non-running motion cannot falsely pass movement lessons (0.8688ms)
+✔ empty pickup, unavailable selection, empty use and exit without entry do not advance (1.5631ms)
+✔ Skip, completed preference, version repair and replay stay separate from audio data (4.4689ms)
+✔ replaying then skipping does not erase an earlier tutorial completion (0.7905ms)
+ℹ tests 132
+ℹ suites 0
+ℹ pass 132
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 44761.6947
+
+> @neta/game@0.1.0 build
+> vite build --outDir D:\neta-udche -3d\harness\evidence\phase02\game-dist
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 1512 modules transformed.
+
+(!) outDir D:\neta-udche -3d\harness\evidence\phase02\game-dist is not inside project root and will not be emptied.
+Use --emptyOutDir to override.
+
+rendering chunks...
+computing gzip size...
+../../harness/evidence/phase02/game-dist/index.html                                                            0.79 kB │ gzip:   0.45 kB
+../../harness/evidence/phase02/game-dist/assets/noto-sans-bengali-latin-ext-400-normal-Caj59Max.woff2          6.08 kB
+../../harness/evidence/phase02/game-dist/assets/noto-sans-bengali-latin-ext-600-normal-C6cBZc4J.woff2          6.12 kB
+../../harness/evidence/phase02/game-dist/assets/noto-sans-bengali-latin-ext-700-normal-3-Al-97M.woff2          6.15 kB
+../../harness/evidence/phase02/game-dist/assets/noto-sans-bengali-latin-ext-800-normal-CUXQf7go.woff2          6.22 kB
+../../harness/evidence/phase02/game-dist/assets/noto-sans-bengali-latin-ext-400-normal-DwoTidnb.woff           7.94 kB
+../../harness/evidence/phase02/game-dist/assets/noto-sans-bengali-latin-ext-700-normal-BMiYGHX_.woff           8.03 kB
+../../harness/evidence/phase02/game-dist/assets/noto-sans-bengali-latin-ext-600-normal-DY6HLMBa.woff           8.03 kB
+../../harness/evidence/phase02/game-dist/assets/noto-sans-bengali-latin-ext-800-normal-CZHQWv9Z.woff           8.04 kB
+../../harness/evidence/phase02/game-dist/assets/noto-sans-bengali-latin-400-normal-DiV_iq0_.woff2             10.35 kB
+../../harness/evidence/phase02/game-dist/assets/noto-sans-bengali-latin-700-normal-DcY8RmmN.woff2             10.40 kB
+../../harness/evidence/phase02/game-dist/assets/noto-sans-bengali-latin-600-normal-BokLars8.woff2             10.46 kB
+../../harness/evidence/phase02/game-dist/assets/noto-sans-bengali-latin-800-normal-DaYmbcSV.woff2             10.47 kB
+../../harness/evidence/phase02/game-dist/assets/noto-sans-bengali-latin-400-normal-BNmU3xSe.woff              13.28 kB
+../../harness/evidence/phase02/game-dist/assets/noto-sans-bengali-latin-700-normal-CBJkAOMM.woff              13.31 kB
+../../harness/evidence/phase02/game-dist/assets/noto-sans-bengali-latin-600-normal-KNvJZft-.woff              13.33 kB
+../../harness/evidence/phase02/game-dist/assets/noto-sans-bengali-latin-800-normal-DFbQxse_.woff              13.37 kB
+../../harness/evidence/phase02/game-dist/assets/noto-sans-bengali-bengali-400-normal-BFibWJDZ.woff2           44.35 kB
+../../harness/evidence/phase02/game-dist/assets/noto-sans-bengali-bengali-600-normal-BVnGrJcL.woff2           47.63 kB
+../../harness/evidence/phase02/game-dist/assets/noto-sans-bengali-bengali-700-normal-C0v9szhP.woff2           47.78 kB
+../../harness/evidence/phase02/game-dist/assets/noto-sans-bengali-bengali-800-normal-B3lxgPiN.woff2           47.84 kB
+../../harness/evidence/phase02/game-dist/assets/noto-sans-bengali-bengali-400-normal-BymQv2v6.woff            54.27 kB
+../../harness/evidence/phase02/game-dist/assets/noto-sans-bengali-bengali-800-normal-Bih8fCN2.woff            56.38 kB
+../../harness/evidence/phase02/game-dist/assets/noto-sans-bengali-bengali-700-normal-DXVjD8fr.woff            56.50 kB
+../../harness/evidence/phase02/game-dist/assets/noto-sans-bengali-bengali-600-normal-d2kw9WWz.woff            56.80 kB
+../../harness/evidence/phase02/game-dist/assets/HavokPhysics-BqNY-4N9.wasm                                 2,094.56 kB │ gzip: 668.98 kB
+../../harness/evidence/phase02/game-dist/assets/index-C_BlrBZ3.css                                            38.74 kB │ gzip:   9.07 kB
+../../harness/evidence/phase02/game-dist/assets/pbrMaterialLoadingAdapter-fyVgDaHK.js                          0.06 kB │ gzip:   0.08 kB
+../../harness/evidence/phase02/game-dist/assets/openpbrMaterialLoadingAdapter-DALfhew5.js                      0.06 kB │ gzip:   0.08 kB
+../../harness/evidence/phase02/game-dist/assets/KHR_animation_pointer.data.pure-BmZ0daGH.js                    0.07 kB │ gzip:   0.09 kB
+../../harness/evidence/phase02/game-dist/assets/typeStore-Cu_sj2zM.js                                          0.08 kB │ gzip:   0.08 kB
+../../harness/evidence/phase02/game-dist/assets/pbrMaterial.pure-52SShKyE.js                                   0.09 kB │ gzip:   0.08 kB
+../../harness/evidence/phase02/game-dist/assets/guid-BXdVC_j_.js                                               0.15 kB │ gzip:   0.14 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphExecutionBlockWithOutSignal-DcC0xRhg.js               0.15 kB │ gzip:   0.15 kB
+../../harness/evidence/phase02/game-dist/assets/kernelBlurVaryingDeclaration-DP2Wr9Oc.js                       0.21 kB │ gzip:   0.17 kB
+../../harness/evidence/phase02/game-dist/assets/kernelBlurVaryingDeclaration-g2Ge9lzd.js                       0.22 kB │ gzip:   0.18 kB
+../../harness/evidence/phase02/game-dist/assets/mainUVVaryingDeclaration-BBamQlxR.js                           0.22 kB │ gzip:   0.19 kB
+../../harness/evidence/phase02/game-dist/assets/mainUVVaryingDeclaration-B_7d0nc3.js                           0.23 kB │ gzip:   0.19 kB
+../../harness/evidence/phase02/game-dist/assets/pointCloudVertex-CmkEsLzf.js                                   0.24 kB │ gzip:   0.20 kB
+../../harness/evidence/phase02/game-dist/assets/domManagement-BqltO0ki.js                                      0.25 kB │ gzip:   0.17 kB
+../../harness/evidence/phase02/game-dist/assets/logDepthFragment-C5lxT4l1.js                                   0.27 kB │ gzip:   0.22 kB
+../../harness/evidence/phase02/game-dist/assets/logDepthDeclaration-3gXGtHbI.js                                0.27 kB │ gzip:   0.22 kB
+../../harness/evidence/phase02/game-dist/assets/meshUboDeclaration-BATNZvmb.js                                 0.27 kB │ gzip:   0.23 kB
+../../harness/evidence/phase02/game-dist/assets/logDepthDeclaration-DYYUVTrx.js                                0.28 kB │ gzip:   0.22 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphUnaryOperationBlock-DC3EOcCi.js                       0.30 kB │ gzip:   0.21 kB
+../../harness/evidence/phase02/game-dist/assets/logDepthVertex-D5IUM6qd.js                                     0.30 kB │ gzip:   0.24 kB
+../../harness/evidence/phase02/game-dist/assets/clearQuad.fragment-DGbD4xv4.js                                 0.31 kB │ gzip:   0.22 kB
+../../harness/evidence/phase02/game-dist/assets/logDepthFragment-CxtJswLx.js                                   0.31 kB │ gzip:   0.24 kB
+../../harness/evidence/phase02/game-dist/assets/pass.fragment-Cvd2TCWC.js                                      0.31 kB │ gzip:   0.25 kB
+../../harness/evidence/phase02/game-dist/assets/sceneVertexDeclaration-CluTp-RC.js                             0.33 kB │ gzip:   0.22 kB
+../../harness/evidence/phase02/game-dist/assets/bumpVertexDeclaration-Cb04kLz9.js                              0.34 kB │ gzip:   0.25 kB
+../../harness/evidence/phase02/game-dist/assets/meshUboDeclaration-BmNu2KU_.js                                 0.34 kB │ gzip:   0.25 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphKeyUpEventBlock.pure-DF3blNJa.js                      0.35 kB │ gzip:   0.23 kB
+../../harness/evidence/phase02/game-dist/assets/keyboardEvents-CGYiptFb.js                                     0.35 kB │ gzip:   0.20 kB
+../../harness/evidence/phase02/game-dist/assets/sceneUboDeclaration-B5VhSG0v.js                                0.36 kB │ gzip:   0.26 kB
+../../harness/evidence/phase02/game-dist/assets/animationGroup.pure-DlwsmkbU.js                                0.37 kB │ gzip:   0.17 kB
+../../harness/evidence/phase02/game-dist/assets/shadowMapFragmentSoftTransparentShadow-R_iOKnyx.js             0.37 kB │ gzip:   0.26 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphBinaryOperationBlock-BGTUlE9q.js                      0.37 kB │ gzip:   0.24 kB
+../../harness/evidence/phase02/game-dist/assets/logDepthVertex-DSD5XdGw.js                                     0.37 kB │ gzip:   0.26 kB
+../../harness/evidence/phase02/game-dist/assets/fogVertex-NHlgMcT2.js                                          0.38 kB │ gzip:   0.24 kB
+../../harness/evidence/phase02/game-dist/assets/decalFragment-DYiNNNYb.js                                      0.39 kB │ gzip:   0.24 kB
+../../harness/evidence/phase02/game-dist/assets/bumpVertexDeclaration-I4Guxw_q.js                              0.39 kB │ gzip:   0.26 kB
+../../harness/evidence/phase02/game-dist/assets/shadowMapFragmentSoftTransparentShadow-B6k0i9Au.js             0.40 kB │ gzip:   0.28 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphTernaryOperationBlock-C7AUgfSL.js                     0.41 kB │ gzip:   0.24 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphAnimationHelpers-DeoRHYDE.js                          0.43 kB │ gzip:   0.21 kB
+../../harness/evidence/phase02/game-dist/assets/vertexColorMixing-DPW6Is9y.js                                  0.43 kB │ gzip:   0.27 kB
+../../harness/evidence/phase02/game-dist/assets/glowMapMerge.vertex-XcoH38fZ.js                                0.43 kB │ gzip:   0.29 kB
+../../harness/evidence/phase02/game-dist/assets/pass.fragment-C9fRTBUH.js                                      0.45 kB │ gzip:   0.29 kB
+../../harness/evidence/phase02/game-dist/assets/postprocess.vertex-DJCmMhI8.js                                 0.46 kB │ gzip:   0.30 kB
+../../harness/evidence/phase02/game-dist/assets/shaderStore-D-XQlhUT.js                                        0.46 kB │ gzip:   0.17 kB
+../../harness/evidence/phase02/game-dist/assets/procedural.vertex-C47TVAon.js                                  0.47 kB │ gzip:   0.29 kB
+../../harness/evidence/phase02/game-dist/assets/decalFragment-CvBK6CMD.js                                      0.48 kB │ gzip:   0.28 kB
+../../harness/evidence/phase02/game-dist/assets/objectIdFunctions-CQG-Ad2K.js                                  0.48 kB │ gzip:   0.32 kB
+../../harness/evidence/phase02/game-dist/assets/bloomMerge.fragment-vwVNEATu.js                                0.48 kB │ gzip:   0.31 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphInteger.pure-BKfG1Hxi.js                              0.48 kB │ gzip:   0.24 kB
+../../harness/evidence/phase02/game-dist/assets/iblCdfx.fragment-DwJ2-o2J.js                                   0.49 kB │ gzip:   0.34 kB
+../../harness/evidence/phase02/game-dist/assets/sceneUboDeclaration-D_dVU-T1.js                                0.49 kB │ gzip:   0.29 kB
+../../harness/evidence/phase02/game-dist/assets/performanceConfigurator-UtxC_Odd.js                            0.50 kB │ gzip:   0.25 kB
+../../harness/evidence/phase02/game-dist/assets/fogVertex-DNAMrhb0.js                                          0.50 kB │ gzip:   0.29 kB
+../../harness/evidence/phase02/game-dist/assets/objectIdFunctions-MgUpLma1.js                                  0.50 kB │ gzip:   0.32 kB
+../../harness/evidence/phase02/game-dist/assets/hdrFiltering.vertex-D0M3wH6A.js                                0.50 kB │ gzip:   0.31 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphGLTFDataProvider-CAE7uY2a.js                          0.50 kB │ gzip:   0.31 kB
+../../harness/evidence/phase02/game-dist/assets/bumpVertex-CWhdIpqj.js                                         0.52 kB │ gzip:   0.32 kB
+../../harness/evidence/phase02/game-dist/assets/hdrIrradianceFiltering.vertex-DOQV8qQx.js                      0.52 kB │ gzip:   0.32 kB
+../../harness/evidence/phase02/game-dist/assets/packingFunctions-DpGwbupU.js                                   0.52 kB │ gzip:   0.29 kB
+../../harness/evidence/phase02/game-dist/assets/rgbdEncode.fragment-C0GRatMC.js                                0.53 kB │ gzip:   0.34 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphCodeExecutionBlock-VB2jC9-G.js                        0.53 kB │ gzip:   0.30 kB
+../../harness/evidence/phase02/game-dist/assets/hdrTextureLoader-DXKAhZZe.js                                   0.53 kB │ gzip:   0.38 kB
+../../harness/evidence/phase02/game-dist/assets/depthBoxBlur.fragment-CLEAG5DG.js                              0.53 kB │ gzip:   0.35 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphGetSoundVolumeBlock.pure-Cak5EV0j.js                  0.53 kB │ gzip:   0.32 kB
+../../harness/evidence/phase02/game-dist/assets/rgbdDecode.fragment-DMMVhCI6.js                                0.53 kB │ gzip:   0.34 kB
+../../harness/evidence/phase02/game-dist/assets/clearQuad.vertex-B5754lck.js                                   0.54 kB │ gzip:   0.33 kB
+../../harness/evidence/phase02/game-dist/assets/glowMapMerge.vertex-CBAYzq55.js                                0.54 kB │ gzip:   0.33 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphIsSoundPlayingBlock.pure-CPMuCNnS.js                  0.55 kB │ gzip:   0.33 kB
+../../harness/evidence/phase02/game-dist/assets/vertexColorMixing-UCrnwszu.js                                  0.56 kB │ gzip:   0.30 kB
+../../harness/evidence/phase02/game-dist/assets/packingFunctions-CINwVZs6.js                                   0.56 kB │ gzip:   0.31 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphPauseAnimationBlock.pure-D6myGl1q.js                  0.56 kB │ gzip:   0.32 kB
+../../harness/evidence/phase02/game-dist/assets/iblCdfx.fragment-DcN-2ogt.js                                   0.56 kB │ gzip:   0.37 kB
+../../harness/evidence/phase02/game-dist/assets/ssaoCombine.fragment-B1IvvcRW.js                               0.57 kB │ gzip:   0.33 kB
+../../harness/evidence/phase02/game-dist/assets/postprocess.vertex-CmVXXq2T.js                                 0.58 kB │ gzip:   0.35 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphConstantBlock.pure-Dk9vFgAA.js                        0.58 kB │ gzip:   0.34 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphObjectReferenceBlock-B1w-EoOs.js                      0.58 kB │ gzip:   0.35 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphStopSoundBlock.pure-Cujy-AD3.js                       0.59 kB │ gzip:   0.35 kB
+../../harness/evidence/phase02/game-dist/assets/procedural.vertex-D3o6xkF2.js                                  0.61 kB │ gzip:   0.34 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphKeyDownEventBlock.pure-D7mFuxdx.js                    0.61 kB │ gzip:   0.36 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphBranchBlock.pure-O54729iq.js                          0.62 kB │ gzip:   0.34 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphGetVariableBlock.pure-D9XhW7XO.js                     0.63 kB │ gzip:   0.35 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphContextBlock.pure-B9DWQDAM.js                         0.63 kB │ gzip:   0.33 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphPauseSoundBlock.pure-BPNtHg9q.js                      0.65 kB │ gzip:   0.38 kB
+../../harness/evidence/phase02/game-dist/assets/hdrFiltering.vertex-COSbMAY6.js                                0.66 kB │ gzip:   0.36 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphAsyncExecutionBlock-MGjAdhal.js                       0.66 kB │ gzip:   0.34 kB
+../../harness/evidence/phase02/game-dist/assets/samplerFragmentDeclaration-3yaLawFX.js                         0.67 kB │ gzip:   0.29 kB
+../../harness/evidence/phase02/game-dist/assets/rgbdEncode.fragment-Ckyvcj7n.js                                0.67 kB │ gzip:   0.38 kB
+../../harness/evidence/phase02/game-dist/assets/hdrIrradianceFiltering.vertex-CFN7uIG9.js                      0.68 kB │ gzip:   0.37 kB
+../../harness/evidence/phase02/game-dist/assets/rgbdDecode.fragment-BtR0O-oo.js                                0.68 kB │ gzip:   0.39 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphSetSoundVolumeBlock.pure-f5oa-BMa.js                  0.69 kB │ gzip:   0.38 kB
+../../harness/evidence/phase02/game-dist/assets/backgroundUboDeclaration-CvL1rn_O.js                           0.69 kB │ gzip:   0.35 kB
+../../harness/evidence/phase02/game-dist/assets/bumpVertex-DRq4BZvD.js                                         0.69 kB │ gzip:   0.38 kB
+../../harness/evidence/phase02/game-dist/assets/extractHighlights.fragment-Jm9XDYnd.js                         0.69 kB │ gzip:   0.41 kB
+../../harness/evidence/phase02/game-dist/assets/depthBoxBlur.fragment-D2KJPEQv.js                              0.71 kB │ gzip:   0.41 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphStopEventPropagationBlock.pure-BsGdtsON.js            0.71 kB │ gzip:   0.38 kB
+../../harness/evidence/phase02/game-dist/assets/backgroundUboDeclaration-i4MsxPq1.js                           0.72 kB │ gzip:   0.38 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphConditionalDataBlock.pure-79V2Z52F.js                 0.72 kB │ gzip:   0.35 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphSetLinearVelocityBlock.pure-Dinddiww.js               0.72 kB │ gzip:   0.39 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphSceneReadyEventBlock.pure-DQNUU4ca.js                 0.72 kB │ gzip:   0.39 kB
+../../harness/evidence/phase02/game-dist/assets/samplerFragmentDeclaration-CEHqUfAO.js                         0.72 kB │ gzip:   0.32 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphCounterBlock.pure-Sl9u2rAH.js                         0.73 kB │ gzip:   0.38 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphSetAngularVelocityBlock.pure-CQNvwgq-.js              0.73 kB │ gzip:   0.39 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphAssetsContext-WtUyuDAI.js                             0.73 kB │ gzip:   0.27 kB
+../../harness/evidence/phase02/game-dist/assets/bloomMerge.fragment-DQ_fgnoL.js                                0.74 kB │ gzip:   0.37 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphIndexOfBlock.pure-DKuCMRyU.js                         0.74 kB │ gzip:   0.39 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphSetPhysicsMotionTypeBlock.pure-Dk32rbef.js            0.74 kB │ gzip:   0.39 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphGetLinearVelocityBlock.pure-CceqslaM.js               0.74 kB │ gzip:   0.41 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphGetAngularVelocityBlock.pure-CLGHqScb.js              0.75 kB │ gzip:   0.41 kB
+../../harness/evidence/phase02/game-dist/assets/pointerEvents-BEFe2bV1.js                                      0.76 kB │ gzip:   0.39 kB
+../../harness/evidence/phase02/game-dist/assets/sharpen.fragment-CCLDkKbj.js                                   0.76 kB │ gzip:   0.38 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphFlipFlopBlock.pure-DvE97ke4.js                        0.77 kB │ gzip:   0.40 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphApplyForceBlock.pure-5K9UGV82.js                      0.78 kB │ gzip:   0.41 kB
+../../harness/evidence/phase02/game-dist/assets/grain.fragment-D5YEdsK0.js                                     0.79 kB │ gzip:   0.44 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphApplyImpulseBlock.pure-BLfcPo3_.js                    0.79 kB │ gzip:   0.41 kB
+../../harness/evidence/phase02/game-dist/assets/vrDistortionCorrection.fragment-BEluFdYP.js                    0.79 kB │ gzip:   0.44 kB
+../../harness/evidence/phase02/game-dist/assets/glowMapMerge.fragment-E4YwFGds.js                              0.80 kB │ gzip:   0.42 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphFunctionReferenceBlock.pure-R5KEu9Hd.js               0.80 kB │ gzip:   0.40 kB
+../../harness/evidence/phase02/game-dist/assets/ssaoCombine.fragment-jEEUeUp9.js                               0.80 kB │ gzip:   0.39 kB
+../../harness/evidence/phase02/game-dist/assets/circleOfConfusion.fragment-CEj6DZ22.js                         0.81 kB │ gzip:   0.45 kB
+../../harness/evidence/phase02/game-dist/assets/hdrFiltering.fragment-BekLsouf.js                              0.82 kB │ gzip:   0.42 kB
+../../harness/evidence/phase02/game-dist/assets/passCube.fragment-B9dBqbCg.js                                  0.82 kB │ gzip:   0.35 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphSequenceBlock.pure-BSR9Q_HD.js                        0.82 kB │ gzip:   0.40 kB
+../../harness/evidence/phase02/game-dist/assets/gsSortScanSums.compute-D6phtEU2.js                             0.82 kB │ gzip:   0.47 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphGetAssetBlock.pure-DFCEhlNI.js                        0.84 kB │ gzip:   0.44 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphDebounceBlock.pure-BvMi0RO2.js                        0.87 kB │ gzip:   0.42 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphCancelDelayBlock.pure-BL-MhKIN.js                     0.88 kB │ gzip:   0.50 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphPlaySoundBlock.pure-BZbKKSrD.js                       0.88 kB │ gzip:   0.44 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphDelayReferenceBlock-Dn-tOWU-.js                       0.88 kB │ gzip:   0.51 kB
+../../harness/evidence/phase02/game-dist/assets/kernelBlur.vertex-C2dESVl-.js                                  0.88 kB │ gzip:   0.46 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphGetPhysicsMassPropertiesBlock.pure-D4atnAXV.js        0.89 kB │ gzip:   0.42 kB
+../../harness/evidence/phase02/game-dist/assets/math.size-BHZaDYSv.js                                          0.91 kB │ gzip:   0.37 kB
+../../harness/evidence/phase02/game-dist/assets/extractHighlights.fragment-BEgOiEPr.js                         0.91 kB │ gzip:   0.47 kB
+../../harness/evidence/phase02/game-dist/assets/gsSortOutput.compute-DCC_sFzk.js                               0.92 kB │ gzip:   0.50 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphDoNBlock.pure-BOgr1SMZ.js                             0.92 kB │ gzip:   0.45 kB
+../../harness/evidence/phase02/game-dist/assets/color.fragment-CxH-oW8C.js                                     0.92 kB │ gzip:   0.43 kB
+../../harness/evidence/phase02/game-dist/assets/drawWrapper-PBH_pw0u.js                                        0.92 kB │ gzip:   0.46 kB
+../../harness/evidence/phase02/game-dist/assets/mesh.vertexData.functions-CD4JOR2q.js                          0.93 kB │ gzip:   0.48 kB
+../../harness/evidence/phase02/game-dist/assets/instancesDeclaration-CJBvtBV5.js                               0.93 kB │ gzip:   0.34 kB
+../../harness/evidence/phase02/game-dist/assets/imageProcessing.fragment-B8v0y5yz.js                           0.93 kB │ gzip:   0.49 kB
+../../harness/evidence/phase02/game-dist/assets/hdrIrradianceFiltering.fragment-CFu76fQj.js                    0.95 kB │ gzip:   0.47 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphCachedOperationBlock-7y-u8hHD.js                      0.96 kB │ gzip:   0.44 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphPointerOutEventBlock.pure-CBKNp5XH.js                 0.98 kB │ gzip:   0.49 kB
+../../harness/evidence/phase02/game-dist/assets/circleOfConfusion.fragment-Bl-wDFJW.js                         0.99 kB │ gzip:   0.52 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphPointerOverEventBlock.pure-pAP87hFR.js                0.99 kB │ gzip:   0.49 kB
+../../harness/evidence/phase02/game-dist/assets/fxaa.vertex-CEYszSUi.js                                        0.99 kB │ gzip:   0.39 kB
+../../harness/evidence/phase02/game-dist/assets/hdrFiltering.fragment-C_SOy66O.js                              1.00 kB │ gzip:   0.48 kB
+../../harness/evidence/phase02/game-dist/assets/iblScaledLuminance.fragment-3vRG9Tyb.js                        1.00 kB │ gzip:   0.52 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphPointerUpEventBlock.pure-WVsjrn6g.js                  1.01 kB │ gzip:   0.48 kB
+../../harness/evidence/phase02/game-dist/assets/gsSortCount.compute-1a2MeKod.js                                1.01 kB │ gzip:   0.55 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphWhileLoopBlock.pure-CC3RB9Lt.js                       1.01 kB │ gzip:   0.49 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphKeyboardEventBlock-C3chLHX2.js                        1.01 kB │ gzip:   0.42 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphDataSwitchBlock.pure-7nwR1nGW.js                      1.01 kB │ gzip:   0.50 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphPointerDownEventBlock.pure-BgIG7REG.js                1.02 kB │ gzip:   0.48 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphArrayIndexBlock.pure-B36mRBWz.js                      1.02 kB │ gzip:   0.51 kB
+../../harness/evidence/phase02/game-dist/assets/color.fragment-CbJP31yK.js                                     1.03 kB │ gzip:   0.47 kB
+../../harness/evidence/phase02/game-dist/assets/iblDominantDirection.fragment-BDzC0yMU.js                      1.03 kB │ gzip:   0.55 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphPointerMoveEventBlock.pure-BGY172vN.js                1.03 kB │ gzip:   0.49 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphSoundEndedEventBlock.pure-j72e-XiL.js                 1.03 kB │ gzip:   0.48 kB
+../../harness/evidence/phase02/game-dist/assets/instancesDeclaration-DsiFqYXH.js                               1.04 kB │ gzip:   0.36 kB
+../../harness/evidence/phase02/game-dist/assets/kernelBlur.vertex-Cr8ljakh.js                                  1.05 kB │ gzip:   0.50 kB
+../../harness/evidence/phase02/game-dist/assets/glowMapMerge.fragment-kUzN8f-0.js                              1.06 kB │ gzip:   0.49 kB
+../../harness/evidence/phase02/game-dist/assets/fogFragment-CISE_m3s.js                                        1.08 kB │ gzip:   0.49 kB
+../../harness/evidence/phase02/game-dist/assets/sharpen.fragment-B2bDI1_Y.js                                   1.08 kB │ gzip:   0.45 kB
+../../harness/evidence/phase02/game-dist/assets/vrDistortionCorrection.fragment-BDVpxJ3B.js                    1.09 kB │ gzip:   0.53 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphTransformCoordinatesSystemBlock.pure-Btcy44e2.js      1.09 kB │ gzip:   0.47 kB
+../../harness/evidence/phase02/game-dist/assets/grain.fragment-BJVLOVJt.js                                     1.09 kB │ gzip:   0.52 kB
+../../harness/evidence/phase02/game-dist/assets/imageProcessing.fragment-CTZi0-VU.js                           1.11 kB │ gzip:   0.54 kB
+../../harness/evidence/phase02/game-dist/assets/glowBlurPostProcess.fragment-DDN2NxnB.js                       1.11 kB │ gzip:   0.57 kB
+../../harness/evidence/phase02/game-dist/assets/harmonicsFunctions-QSz_WdsQ.js                                 1.12 kB │ gzip:   0.49 kB
+../../harness/evidence/phase02/game-dist/assets/passCube.fragment-C8Bxt-YC.js                                  1.13 kB │ gzip:   0.39 kB
+../../harness/evidence/phase02/game-dist/assets/meshBlendTagFragmentOutput-C1HzEx6T.js                         1.13 kB │ gzip:   0.54 kB
+../../harness/evidence/phase02/game-dist/assets/iblScaledLuminance.fragment-DLwwOm1k.js                        1.16 kB │ gzip:   0.55 kB
+../../harness/evidence/phase02/game-dist/assets/clipPlaneVertex-C59BO8JS.js                                    1.17 kB │ gzip:   0.34 kB
+../../harness/evidence/phase02/game-dist/assets/clipPlaneFragment-DVK0wgyZ.js                                  1.17 kB │ gzip:   0.35 kB
+../../harness/evidence/phase02/game-dist/assets/iblDominantDirection.fragment-DlmhHkpn.js                      1.17 kB │ gzip:   0.58 kB
+../../harness/evidence/phase02/game-dist/assets/depth.fragment-DCDlr7g6.js                                     1.17 kB │ gzip:   0.55 kB
+../../harness/evidence/phase02/game-dist/assets/hdrIrradianceFiltering.fragment-DH69iRCp.js                    1.18 kB │ gzip:   0.54 kB
+../../harness/evidence/phase02/game-dist/assets/smartArray-BRfcgNbX.js                                         1.18 kB │ gzip:   0.44 kB
+../../harness/evidence/phase02/game-dist/assets/fogFragment-EikOP4pH.js                                        1.21 kB │ gzip:   0.54 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphSwitchBlock.pure-BNtuGOk7.js                          1.25 kB │ gzip:   0.56 kB
+../../harness/evidence/phase02/game-dist/assets/gsSortScanLocal.compute-DRqv2agw.js                            1.25 kB │ gzip:   0.62 kB
+../../harness/evidence/phase02/game-dist/assets/iblCdfy.fragment-HwUiLPS_.js                                   1.25 kB │ gzip:   0.64 kB
+../../harness/evidence/phase02/game-dist/assets/defaultUboDeclaration-C53xcSdv.js                              1.26 kB │ gzip:   0.55 kB
+../../harness/evidence/phase02/game-dist/assets/clipPlaneFragment-Ct2VqHzk.js                                  1.27 kB │ gzip:   0.37 kB
+../../harness/evidence/phase02/game-dist/assets/ddsTextureLoader-BNSt26Z4.js                                   1.28 kB │ gzip:   0.62 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphSendCustomEventBlock.pure-qIS-c_z6.js                 1.28 kB │ gzip:   0.60 kB
+../../harness/evidence/phase02/game-dist/assets/iblCdfy.fragment-B7_-IvKY.js                                   1.28 kB │ gzip:   0.65 kB
+../../harness/evidence/phase02/game-dist/assets/halfFloat-Ce77JD5z.js                                          1.29 kB │ gzip:   0.60 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphSceneTickEventBlock.pure-DudV_jK9.js                  1.29 kB │ gzip:   0.56 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphUnsupportedInteractivityBlock-x9j8zo5V.js             1.31 kB │ gzip:   0.54 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphIsKeyPressedBlock.pure-C-6NbKHJ.js                    1.32 kB │ gzip:   0.53 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphTypeToTypeBlocks.pure-CtRHcwRD.js                     1.32 kB │ gzip:   0.48 kB
+../../harness/evidence/phase02/game-dist/assets/clipPlaneVertex-DKhVm1NW.js                                    1.35 kB │ gzip:   0.37 kB
+../../harness/evidence/phase02/game-dist/assets/depth.fragment-D67KRAFZ.js                                     1.40 kB │ gzip:   0.60 kB
+../../harness/evidence/phase02/game-dist/assets/glowBlurPostProcess.fragment-CWHntGEt.js                       1.41 kB │ gzip:   0.65 kB
+../../harness/evidence/phase02/game-dist/assets/harmonicsFunctions-CMr56qfT.js                                 1.42 kB │ gzip:   0.52 kB
+../../harness/evidence/phase02/game-dist/assets/fxaa.vertex-BxlD2OIs.js                                        1.43 kB │ gzip:   0.45 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphBezierCurveEasingBlock.pure-Ul6tlebU.js               1.46 kB │ gzip:   0.72 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphThrottleBlock.pure-1-TFFY8U.js                        1.49 kB │ gzip:   0.58 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphDebugBlock.pure-Dk6xZMNr.js                           1.52 kB │ gzip:   0.66 kB
+../../harness/evidence/phase02/game-dist/assets/chromaticAberration.fragment-cDPo3aCd.js                       1.53 kB │ gzip:   0.59 kB
+../../harness/evidence/phase02/game-dist/assets/color.vertex-Bn1VOzn-.js                                       1.53 kB │ gzip:   0.66 kB
+../../harness/evidence/phase02/game-dist/assets/color.vertex-CYNjCrqH.js                                       1.59 kB │ gzip:   0.67 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphForLoopBlock.pure-DtMQnn9n.js                         1.60 kB │ gzip:   0.70 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphMeshPickEventBlock.pure-Dy3IHbDN.js                   1.61 kB │ gzip:   0.68 kB
+../../harness/evidence/phase02/game-dist/assets/defaultUboDeclaration-Dm3rcdMO.js                              1.62 kB │ gzip:   0.53 kB
+../../harness/evidence/phase02/game-dist/assets/depthOfFieldMerge.fragment-BKOejQJL.js                         1.68 kB │ gzip:   0.56 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphWaitAllBlock.pure-CK2ENcjE.js                         1.68 kB │ gzip:   0.68 kB
+../../harness/evidence/phase02/game-dist/assets/envTextureLoader-ChaFBmyg.js                                   1.69 kB │ gzip:   0.66 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphSetVariableBlock.pure-CBT5lCli.js                     1.71 kB │ gzip:   0.80 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphEasingBlock.pure-C1-QJkfs.js                          1.72 kB │ gzip:   0.77 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphGetPropertyBlock.pure-BwaLLV0k.js                     1.73 kB │ gzip:   0.77 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphSetPropertyBlock.pure-ZKNTrTDu.js                     1.74 kB │ gzip:   0.80 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphPhysicsCollisionEventBlock.pure-ihxtAZn9.js           1.75 kB │ gzip:   0.68 kB
+../../harness/evidence/phase02/game-dist/assets/gaussianSplattingVoxel.fragment-B_Om6CDx.js                    1.75 kB │ gzip:   0.59 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphMultiGateBlock.pure-Csy_4VBC.js                       1.80 kB │ gzip:   0.76 kB
+../../harness/evidence/phase02/game-dist/assets/pbrUboDeclaration--xFZEw0i.js                                  1.80 kB │ gzip:   0.67 kB
+../../harness/evidence/phase02/game-dist/assets/math.plane-D7e-FdCl.js                                         1.81 kB │ gzip:   0.77 kB
+../../harness/evidence/phase02/game-dist/assets/logger-CuBYPcDK.js                                             1.88 kB │ gzip:   0.82 kB
+../../harness/evidence/phase02/game-dist/assets/chromaticAberration.fragment-DNJUxumu.js                       1.89 kB │ gzip:   0.66 kB
+../../harness/evidence/phase02/game-dist/assets/gaussianSplattingVoxel.vertex-IyG8ICJ7.js                      1.89 kB │ gzip:   0.76 kB
+../../harness/evidence/phase02/game-dist/assets/glowMapGeneration.fragment-D_chy6mh.js                         1.90 kB │ gzip:   0.73 kB
+../../harness/evidence/phase02/game-dist/assets/gaussianSplattingVoxel.fragment-C65sY-Bh.js                    1.97 kB │ gzip:   0.87 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphConsoleLogBlock.pure-BHCauy3y.js                      2.00 kB │ gzip:   0.93 kB
+../../harness/evidence/phase02/game-dist/assets/math.scalar.functions-DaYAoEcS.js                              2.07 kB │ gzip:   0.96 kB
+../../harness/evidence/phase02/game-dist/assets/gsSortKeys.compute-CU5GQWDs.js                                 2.15 kB │ gzip:   0.96 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphInterpolationBlock.pure-DohCo5Ua.js                   2.20 kB │ gzip:   0.89 kB
+../../harness/evidence/phase02/game-dist/assets/kernelBlur.fragment-BvT73mHN.js                                2.29 kB │ gzip:   0.77 kB
+../../harness/evidence/phase02/game-dist/assets/depthOfFieldMerge.fragment-CyZ9wEKh.js                         2.30 kB │ gzip:   0.56 kB
+../../harness/evidence/phase02/game-dist/assets/depth.vertex-BB_SHqnc.js                                       2.33 kB │ gzip:   0.90 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphEventReferenceBlock-j8V4JOhk.js                       2.34 kB │ gzip:   0.78 kB
+../../harness/evidence/phase02/game-dist/assets/depth.vertex-ChTLcmre.js                                       2.36 kB │ gzip:   0.87 kB
+../../harness/evidence/phase02/game-dist/assets/pbrUboDeclaration-CY8VWFw_.js                                  2.39 kB │ gzip:   0.66 kB
+../../harness/evidence/phase02/game-dist/assets/glowMapGeneration.vertex-DxhltxPB.js                           2.46 kB │ gzip:   0.82 kB
+../../harness/evidence/phase02/game-dist/assets/iesTextureLoader-Cwi9lbjZ.js                                   2.47 kB │ gzip:   1.07 kB
+../../harness/evidence/phase02/game-dist/assets/pbrIBLFunctions-CSlJv7qb.js                                    2.52 kB │ gzip:   0.88 kB
+../../harness/evidence/phase02/game-dist/assets/gsSortScatter.compute-l232PcU_.js                              2.52 kB │ gzip:   1.09 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphExecutionBlock-Dkds5lZX.js                            2.52 kB │ gzip:   0.86 kB
+../../harness/evidence/phase02/game-dist/assets/glowMapGeneration.fragment-CIJNosAa.js                         2.54 kB │ gzip:   0.83 kB
+../../harness/evidence/phase02/game-dist/assets/iblIcdf.fragment-CRH8LXLp.js                                   2.58 kB │ gzip:   0.99 kB
+../../harness/evidence/phase02/game-dist/assets/gaussianSplattingVoxel.vertex-sIma-OIe.js                      2.61 kB │ gzip:   0.92 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphRichTypes.pure-QVGig51v.js                            2.66 kB │ gzip:   0.93 kB
+../../harness/evidence/phase02/game-dist/assets/iblCdfDebug.fragment-CWM_JAoW.js                               2.67 kB │ gzip:   0.96 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphSetDelayBlock.pure-C7et9Hms.js                        2.71 kB │ gzip:   1.04 kB
+../../harness/evidence/phase02/game-dist/assets/pbrIBLFunctions-b8fwQKtH.js                                    2.71 kB │ gzip:   0.88 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphReceiveCustomEventBlock.pure-D874b8P7.js              2.72 kB │ gzip:   1.07 kB
+../../harness/evidence/phase02/game-dist/assets/geometryRenderingFragment-DzNVEdYL.js                          2.75 kB │ gzip:   0.83 kB
+../../harness/evidence/phase02/game-dist/assets/kernelBlur.fragment-DGoy5K5D.js                                2.83 kB │ gzip:   0.85 kB
+../../harness/evidence/phase02/game-dist/assets/geometryRenderingFragment-DZg0Y277.js                          2.87 kB │ gzip:   0.78 kB
+../../harness/evidence/phase02/game-dist/assets/glowMapGeneration.vertex-alcTvPf-.js                           2.89 kB │ gzip:   0.89 kB
+../../harness/evidence/phase02/game-dist/assets/iblIcdf.fragment-CE-kyUeF.js                                   2.97 kB │ gzip:   1.05 kB
+../../harness/evidence/phase02/game-dist/assets/shadowsVertex-CVGROj_5.js                                      3.04 kB │ gzip:   0.78 kB
+../../harness/evidence/phase02/game-dist/assets/iblCdfDebug.fragment-DIrn_BEK.js                               3.05 kB │ gzip:   1.00 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphStopAnimationBlock.pure-BqIh2hdl.js                   3.10 kB │ gzip:   1.05 kB
+../../harness/evidence/phase02/game-dist/assets/prePassDeclaration-BBL-WT-H.js                                 3.29 kB │ gzip:   0.87 kB
+../../harness/evidence/phase02/game-dist/assets/shadowMap.fragment-Di-kbM2R.js                                 3.29 kB │ gzip:   1.16 kB
+../../harness/evidence/phase02/game-dist/assets/particles.fragment-B9Oyjxa4.js                                 3.35 kB │ gzip:   1.22 kB
+../../harness/evidence/phase02/game-dist/assets/tgaTextureLoader-CqhhocF6.js                                   3.40 kB │ gzip:   1.35 kB
+../../harness/evidence/phase02/game-dist/assets/engineStore-Bn2tApal.js                                        3.51 kB │ gzip:   1.21 kB
+../../harness/evidence/phase02/game-dist/assets/gaussianSplatting.fragment-CicZ9FnT.js                         3.63 kB │ gzip:   1.18 kB
+../../harness/evidence/phase02/game-dist/assets/particles.fragment-Bh1ADX9q.js                                 3.78 kB │ gzip:   1.29 kB
+../../harness/evidence/phase02/game-dist/assets/gaussianSplatting.fragment-DI3NTrZE.js                         3.84 kB │ gzip:   1.23 kB
+../../harness/evidence/phase02/game-dist/assets/samplerVertexImplementation-DUwTGCgo.js                        3.85 kB │ gzip:   1.06 kB
+../../harness/evidence/phase02/game-dist/assets/shadowMap.fragment-DDAh33WX.js                                 3.85 kB │ gzip:   1.25 kB
+../../harness/evidence/phase02/game-dist/assets/openpbrUboDeclaration-CbPGRvOI.js                              3.87 kB │ gzip:   1.03 kB
+../../harness/evidence/phase02/game-dist/assets/decorators-BS-fGYfw.js                                         3.88 kB │ gzip:   1.58 kB
+../../harness/evidence/phase02/game-dist/assets/reflectionFunction-HDr5zz8L.js                                 4.05 kB │ gzip:   0.95 kB
+../../harness/evidence/phase02/game-dist/assets/dumpTools.pure-BfpRXhJ8.js                                     4.05 kB │ gzip:   1.91 kB
+../../harness/evidence/phase02/game-dist/assets/background.vertex-DWXrG963.js                                  4.15 kB │ gzip:   1.34 kB
+../../harness/evidence/phase02/game-dist/assets/background.vertex-BrX2ERJ6.js                                  4.16 kB │ gzip:   1.43 kB
+../../harness/evidence/phase02/game-dist/assets/morphTargetsVertex-6N5r7oF1.js                                 4.37 kB │ gzip:   0.98 kB
+../../harness/evidence/phase02/game-dist/assets/shadowsVertex-C61b8WNj.js                                      4.41 kB │ gzip:   0.98 kB
+../../harness/evidence/phase02/game-dist/assets/reflectionFunction-BvFXGAfy.js                                 4.55 kB │ gzip:   1.00 kB
+../../harness/evidence/phase02/game-dist/assets/decorators.serialization-Dgv0hByw.js                           4.77 kB │ gzip:   1.80 kB
+../../harness/evidence/phase02/game-dist/assets/shadowMap.vertex-BnJ5iOBy.js                                   4.78 kB │ gzip:   1.60 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphMatrixMathBlocks.pure-D4Sy6qqa.js                     4.80 kB │ gzip:   1.48 kB
+../../harness/evidence/phase02/game-dist/assets/shadowMap.vertex-C3ngD8Pp.js                                   4.82 kB │ gzip:   1.54 kB
+../../harness/evidence/phase02/game-dist/assets/imageProcessingFunctions-B1IXC_gq.js                           4.93 kB │ gzip:   1.77 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphJsonPointerParserBlock.pure-B-oq81Ui.js               4.97 kB │ gzip:   1.86 kB
+../../harness/evidence/phase02/game-dist/assets/textureProcessor.fragment-DPHlZZ2j.js                          5.00 kB │ gzip:   1.48 kB
+../../harness/evidence/phase02/game-dist/assets/openpbrUboDeclaration-Cg4zTwyX.js                              5.22 kB │ gzip:   1.05 kB
+../../harness/evidence/phase02/game-dist/assets/ssao2.fragment-BY-nB3tp.js                                     5.36 kB │ gzip:   1.70 kB
+../../harness/evidence/phase02/game-dist/assets/fxaa.fragment-BJI4ON-J.js                                      5.55 kB │ gzip:   1.65 kB
+../../harness/evidence/phase02/game-dist/assets/imageProcessingFunctions-G8WWRV14.js                           5.66 kB │ gzip:   1.99 kB
+../../harness/evidence/phase02/game-dist/assets/textureProcessor.fragment-Cm5mxjwt.js                          6.02 kB │ gzip:   1.68 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphPlayAnimationBlock.pure-C7PpjmlF.js                   6.12 kB │ gzip:   1.94 kB
+../../harness/evidence/phase02/game-dist/assets/morphTargetsVertex-OlIh-Lzh.js                                 6.40 kB │ gzip:   1.15 kB
+../../harness/evidence/phase02/game-dist/assets/fxaa.fragment-Uh7tsKmu.js                                      6.43 kB │ gzip:   1.71 kB
+../../harness/evidence/phase02/game-dist/assets/helperFunctions-BCSryHWr.js                                    6.59 kB │ gzip:   2.21 kB
+../../harness/evidence/phase02/game-dist/assets/ssao2.fragment-CL7D8ZoJ.js                                     6.86 kB │ gzip:   1.87 kB
+../../harness/evidence/phase02/game-dist/assets/bumpFragment-C2-wQ9-m.js                                       6.87 kB │ gzip:   2.40 kB
+../../harness/evidence/phase02/game-dist/assets/dds.pure-DP77a7al.js                                           6.92 kB │ gzip:   2.52 kB
+../../harness/evidence/phase02/game-dist/assets/helperFunctions-D036MElY.js                                    6.94 kB │ gzip:   2.33 kB
+../../harness/evidence/phase02/game-dist/assets/oitFragment-XT42Jurs.js                                        7.09 kB │ gzip:   2.58 kB
+../../harness/evidence/phase02/game-dist/assets/gaussianSplatting.vertex-DqtBHkpZ.js                           7.19 kB │ gzip:   1.97 kB
+../../harness/evidence/phase02/game-dist/assets/particles.vertex-D_BLnDsG.js                                   7.19 kB │ gzip:   1.83 kB
+../../harness/evidence/phase02/game-dist/assets/buffer.pure--KiWrasq.js                                        7.56 kB │ gzip:   2.49 kB
+../../harness/evidence/phase02/game-dist/assets/bakedVertexAnimation-C6l_KSSy.js                               7.71 kB │ gzip:   1.59 kB
+../../harness/evidence/phase02/game-dist/assets/internalTexture-CcNVrk6G.js                                    7.88 kB │ gzip:   2.04 kB
+../../harness/evidence/phase02/game-dist/assets/lightsFragmentFunctions-DAnA4ndU.js                            7.91 kB │ gzip:   1.79 kB
+../../harness/evidence/phase02/game-dist/assets/geometry.vertex-DAJC2mNG.js                                    7.91 kB │ gzip:   1.94 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphVectorMathBlocks.pure-BWwU7vIa.js                     8.03 kB │ gzip:   2.49 kB
+../../harness/evidence/phase02/game-dist/assets/bumpFragment-IGBy2R-E.js                                       8.07 kB │ gzip:   2.51 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphMathCombineExtractBlocks.pure-DUVCNhpy.js             8.11 kB │ gzip:   1.14 kB
+../../harness/evidence/phase02/game-dist/assets/oitFragment-BX3jW996.js                                        8.13 kB │ gzip:   2.65 kB
+../../harness/evidence/phase02/game-dist/assets/basisTextureLoader-0IMGJYwF.js                                 8.14 kB │ gzip:   3.17 kB
+../../harness/evidence/phase02/game-dist/assets/default.vertex-COgeVFjI.js                                     8.23 kB │ gzip:   2.29 kB
+../../harness/evidence/phase02/game-dist/assets/effectRenderer.pure-C-28shsZ.js                                8.44 kB │ gzip:   2.50 kB
+../../harness/evidence/phase02/game-dist/assets/gaussianSplatting.vertex-DBYWE62C.js                           8.49 kB │ gzip:   2.14 kB
+../../harness/evidence/phase02/game-dist/assets/bakedVertexAnimation-COa3IHTL.js                               8.50 kB │ gzip:   1.57 kB
+../../harness/evidence/phase02/game-dist/assets/particles.vertex-eZDU6Srx.js                                   8.57 kB │ gzip:   1.96 kB
+../../harness/evidence/phase02/game-dist/assets/hdrFilteringFunctions-Dw0rQ8Bu.js                              8.63 kB │ gzip:   2.56 kB
+../../harness/evidence/phase02/game-dist/assets/hdrFilteringFunctions-Da1yugu7.js                              8.68 kB │ gzip:   2.51 kB
+../../harness/evidence/phase02/game-dist/assets/lightsFragmentFunctions-ijkShdtJ.js                            8.94 kB │ gzip:   1.95 kB
+../../harness/evidence/phase02/game-dist/assets/geometry.vertex-2fD_k_fr.js                                    9.10 kB │ gzip:   2.02 kB
+../../harness/evidence/phase02/game-dist/assets/cubemapToSphericalPolynomial-B2iE1icc.js                       9.33 kB │ gzip:   2.81 kB
+../../harness/evidence/phase02/game-dist/assets/default.vertex-C6g_F0Kv.js                                     9.69 kB │ gzip:   2.48 kB
+../../harness/evidence/phase02/game-dist/assets/background.fragment-BrTGkwW6.js                                9.97 kB │ gzip:   3.02 kB
+../../harness/evidence/phase02/game-dist/assets/background.fragment-Cov3Cgp9.js                               10.22 kB │ gzip:   2.95 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphBlock-B0Wmt4LS.js                                    11.12 kB │ gzip:   3.29 kB
+../../harness/evidence/phase02/game-dist/assets/geometry.fragment-D0RvdvvH.js                                 11.39 kB │ gzip:   3.15 kB
+../../harness/evidence/phase02/game-dist/assets/node-DvFJg9NL.js                                              11.51 kB │ gzip:   3.13 kB
+../../harness/evidence/phase02/game-dist/assets/constants-DlOANaVb.js                                         11.81 kB │ gzip:   3.20 kB
+../../harness/evidence/phase02/game-dist/assets/geometry.fragment-LGnRnxsA.js                                 11.91 kB │ gzip:   3.04 kB
+../../harness/evidence/phase02/game-dist/assets/pbrBRDFFunctions-BCNINF-p.js                                  11.93 kB │ gzip:   4.14 kB
+../../harness/evidence/phase02/game-dist/assets/math.color.pure-D5r_TXBe.js                                   12.50 kB │ gzip:   2.94 kB
+../../harness/evidence/phase02/game-dist/assets/pbrBRDFFunctions-DxfbxN23.js                                  12.76 kB │ gzip:   4.32 kB
+../../harness/evidence/phase02/game-dist/assets/exrTextureLoader-BE5VgCZ0.js                                  13.13 kB │ gzip:   4.82 kB
+../../harness/evidence/phase02/game-dist/assets/pbr.vertex-phR2Z5Vb.js                                        14.69 kB │ gzip:   3.13 kB
+../../harness/evidence/phase02/game-dist/assets/tools.functions-oOZN8xxJ.js                                   14.75 kB │ gzip:   5.02 kB
+../../harness/evidence/phase02/game-dist/assets/gaussianSplatting-DmdGnLWj.js                                 14.75 kB │ gzip:   4.49 kB
+../../harness/evidence/phase02/game-dist/assets/gaussianSplatting-1O9zNjSC.js                                 14.80 kB │ gzip:   4.61 kB
+../../harness/evidence/phase02/game-dist/assets/baseTexture.pure-CF2rSOJY.js                                  15.12 kB │ gzip:   3.84 kB
+../../harness/evidence/phase02/game-dist/assets/animation.pure-DexmGE17.js                                    15.33 kB │ gzip:   4.02 kB
+../../harness/evidence/phase02/game-dist/assets/ktxTextureLoader-DqokpSe-.js                                  15.39 kB │ gzip:   4.51 kB
+../../harness/evidence/phase02/game-dist/assets/pbr.vertex-6_QOYKcC.js                                        17.23 kB │ gzip:   3.64 kB
+../../harness/evidence/phase02/game-dist/assets/openpbrTransmissionLayerData-BRi1vGnu.js                      17.35 kB │ gzip:   4.01 kB
+../../harness/evidence/phase02/game-dist/assets/openpbr.vertex-CkOm56QE.js                                    17.85 kB │ gzip:   3.42 kB
+../../harness/evidence/phase02/game-dist/assets/renderingManager-IuKIQaIL.js                                  17.96 kB │ gzip:   4.86 kB
+../../harness/evidence/phase02/game-dist/assets/samplerVertexImplementation-Dwd6wrLu.js                       17.96 kB │ gzip:   2.78 kB
+../../harness/evidence/phase02/game-dist/assets/default.fragment-t0Sczv0i.js                                  18.03 kB │ gzip:   4.42 kB
+../../harness/evidence/phase02/game-dist/assets/default.fragment-DMZbSdm4.js                                  18.10 kB │ gzip:   4.63 kB
+../../harness/evidence/phase02/game-dist/assets/lightConstants-BqWd3lnj.js                                    18.23 kB │ gzip:   4.02 kB
+../../harness/evidence/phase02/game-dist/assets/postProcess.pure-rMmjlA5W.js                                  18.42 kB │ gzip:   5.06 kB
+../../harness/evidence/phase02/game-dist/assets/openpbrTransmissionLayerData-CbssVoWF.js                      18.46 kB │ gzip:   4.15 kB
+../../harness/evidence/phase02/game-dist/assets/texture.pure-CiuHPctD.js                                      19.54 kB │ gzip:   5.43 kB
+../../harness/evidence/phase02/game-dist/assets/lightFragment-CCmNhay_.js                                     20.24 kB │ gzip:   3.25 kB
+../../harness/evidence/phase02/game-dist/assets/textureProcessor-Cp-_viP6.js                                  20.43 kB │ gzip:   6.30 kB
+../../harness/evidence/phase02/game-dist/assets/flowGraphMathBlocks.pure-DWRcuBG_.js                          20.93 kB │ gzip:   4.70 kB
+../../harness/evidence/phase02/game-dist/assets/openpbr.vertex-DLXBrdP1.js                                    21.21 kB │ gzip:   4.06 kB
+../../harness/evidence/phase02/game-dist/assets/lightFragment-BVNEAWyc.js                                     25.19 kB │ gzip:   3.36 kB
+../../harness/evidence/phase02/game-dist/assets/pbrDebug-CIcfBdgN.js                                          29.50 kB │ gzip:   6.33 kB
+../../harness/evidence/phase02/game-dist/assets/renderTargetTexture.pure-DfpHKE-B.js                          32.92 kB │ gzip:   8.12 kB
+../../harness/evidence/phase02/game-dist/assets/tools.pure-BPgCnVHu.js                                        34.29 kB │ gzip:  11.07 kB
+../../harness/evidence/phase02/game-dist/assets/pbrDebug-BrNgCb26.js                                          36.72 kB │ gzip:   7.93 kB
+../../harness/evidence/phase02/game-dist/assets/shadowsFragmentFunctions-CXgXm7dh.js                          37.33 kB │ gzip:   6.15 kB
+../../harness/evidence/phase02/game-dist/assets/shadowsFragmentFunctions-Bvy43Dxm.js                          39.50 kB │ gzip:   6.62 kB
+../../harness/evidence/phase02/game-dist/assets/glTFLoaderAnimation.pure-B14NUDtx.js                          51.33 kB │ gzip:  11.96 kB
+../../harness/evidence/phase02/game-dist/assets/abstractEngine.pure-BMXHCgRa.js                               60.03 kB │ gzip:  14.75 kB
+../../harness/evidence/phase02/game-dist/assets/math.vector.pure-ClrLWsw4.js                                  64.62 kB │ gzip:  15.84 kB
+../../harness/evidence/phase02/game-dist/assets/thinEngine.pure-CAnkNCuK.js                                   68.37 kB │ gzip:  17.16 kB
+../../harness/evidence/phase02/game-dist/assets/material.pure-BjkvizpV.js                                     79.46 kB │ gzip:  20.41 kB
+../../harness/evidence/phase02/game-dist/assets/brdfTextureTools-Bh-6tf8f.js                                  80.34 kB │ gzip:  50.33 kB
+../../harness/evidence/phase02/game-dist/assets/openpbr.fragment-WcVqAokw.js                                  89.15 kB │ gzip:  17.81 kB
+../../harness/evidence/phase02/game-dist/assets/openpbr.fragment-BssGfUB5.js                                  90.90 kB │ gzip:  17.82 kB
+../../harness/evidence/phase02/game-dist/assets/openpbrMaterial.pure-CrRDqmT6.js                              92.10 kB │ gzip:  19.98 kB
+../../harness/evidence/phase02/game-dist/assets/pbr.fragment-pRHIko_K.js                                      94.04 kB │ gzip:  16.83 kB
+../../harness/evidence/phase02/game-dist/assets/pbr.fragment-CobXBhx7.js                                      97.85 kB │ gzip:  18.28 kB
+../../harness/evidence/phase02/game-dist/assets/scene.pure-K-VCpHFZ.js                                       161.52 kB │ gzip:  34.82 kB
+../../harness/evidence/phase02/game-dist/assets/index-3grMKH3G.js                                            300.38 kB │ gzip:  92.17 kB
+../../harness/evidence/phase02/game-dist/assets/game-B2HhaQ38.js                                           2,832.80 kB │ gzip: 684.59 kB
+
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 1800 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 3.12s
+
+> @neta/admin@0.2.0 build
+> vite build --outDir D:\neta-udche -3d\harness\evidence\phase02\admin-dist
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 26 modules transformed.
+
+(!) outDir D:\neta-udche -3d\harness\evidence\phase02\admin-dist is not inside project root and will not be emptied.
+Use --emptyOutDir to override.
+
+rendering chunks...
+computing gzip size...
+../../harness/evidence/phase02/admin-dist/index.html                                                      0.44 kB │ gzip:  0.35 kB
+../../harness/evidence/phase02/admin-dist/assets/noto-sans-bengali-latin-ext-400-normal-Caj59Max.woff2    6.08 kB
+../../harness/evidence/phase02/admin-dist/assets/noto-sans-bengali-latin-ext-600-normal-C6cBZc4J.woff2    6.12 kB
+../../harness/evidence/phase02/admin-dist/assets/noto-sans-bengali-latin-ext-700-normal-3-Al-97M.woff2    6.15 kB
+../../harness/evidence/phase02/admin-dist/assets/noto-sans-bengali-latin-ext-400-normal-DwoTidnb.woff     7.94 kB
+../../harness/evidence/phase02/admin-dist/assets/noto-sans-bengali-latin-ext-700-normal-BMiYGHX_.woff     8.03 kB
+../../harness/evidence/phase02/admin-dist/assets/noto-sans-bengali-latin-ext-600-normal-DY6HLMBa.woff     8.03 kB
+../../harness/evidence/phase02/admin-dist/assets/noto-sans-bengali-latin-400-normal-DiV_iq0_.woff2       10.35 kB
+../../harness/evidence/phase02/admin-dist/assets/noto-sans-bengali-latin-700-normal-DcY8RmmN.woff2       10.40 kB
+../../harness/evidence/phase02/admin-dist/assets/noto-sans-bengali-latin-600-normal-BokLars8.woff2       10.46 kB
+../../harness/evidence/phase02/admin-dist/assets/noto-sans-bengali-latin-400-normal-BNmU3xSe.woff        13.28 kB
+../../harness/evidence/phase02/admin-dist/assets/noto-sans-bengali-latin-700-normal-CBJkAOMM.woff        13.31 kB
+../../harness/evidence/phase02/admin-dist/assets/noto-sans-bengali-latin-600-normal-KNvJZft-.woff        13.33 kB
+../../harness/evidence/phase02/admin-dist/assets/noto-sans-bengali-bengali-400-normal-BFibWJDZ.woff2     44.35 kB
+../../harness/evidence/phase02/admin-dist/assets/noto-sans-bengali-bengali-600-normal-BVnGrJcL.woff2     47.63 kB
+../../harness/evidence/phase02/admin-dist/assets/noto-sans-bengali-bengali-700-normal-C0v9szhP.woff2     47.78 kB
+../../harness/evidence/phase02/admin-dist/assets/noto-sans-bengali-bengali-400-normal-BymQv2v6.woff      54.27 kB
+../../harness/evidence/phase02/admin-dist/assets/noto-sans-bengali-bengali-700-normal-DXVjD8fr.woff      56.50 kB
+../../harness/evidence/phase02/admin-dist/assets/noto-sans-bengali-bengali-600-normal-d2kw9WWz.woff      56.80 kB
+../../harness/evidence/phase02/admin-dist/assets/index-mycADR7w.css                                       8.78 kB │ gzip:  2.32 kB
+../../harness/evidence/phase02/admin-dist/assets/index-C1BQHoeS.js                                      248.42 kB │ gzip: 76.90 kB
+
+✓ built in 526ms

@@ -1,0 +1,17 @@
+{
+  "edition": [
+    375,
+    375
+  ],
+  "font": true,
+  "image": [
+    true,
+    640,
+    360
+  ],
+  "replacement": false,
+  "viewport": [
+    390,
+    845
+  ]
+}

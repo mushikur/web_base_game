@@ -1,0 +1,30 @@
+[
+  {
+    "name": "asphalt",
+    "color": "asphalt-color.webp",
+    "normal": "asphalt-normal.webp",
+    "orm": "asphalt-orm.webp",
+    "source": "Imagegen reference-derived original atlas; computed normal and ORM maps are approximations, not scanned PBR measurements."
+  },
+  {
+    "name": "plaster",
+    "color": "plaster-color.webp",
+    "normal": "plaster-normal.webp",
+    "orm": "plaster-orm.webp",
+    "source": "Imagegen reference-derived original atlas; computed normal and ORM maps are approximations, not scanned PBR measurements."
+  },
+  {
+    "name": "cng-enamel",
+    "color": "cng-enamel-color.webp",
+    "normal": "cng-enamel-normal.webp",
+    "orm": "cng-enamel-orm.webp",
+    "source": "Imagegen reference-derived original atlas; computed normal and ORM maps are approximations, not scanned PBR measurements."
+  },
+  {
+    "name": "rickshaw-art",
+    "color": "rickshaw-art-color.webp",
+    "normal": "rickshaw-art-normal.webp",
+    "orm": "rickshaw-art-orm.webp",
+    "source": "Imagegen reference-derived original atlas; computed normal and ORM maps are approximations, not scanned PBR measurements."
+  }
+]

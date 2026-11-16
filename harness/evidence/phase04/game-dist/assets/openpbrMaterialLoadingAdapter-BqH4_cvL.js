@@ -1,0 +1,1 @@
+export{x as OpenPBRMaterialLoadingAdapter}from"./game-ChS7MJIz.js";

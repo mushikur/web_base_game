@@ -1,0 +1,16 @@
+BJS - [23:54:35]: Babylon.js v9.33.1 - Null engine
+BJS - [23:54:35]: Babylon.js v9.33.1 - Null engine
+BJS - [23:54:35]: Babylon.js v9.33.1 - Null engine
+BJS - [23:54:35]: Babylon.js v9.33.1 - Null engine
+✔ tea-shop camera retracts before the side wall at the observed grazing position (35.9118ms)
+✔ the observed tight tea counter cannot push the retracted camera through its near surface (3.8327ms)
+✔ sub-minimum ray hits resolve before the wall and avatar opacity restores only after clearance (3.9548ms)
+✔ camera bounds retain the authored wall's world height and are independent of batching (2.9934ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1257.0421

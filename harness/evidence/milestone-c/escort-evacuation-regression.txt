@@ -1,0 +1,22 @@
+✔ all four outer approaches back away and bypass a live obstruction into the original aligned bay (101.7679ms)
+✔ all four outer departures keep a standing road blocker intact and reach the same observed exit (387.5598ms)
+✔ the hub northern junction has a checked early-obstruction approach without crossing the median or bus (107.8764ms)
+✔ the hub departure uses the actual junction around a person and observes the original exit (850.5685ms)
+✔ a solid hub median-lane obstruction waits honestly and resumes only after it is removed (79.2032ms)
+✔ full rotated body detects thin posts, inside-body NPCs and conservative walking detours (1.8096ms)
+✔ all5 authored ambulance approaches clear their complete actual body footprint (142.047ms)
+✔ each real area can evacuate a leader from its dais/escape position via actual body-safe doors (3277.0108ms)
+✔ an occupied actual hub bay waits until the worker really yields to the approaching siren (3724.5711ms)
+✔ all5 full evacuations and every hub cover/escape anchor retain real crew occupancy (76697.3994ms)
+✔ ambulance completes exactly once only after actual assistance, loading, door closure and observed exit (35.3223ms)
+✔ blocked vehicle route waits indefinitely and resumes only when actually clear (19.4662ms)
+✔ blocked rear door cannot complete loading, and pause freezes every actor and stage clock (33.7205ms)
+✔ cancel/retry resets only the intended request token, while invalid routes cannot start (0.3995ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 84297.2939

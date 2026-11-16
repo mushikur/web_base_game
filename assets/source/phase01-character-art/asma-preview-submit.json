@@ -1,0 +1,25 @@
+{
+  "schema_version": "meshy.cli/v1",
+  "command": "text-to-3d.create",
+  "ok": false,
+  "result": null,
+  "error": {
+    "code": "credit",
+    "message": "meshy api 402 on /text-to-3d: Task creation on the free plan is no longer supported. To continue creating tasks, please upgrade your plan. You can manage your plan at https://www.meshy.ai/settings/subscription",
+    "http_status": 402,
+    "retryable": false,
+    "recovery": {
+      "action": "top_up",
+      "automatic": false,
+      "command": "meshy balance"
+    },
+    "hint": "Out of credits. Confirm with: meshy balance — then top up at https://www.meshy.ai/pricing",
+    "details": {
+      "path": "/text-to-3d",
+      "body": {
+        "message": "Task creation on the free plan is no longer supported. To continue creating tasks, please upgrade your plan. You can manage your plan at https://www.meshy.ai/settings/subscription"
+      }
+    }
+  },
+  "warnings": []
+}

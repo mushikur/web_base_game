@@ -1,0 +1,53 @@
+
+> neta-uthche@0.1.0 test
+> node --experimental-strip-types --test tests/*.test.ts
+
+✔ shipped GLB contains a complete skinned slice character and required motions (53.5188ms)
+✔ MP3 validation requires a framed stream instead of an incidental sync sequence (2.612ms)
+✔ audio administration authenticates, validates uploads and persists real publish/rollback (669.7243ms)
+✔ audio settings recover malformed storage and keep every bus independently bounded (6.1577ms)
+✔ actual gait-phase crossings produce alternating contacts without timers or idle steps (8.004ms)
+✔ surface audio follows the street's actual surface patches and wall occlusion (4.7459ms)
+✔ all original audio bank entries are audible local PCM with bounded download size (177.7088ms)
+BJS - [23:00:11]: Babylon.js v9.33.1 - Null engine
+BJS - [23:00:11]: Babylon.js v9.33.1 - Null engine
+✔ tea-shop camera retracts before the side wall at the observed grazing position (19.6451ms)
+✔ camera bounds retain the authored wall's world height and are independent of batching (2.6859ms)
+✔ FPS uses elapsed time, excludes hidden/resume gaps and bounds its view (1.4977ms)
+✔ photo-led materials ship complete local PBR sets within the mobile download budget (42.188ms)
+✔ civilian hits never award mission points (1.3207ms)
+✔ projectile trajectory reaches its target under gravity (0.4345ms)
+✔ street colliders block inflated footprints but allow clear pavement (0.3041ms)
+✔ Bengali Unicode survives content and numeral formatting (49.0223ms)
+✔ spawn seed is atomic/create-only and invalid stored data is preserved without touching audio (49.078ms)
+✔ public spawn read needs no Admin setup and survives audio publication, rollback and restart (166.6564ms)
+✔ footprint clearance rejects navigation edges, obstruction corners, water overlap and invalid geometry (2.8254ms)
+✔ all current and future occupancy categories exclude the full player footprint (0.4857ms)
+✔ trusted factory publication rejects client approval, unknown points, y and mismatched world (7.117ms)
+✔ finite injectable shuffle chooses only safe trusted points and reports all occupied (1.2107ms)
+✔ all curated starts clear authored southern street buildings, parked vehicles, poles and enlarged puddles (0.817ms)
+✔ pause during pending bootstrap cannot start stale audio, and resume restores cached layers (66.4497ms)
+✔ first brick and mud contacts use bootstrap-decoded buffers even when their initial download was slow (6.4641ms)
+✔ published enabled, file and volume changes reconcile active traffic, CNG and rain layers (10.472ms)
+✔ music edits published while paused apply on resume after the context unlocks (6.0642ms)
+✔ non-loop playlist fades naturally, advances once and remains finished after its final track (6.4405ms)
+✔ overlapping and replaced previews preserve paused world gates and only the latest audition (16.5396ms)
+✔ a suppressed voice does not consume its repetition limit before a source actually starts (4.2303ms)
+✔ WebAudio listener and source coordinates convert Dhaka world Z consistently (4.9065ms)
+✔ category auditions play enabled published speech and effects at configured gains without booting the world (7.8166ms)
+✔ missing enabled category audition reports Bengali and never substitutes the menu beep (2.6215ms)
+✔ replacement speech waits for decoding and equal-priority speech preserves the current sentence (5.3131ms)
+✔ one impact keeps combat FX but selects one prioritized mouth-positioned voice and preserves wall occlusion (5.9547ms)
+✔ ambient conversation, stage slogans and microphone originate at authored speech heights (9.1899ms)
+✔ tutorial advances ten Bengali lessons only from ordered actual observations (5.8588ms)
+✔ blocked, invalid and non-running motion cannot falsely pass movement lessons (0.475ms)
+✔ empty pickup, unavailable selection, empty use and exit without entry do not advance (0.3492ms)
+✔ Skip, completed preference, version repair and replay stay separate from audio data (3.0326ms)
+ℹ tests 39
+ℹ suites 0
+ℹ pass 39
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1837.1853

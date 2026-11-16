@@ -1,0 +1,1 @@
+export{h as _RegisterKHRAnimationPointerData}from"./game-DMs-4WE-.js";

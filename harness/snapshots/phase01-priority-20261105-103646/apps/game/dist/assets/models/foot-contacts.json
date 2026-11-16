@@ -1,0 +1,29 @@
+{
+  "method": "Actual GLB sole vertices, authored 17-joint leg FK, minimum in each stance half-cycle",
+  "contacts": {
+    "Walk": [
+      {
+        "foot": "R",
+        "phase": 0.25,
+        "soleMinimumY": -0.03359
+      },
+      {
+        "foot": "L",
+        "phase": 0.75,
+        "soleMinimumY": -0.03359
+      }
+    ],
+    "Run": [
+      {
+        "foot": "R",
+        "phase": 0.25,
+        "soleMinimumY": 0.0143
+      },
+      {
+        "foot": "L",
+        "phase": 0.75,
+        "soleMinimumY": 0.0143
+      }
+    ]
+  }
+}

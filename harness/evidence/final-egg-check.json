@@ -1,0 +1,48 @@
+{
+  "runtime": {
+    "fpsAverage": 59.98493613790607,
+    "fpsSampleCount": 600,
+    "meshes": 173,
+    "activeMeshes": 68,
+    "drawCalls": 163,
+    "position": [
+      0,
+      0,
+      -4.576950000006713
+    ],
+    "cameraPosition": [
+      0,
+      3.71,
+      -9.576950000006713
+    ],
+    "skeletons": 10,
+    "animationGroups": 50,
+    "physics": true,
+    "audio": "running",
+    "ready": true,
+    "playing": true,
+    "paused": false,
+    "score": 5,
+    "health": 100,
+    "egg": 5,
+    "sandal": 0,
+    "selected": "egg",
+    "message": "লেগেছে! +৫ পয়েন্ট",
+    "subtitle": "কমল কমিটি: প্রতিশ্রুতি দিলাম, আর রাস্তা আটকাব না!",
+    "target": "কমল কমিটি",
+    "targetHealth": 75,
+    "fps": 59,
+    "x": 0,
+    "z": -4.576950000006713,
+    "yaw": 0,
+    "nearPickup": true,
+    "throws": 1,
+    "hits": 1,
+    "civilianHits": 0,
+    "quality": "mobile",
+    "evening": false,
+    "muted": false,
+    "error": ""
+  },
+  "logs": []
+}

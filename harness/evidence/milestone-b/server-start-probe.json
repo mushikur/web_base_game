@@ -1,0 +1,130 @@
+{
+  "checkedAt": "2026-11-03T17:21:04.360Z",
+  "audioContentUnchanged": true,
+  "after": [
+    {
+      "path": "var/game/content.json",
+      "hash": "165595C81DC7DD8EB2EDEA9BEA08468FE8F8AAD09BC970BC2B08CA28880CE23B"
+    },
+    {
+      "path": "var/qa-audio-20261103/content.json",
+      "hash": "DBD6F4E6703348162FE91080F1679418739EEC3D0D607E91534F4E6B43F1BDAC"
+    }
+  ],
+  "services": [
+    {
+      "port": 4300,
+      "home": 200,
+      "spawns": 200,
+      "source": "factory",
+      "revision": 1,
+      "locations": [
+        {
+          "id": "west-south",
+          "name": "পশ্চিম ফুটপাতের দক্ষিণ",
+          "enabled": true,
+          "x": -6.3,
+          "z": -16,
+          "facing": 0
+        },
+        {
+          "id": "east-south",
+          "name": "পূর্ব ফুটপাতের দক্ষিণ",
+          "enabled": true,
+          "x": 6.3,
+          "z": -16,
+          "facing": 0
+        },
+        {
+          "id": "west-middle",
+          "name": "পশ্চিম ফুটপাতের মাঝামাঝি",
+          "enabled": true,
+          "x": -6.3,
+          "z": -11,
+          "facing": 0
+        },
+        {
+          "id": "east-middle",
+          "name": "পূর্ব ফুটপাতের মাঝামাঝি",
+          "enabled": true,
+          "x": 6.3,
+          "z": -11,
+          "facing": 0
+        },
+        {
+          "id": "west-north",
+          "name": "পশ্চিম ফুটপাতের সামনের অংশ",
+          "enabled": true,
+          "x": -6.3,
+          "z": -9,
+          "facing": 0
+        },
+        {
+          "id": "east-north",
+          "name": "পূর্ব ফুটপাতের সামনের অংশ",
+          "enabled": true,
+          "x": 6.3,
+          "z": -9,
+          "facing": 0
+        }
+      ]
+    },
+    {
+      "port": 4301,
+      "home": 200,
+      "spawns": 200,
+      "source": "factory",
+      "revision": 1,
+      "locations": [
+        {
+          "id": "west-south",
+          "name": "পশ্চিম ফুটপাতের দক্ষিণ",
+          "enabled": true,
+          "x": -6.3,
+          "z": -16,
+          "facing": 0
+        },
+        {
+          "id": "east-south",
+          "name": "পূর্ব ফুটপাতের দক্ষিণ",
+          "enabled": true,
+          "x": 6.3,
+          "z": -16,
+          "facing": 0
+        },
+        {
+          "id": "west-middle",
+          "name": "পশ্চিম ফুটপাতের মাঝামাঝি",
+          "enabled": true,
+          "x": -6.3,
+          "z": -11,
+          "facing": 0
+        },
+        {
+          "id": "east-middle",
+          "name": "পূর্ব ফুটপাতের মাঝামাঝি",
+          "enabled": true,
+          "x": 6.3,
+          "z": -11,
+          "facing": 0
+        },
+        {
+          "id": "west-north",
+          "name": "পশ্চিম ফুটপাতের সামনের অংশ",
+          "enabled": true,
+          "x": -6.3,
+          "z": -9,
+          "facing": 0
+        },
+        {
+          "id": "east-north",
+          "name": "পূর্ব ফুটপাতের সামনের অংশ",
+          "enabled": true,
+          "x": 6.3,
+          "z": -9,
+          "facing": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "pid": 7188,
+  "mongoPid": 7040,
+  "health": {
+    "ok": true,
+    "testMode": false
+  },
+  "game": 200,
+  "admin": 200,
+  "primaryAudioSha256": "165595C81DC7DD8EB2EDEA9BEA08468FE8F8AAD09BC970BC2B08CA28880CE23B"
+}

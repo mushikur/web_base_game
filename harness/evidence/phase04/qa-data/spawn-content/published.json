@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "worldVersion": "dhaka-street-1",
+  "revision": 1,
+  "source": "factory",
+  "publication": {
+    "id": "factory-dhaka-street-1",
+    "at": "2026-11-03T00:00:00.000Z",
+    "by": "প্রকল্পের মৌলিক প্রকাশনা"
+  },
+  "locations": [
+    {
+      "id": "west-south",
+      "name": "পশ্চিম ফুটপাতের দক্ষিণ",
+      "enabled": true,
+      "x": -6.3,
+      "z": -16,
+      "facing": 0
+    },
+    {
+      "id": "east-south",
+      "name": "পূর্ব ফুটপাতের দক্ষিণ",
+      "enabled": true,
+      "x": 6.3,
+      "z": -16,
+      "facing": 0
+    },
+    {
+      "id": "west-middle",
+      "name": "পশ্চিম ফুটপাতের মাঝামাঝি",
+      "enabled": true,
+      "x": -6.3,
+      "z": -11,
+      "facing": 0
+    },
+    {
+      "id": "east-middle",
+      "name": "পূর্ব ফুটপাতের মাঝামাঝি",
+      "enabled": true,
+      "x": 6.3,
+      "z": -11,
+      "facing": 0
+    },
+    {
+      "id": "west-north",
+      "name": "পশ্চিম ফুটপাতের সামনের অংশ",
+      "enabled": true,
+      "x": -6.3,
+      "z": -9,
+      "facing": 0
+    },
+    {
+      "id": "east-north",
+      "name": "পূর্ব ফুটপাতের সামনের অংশ",
+      "enabled": true,
+      "x": 6.3,
+      "z": -9,
+      "facing": 0
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "fpsAverage": 60.13075815739131,
+  "fpsSampleCount": 401,
+  "fpsSampleDurationMs": 6668.799999999814,
+  "fpsMethod": "visible frame count / elapsed frame time",
+  "pageVisible": true,
+  "playerMotionsSeen": [
+    "Idle"
+  ],
+  "cameraPerspective": true,
+  "cameraDistance": 4.8,
+  "hdrReady": true,
+  "ambientOcclusion": true,
+  "actorStates": [
+    {
+      "name": "সজল পথিক",
+      "role": "civilian",
+      "animation": "Idle",
+      "localGarments": []
+    },
+    {
+      "name": "বজলু প্রতিশ্রুতি",
+      "role": "leader",
+      "animation": "Idle",
+      "localGarments": [
+        "বজলু প্রতিশ্রুতি/Optional moustache",
+        "বজলু প্রতিশ্রুতি/Woven cotton optional tunic"
+      ]
+    },
+    {
+      "name": "পল্টু পোস্টার",
+      "role": "worker",
+      "animation": "Idle",
+      "localGarments": []
+    },
+    {
+      "name": "মন্টু মাইক",
+      "role": "worker",
+      "animation": "Idle",
+      "localGarments": []
+    },
+    {
+      "name": "কমল কমিটি",
+      "role": "worker",
+      "animation": "Idle",
+      "localGarments": []
+    },
+    {
+      "name": "রহিম চাচা",
+      "role": "civilian",
+      "animation": "Walk",
+      "localGarments": []
+    },
+    {
+      "name": "আসমা আপা",
+      "role": "civilian",
+      "animation": "Walk",
+      "localGarments": [
+        "আসমা আপা/Woven cotton optional tunic",
+        "আসমা আপা/Optional woven dupatta",
+        "আসমা আপা/Optional long hair"
+      ]
+    },
+    {
+      "name": "জয়নাল ভাই",
+      "role": "civilian",
+      "animation": "Walk",
+      "localGarments": [
+        "জয়নাল ভাই/Optional moustache"
+      ]
+    },
+    {
+      "name": "নীলা",
+      "role": "civilian",
+      "animation": "Idle",
+      "localGarments": [
+        "নীলা/Woven cotton optional tunic",
+        "নীলা/Optional woven dupatta",
+        "নীলা/Optional long hair"
+      ]
+    },
+    {
+      "name": "চা-মামা কুদ্দুস",
+      "role": "civilian",
+      "animation": "Idle",
+      "localGarments": [
+        "চা-মামা কুদ্দুস/Optional moustache"
+      ]
+    }
+  ],
+  "meshes": 277,
+  "activeMeshes": 141,
+  "drawCalls": 255,
+  "position": [
+    0,
+    0,
+    -9
+  ],
+  "cameraPosition": [
+    -3.092244898740917,
+    2.4939999999999998,
+    -12.671242498965544
+  ],
+  "skeletons": 10,
+  "animationGroups": 60,
+  "physics": true,
+  "audio": "running",
+  "audioDetails": {
+    "state": "running",
+    "unlocked": true,
+    "catalogSource": "published",
+    "revision": 6,
+    "context": "exploration",
+    "activeVoices": 4,
+    "music": {
+      "trackId": "track-exploration",
+      "assetId": "music-exploration",
+      "configuredVolume": 0.55,
+      "gain": 0.550000011920929,
+      "loop": true
+    },
+    "loops": [
+      {
+        "id": "traffic",
+        "assetId": "traffic",
+        "category": "environment",
+        "gain": 0.18000000715255737
+      },
+      {
+        "id": "cng",
+        "assetId": "cng",
+        "category": "vehicles",
+        "gain": 0.15000000596046448
+      }
+    ],
+    "repetitions": {
+      "cue-bell": 1,
+      "cue-tea": 1,
+      "cue-microphone": 1
+    },
+    "outputRms": 0.0037231398146764408,
+    "dropped": 0,
+    "eventCounts": {
+      "music-exploration": 1,
+      "footstep": 10,
+      "bell": 1,
+      "tea": 1,
+      "microphone": 1
+    },
+    "recent": [
+      {
+        "event": "music-exploration",
+        "at": 0.021333333333333333
+      },
+      {
+        "event": "footstep",
+        "at": 0.7413333333333333,
+        "surface": "concrete",
+        "frame": 15.326666942543339,
+        "foot": "নীলা:R"
+      },
+      {
+        "event": "footstep",
+        "at": 1.512,
+        "surface": "concrete",
+        "frame": 15.046253578084004,
+        "foot": "আসমা আপা:R"
+      },
+      {
+        "event": "footstep",
+        "at": 2.1706666666666665,
+        "surface": "concrete",
+        "frame": 15.131576197936923,
+        "foot": "রহিম চাচা:R"
+      },
+      {
+        "event": "footstep",
+        "at": 2.2106666666666666,
+        "surface": "concrete",
+        "frame": 45.110341906735805,
+        "foot": "নীলা:L"
+      },
+      {
+        "event": "bell",
+        "at": 3.010666666666667
+      },
+      {
+        "event": "footstep",
+        "at": 3.2453333333333334,
+        "surface": "concrete",
+        "frame": 45.12068444797442,
+        "foot": "আসমা আপা:L"
+      },
+      {
+        "event": "footstep",
+        "at": 3.8106666666666666,
+        "surface": "concrete",
+        "frame": 15.05880168174744,
+        "foot": "নীলা:R"
+      },
+      {
+        "event": "footstep",
+        "at": 3.912,
+        "surface": "concrete",
+        "frame": 45.26206117594499,
+        "foot": "রহিম চাচা:L"
+      },
+      {
+        "event": "footstep",
+        "at": 4.72,
+        "surface": "concrete",
+        "frame": 15.319222225743346,
+        "foot": "আসমা আপা:R"
+      },
+      {
+        "event": "tea",
+        "at": 5.021333333333334
+      },
+      {
+        "event": "footstep",
+        "at": 5.370666666666667,
+        "surface": "concrete",
+        "frame": 15.145385497897408,
+        "foot": "রহিম চাচা:R"
+      },
+      {
+        "event": "microphone",
+        "at": 6.021333333333334
+      },
+      {
+        "event": "footstep",
+        "at": 6.381333333333333,
+        "surface": "concrete",
+        "frame": 45.25602581935493,
+        "foot": "আসমা আপা:L"
+      }
+    ],
+    "settings": {
+      "master": {
+        "volume": 0.75,
+        "muted": false
+      },
+      "music": {
+        "volume": 0.23,
+        "muted": false
+      },
+      "environment": {
+        "volume": 0.75,
+        "muted": false
+      },
+      "footsteps": {
+        "volume": 0.75,
+        "muted": false
+      },
+      "vehicles": {
+        "volume": 0.75,
+        "muted": false
+      },
+      "combat": {
+        "volume": 0.75,
+        "muted": false
+      },
+      "voices": {
+        "volume": 0.75,
+        "muted": false
+      },
+      "crowd": {
+        "volume": 0.75,
+        "muted": false
+      },
+      "interface": {
+        "volume": 0.75,
+        "muted": false
+      }
+    },
+    "lastError": ""
+  },
+  "ready": true,
+  "playing": true,
+  "paused": false,
+  "score": 0,
+  "health": 100,
+  "egg": 0,
+  "sandal": 0,
+  "selected": "egg",
+  "message": "রাস্তা খুলুন, পথচারীদের ছাড়ুন।",
+  "subtitle": "",
+  "target": "",
+  "targetHealth": 100,
+  "fps": 60,
+  "x": 0,
+  "z": -9,
+  "yaw": 0.7,
+  "nearPickup": false,
+  "throws": 0,
+  "hits": 0,
+  "civilianHits": 0,
+  "quality": "desktop",
+  "evening": false,
+  "muted": false,
+  "error": ""
+}

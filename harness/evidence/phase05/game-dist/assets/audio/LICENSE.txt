@@ -1,0 +1,3 @@
+নেতা উঠছে! — Original project audio.
+All WAV files in this generated bank are original mathematical synthesis and original compositions, not third-party samples or commercial songs.
+Editable source: assets/source/generate-audio.mjs. Supplied with the project for the user's use and editing. Character speech is not included in this synthesized Foley/music bank.

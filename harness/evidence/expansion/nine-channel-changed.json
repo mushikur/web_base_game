@@ -1,0 +1,38 @@
+{
+  "master": {
+    "volume": 0,
+    "muted": false
+  },
+  "music": {
+    "volume": 1,
+    "muted": false
+  },
+  "environment": {
+    "volume": 0,
+    "muted": true
+  },
+  "footsteps": {
+    "volume": 1,
+    "muted": false
+  },
+  "vehicles": {
+    "volume": 0,
+    "muted": true
+  },
+  "combat": {
+    "volume": 1,
+    "muted": false
+  },
+  "voices": {
+    "volume": 0,
+    "muted": true
+  },
+  "crowd": {
+    "volume": 1,
+    "muted": false
+  },
+  "interface": {
+    "volume": 0,
+    "muted": true
+  }
+}

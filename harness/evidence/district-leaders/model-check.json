@@ -1,0 +1,47 @@
+[
+  {
+    "name": "dhaka-leader-committee-lane.glb",
+    "bytes": 892660,
+    "sameRig": true,
+    "originalClips": true,
+    "customSpeech": "Speech",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "name": "dhaka-leader-microphone-square.glb",
+    "bytes": 852976,
+    "sameRig": true,
+    "originalClips": true,
+    "customSpeech": "Speech",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "name": "dhaka-leader-poster-quarter.glb",
+    "bytes": 986240,
+    "sameRig": true,
+    "originalClips": true,
+    "customSpeech": "Speech",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "name": "dhaka-leader-power-house.glb",
+    "bytes": 986248,
+    "sameRig": true,
+    "originalClips": true,
+    "customSpeech": "Speech",
+    "errors": 0,
+    "warnings": 0
+  },
+  {
+    "name": "dhaka-leader-promise-junction.glb",
+    "bytes": 1002144,
+    "sameRig": true,
+    "originalClips": true,
+    "customSpeech": "Speech",
+    "errors": 0,
+    "warnings": 0
+  }
+]

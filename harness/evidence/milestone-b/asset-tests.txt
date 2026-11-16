@@ -1,0 +1,12 @@
+✔ shipped GLB contains a complete skinned slice character and required motions (14.6268ms)
+✔ boarding adds clips without modifying accepted character geometry, rig or six old motions (15.1943ms)
+✔ boarding clips contain timed, finite, normalized animation of the existing skeleton (2.8145ms)
+✔ entering reaches the folded seated pose, seated loops, and exit unfolds continuously (2.3151ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 259.6171

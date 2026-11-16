@@ -1,0 +1,74 @@
+{
+  "at": "2026-11-03T17:44:53.882Z",
+  "audioContentUnchanged": true,
+  "audioContentHashes": [
+    {
+      "path": "var/game/content.json",
+      "sha256": "165595c81dc7dd8eb2edea9bea08468fe8f8aad09bc970bc2b08ca28880ce23b"
+    },
+    {
+      "path": "var/qa-audio-20261103/content.json",
+      "sha256": "dbd6f4e6703348162fe91080f1679418739eec3d0d607e91534f4e6b43f1bdac"
+    }
+  ],
+  "services": [
+    {
+      "port": 4300,
+      "htmlStatus": 200,
+      "htmlSha256": "e9ea085479e4ba78d17ab5b7119b33d513a44939024199e633e9d58efb690705",
+      "assets": [
+        {
+          "asset": "/assets/index-CmxIvYoq.js",
+          "status": 200,
+          "bytes": 272023,
+          "sha256": "d8f78bf248e97db501538c451cc6bdc9126dde75ac85680b67474d0d40f1b9dc"
+        },
+        {
+          "asset": "/assets/rolldown-runtime-XKyaHtl9.js",
+          "status": 200,
+          "bytes": 726,
+          "sha256": "548d1dbf321e7d2ae804fcc158b588706a7c52f8ca175de1490c6ccb4dbe55b7"
+        },
+        {
+          "asset": "/assets/index-hKJLPJH0.css",
+          "status": 200,
+          "bytes": 34973,
+          "sha256": "6d9a50e8bfa3b3235a2001312ab5ef406748b5c5fb81b520c6cdad45c13f6e6e"
+        }
+      ],
+      "spawnSource": "factory",
+      "spawnRevision": 1,
+      "spawnCount": 6,
+      "audioRevision": 1
+    },
+    {
+      "port": 4301,
+      "htmlStatus": 200,
+      "htmlSha256": "e9ea085479e4ba78d17ab5b7119b33d513a44939024199e633e9d58efb690705",
+      "assets": [
+        {
+          "asset": "/assets/index-CmxIvYoq.js",
+          "status": 200,
+          "bytes": 272023,
+          "sha256": "d8f78bf248e97db501538c451cc6bdc9126dde75ac85680b67474d0d40f1b9dc"
+        },
+        {
+          "asset": "/assets/rolldown-runtime-XKyaHtl9.js",
+          "status": 200,
+          "bytes": 726,
+          "sha256": "548d1dbf321e7d2ae804fcc158b588706a7c52f8ca175de1490c6ccb4dbe55b7"
+        },
+        {
+          "asset": "/assets/index-hKJLPJH0.css",
+          "status": 200,
+          "bytes": 34973,
+          "sha256": "6d9a50e8bfa3b3235a2001312ab5ef406748b5c5fb81b520c6cdad45c13f6e6e"
+        }
+      ],
+      "spawnSource": "factory",
+      "spawnRevision": 1,
+      "spawnCount": 6,
+      "audioRevision": 6
+    }
+  ]
+}

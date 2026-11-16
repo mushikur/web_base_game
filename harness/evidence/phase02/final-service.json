@@ -1,0 +1,17 @@
+{
+  "previewStatus": 200,
+  "expectedBuild": true,
+  "actionBankStatus": 200,
+  "actionBankSha": "A5D50D97F7D171DEA9FD19384CC059D4440C9CE7F6090D16EF3309A2AAF4F0EE",
+  "priorContentSha": "165595C81DC7DD8EB2EDEA9BEA08468FE8F8AAD09BC970BC2B08CA28880CE23B",
+  "phase01BundlePreserved": true,
+  "run": {
+    "fps": 48.283909387196715,
+    "imageLength": 37999,
+    "photoCount": 1,
+    "bestCombo": 3,
+    "score": 76,
+    "completed": 5,
+    "frames": 600
+  }
+}

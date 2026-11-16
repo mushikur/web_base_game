@@ -1,0 +1,43 @@
+{
+  "kind": "Read-only latest production HTTP delivery probe after voice clarity fix; not browser or listening verification",
+  "startedAt": "2026-11-03T09:46:24.149Z",
+  "completedAt": "2026-11-03T09:46:39.298Z",
+  "scope": "GET/HEAD only; no account, session, content, data directory mutation or service restart. Evidence backup and JSON are the only filesystem writes.",
+  "previousProbeArchive": {
+    "path": "server-production-probe-before-voice-fix.json",
+    "status": "created"
+  },
+  "services": [
+    {
+      "port": 4300,
+      "pass": false,
+      "error": "TypeError: fetch failed",
+      "retry": {
+        "error": "fetch failed",
+        "cause": {
+          "name": "Error",
+          "message": "connect ECONNREFUSED 127.0.0.1:4300",
+          "code": "ECONNREFUSED",
+          "address": "127.0.0.1",
+          "port": 4300
+        }
+      }
+    },
+    {
+      "port": 4301,
+      "pass": false,
+      "error": "TypeError: fetch failed",
+      "retry": {
+        "error": "fetch failed",
+        "cause": {
+          "name": "Error",
+          "message": "connect ECONNREFUSED 127.0.0.1:4301",
+          "code": "ECONNREFUSED",
+          "address": "127.0.0.1",
+          "port": 4301
+        }
+      }
+    }
+  ],
+  "allPassed": false
+}

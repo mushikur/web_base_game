@@ -1,0 +1,6 @@
+Fictional Bengali voice clips. Original fictional text and synthesized speech adaptation for Neta Uthche. No politician or party recording, logo or impersonation.
+These speech clips are distributed under Creative Commons Attribution-ShareAlike 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/), retaining the source model card and CMU notice in /assets/licenses/Bengali-Piper-model-card.txt.
+Model: rhasspy/piper-voices bn/bn_BD/google/medium, 16 speakers; authoring uses anonymous speaker IDs 0,4,8,11, not named public figures.
+Source: https://huggingface.co/rhasspy/piper-voices/tree/main/bn/bn_BD/google/medium ; data: https://www.openslr.org/37/ and http://festvox.org/cmu_indic/index.html .
+Changes: new fictional Bengali scripts, offline synthesis, separated per-event clips. No commercial music or copied game dialogue.
+Editable source: assets/source/generate-voices.mjs.

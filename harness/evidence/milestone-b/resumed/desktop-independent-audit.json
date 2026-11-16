@@ -1,0 +1,125 @@
+{
+  "auditedAt": "2026-11-03T18:43:40.520Z",
+  "sourceFiles": [
+    "desktop-idle-cycle-timed.json",
+    "desktop-foreground.json"
+  ],
+  "build": {
+    "entry": "/assets/index-CSdJS6tH.js",
+    "changeScope": "simulationTime diagnostic addition; no gameplay change per source audit"
+  },
+  "functionalIdle": {
+    "pass": true,
+    "spawn": "west-south",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "quality": "desktop",
+    "hdrReady": true,
+    "ambientOcclusion": true,
+    "initialPlayerPosition": [
+      -6.3,
+      0.2,
+      -16
+    ],
+    "allSavedPlayerPositionsIdentical": true,
+    "allSavedControlsCleared": true,
+    "simulationSeconds": 26.955999999992486,
+    "requiredPatrolSeconds": 19.634954084936208,
+    "wallSeconds": 27.148,
+    "samples": 6,
+    "minimumSavedNpcClearance": 7.542020697453347,
+    "requiredCentreClearance": 1,
+    "movingCivilians": [
+      {
+        "name": "রহিম চাচা",
+        "role": "civilian",
+        "minZ": -8.460631578121768,
+        "maxZ": -5.507468858204475,
+        "observedRangeZ": 2.9531627199172936
+      },
+      {
+        "name": "আসমা আপা",
+        "role": "civilian",
+        "minZ": 4.359651220388763,
+        "maxZ": 7.2999399389567285,
+        "observedRangeZ": 2.940288718567966
+      },
+      {
+        "name": "জয়নাল ভাই",
+        "role": "civilian",
+        "minZ": 6.692405858444966,
+        "maxZ": 9.438738454943595,
+        "observedRangeZ": 2.746332596498629
+      },
+      {
+        "name": "নীলা",
+        "role": "civilian",
+        "minZ": -11.38619020208928,
+        "maxZ": -8.87377607053859,
+        "observedRangeZ": 2.51241413155069
+      }
+    ],
+    "clearanceSamples": [
+      {
+        "label": "desktop-cycle-0",
+        "simulationTime": 169.72610000001194,
+        "distance": 7.616260062934418
+      },
+      {
+        "label": "desktop-cycle-1",
+        "simulationTime": 175.12250000001055,
+        "distance": 8.652036144175534
+      },
+      {
+        "label": "desktop-cycle-2",
+        "simulationTime": 180.45580000001132,
+        "distance": 10.49443708645437
+      },
+      {
+        "label": "desktop-cycle-3",
+        "simulationTime": 185.96790000000524,
+        "distance": 8.862596466870471
+      },
+      {
+        "label": "desktop-cycle-4",
+        "simulationTime": 191.30280000000744,
+        "distance": 7.542020697453347
+      },
+      {
+        "label": "desktop-cycle-5",
+        "simulationTime": 196.68210000000443,
+        "distance": 9.558742644943026
+      }
+    ],
+    "limitation": "Clearance is recomputed at six saved runtime observations; continuous no-intersection claim also relies on previously tested conservative entire patrol envelopes."
+  },
+  "foregroundFps": {
+    "allSavedWindowFocusTrue": true,
+    "allSavedPageVisibleTrue": true,
+    "samples": 7,
+    "min": 29.53308197399228,
+    "max": 29.91504128275586,
+    "last": 29.734323816698904,
+    "lastFrameCount": 600,
+    "lastElapsedMs": 20178.699999999255,
+    "confirmedForegroundSpanMs": 31494,
+    "lastSlidingWindowFitsInsideObservedFocusSpan": true,
+    "desktop60TargetMet": false,
+    "classification": "Actual focused desktop observation is about29.7FPS. Not a60FPS pass; not Android hardware evidence."
+  },
+  "acceptance": {
+    "bFunctionalSpawnGate": "covered by these desktop observations; mobile final evidence not audited here",
+    "bMeasurementGate": "desktop measurement is genuine and finite; target remains unmet",
+    "globalDesktopPerformanceTarget": "60FPS target unmet on this observed environment; investigate renderer vs display/automation cap before attributing cause",
+    "milestoneBClosed": false,
+    "wordingAudit": {
+      "milestoneBRequirements": "Master milestone B specifies safe random spawn, actual tutorial/actions, preferences and adaptive controls; it does not state a numeric FPS threshold for B.",
+      "sharedVerification": "Master verification item22 and local B specification require desktop/mobile FPS measurement and actual evidence.",
+      "globalGraphicsTarget": "Master graphics section targets60FPS on a reasonable desktop and stable30FPS on a normalAndroid phone.",
+      "interpretation": "29.7FPS does not disprove functional B tutorial/spawn acceptance. It is an unmet observed desktop performance target, so do not call performance qualified or the full requested game complete. Mobile final evidence still needs separate audit. Profiling before larger C expansion is recommended; a strict60FPS-before-C rule is not explicitly stated in the B text.",
+      "recommendation": "Investigate renderer cost versus browser/display/remote-session30Hz cap before code optimization, retain actual measured30FPS evidence, and keep global desktop performance debt explicit."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-03",
+  "timezone": "Asia/Dhaka",
+  "source": "User replies in this development chat",
+  "initialInGameFeedback": "বাংলা কণ্ঠ অস্পষ্ট বা অস্বাভাবিক",
+  "drySample": "public/assets/audio/voices/voice-spawn-0.wav",
+  "drySampleFeedback": "এই নমুনা পরিষ্কার শোনা যাচ্ছে",
+  "afterPlaybackFixFeedback": "এখন পরিষ্কার শোনা যাচ্ছে",
+  "scope": "Observed intelligibility feedback for the tested dry sample and revised in-game impact reaction; not blanket approval of every speaker, dialect, device or final game."
+}

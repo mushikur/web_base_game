@@ -1,0 +1,21 @@
+{
+  "pid": 28356,
+  "publicRevision": 6,
+  "publicEggQuantity": 6,
+  "publicEggScore": 5,
+  "unpublishedAssetHttp": 404,
+  "mongo": {
+    "sequence": 6,
+    "draft": "ঢাকার চায়ের পথ",
+    "published": "নেতা উঠছে!",
+    "audit": [
+      "গেমের খসড়া সংরক্ষণ",
+      "ফাইল যোগ • পাড়ার পথিকের রিগ",
+      "গেমের খসড়া সংরক্ষণ",
+      "গেম প্রকাশ",
+      "আগের গেম প্রকাশ ফিরিয়ে আনা"
+    ],
+    "files": 1,
+    "chunks": 8
+  }
+}

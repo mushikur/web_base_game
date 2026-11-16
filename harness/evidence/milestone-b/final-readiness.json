@@ -1,0 +1,64 @@
+{
+  "recordedAt": "2026-11-03T18:13:48.290Z",
+  "status": "B active; implementation present; acceptance pending. C not started.",
+  "buildEntry": "/assets/index-Bol4r5V1.js",
+  "checks": {
+    "types": true,
+    "lint": true,
+    "testsPassed": 60,
+    "testsFailed": 0,
+    "gameBuild": true,
+    "adminBuild": true,
+    "liveDeliveryHashes": true
+  },
+  "staticPreviewLoaded": true,
+  "fullTutorialObservedBuild": "index-CmxIvYoq.js",
+  "targetedCameraObservedBuild": "index-DYjhqTCn.js",
+  "finalSpawnBuild": "index-Bol4r5V1.js",
+  "spawnLocations": {
+    "registered": 6,
+    "currentlyEligible": 3,
+    "eligibleIds": [
+      "west-south",
+      "east-south",
+      "west-middle"
+    ]
+  },
+  "screenshots": [
+    {
+      "path": "final-desktop-tea-shop.png",
+      "bytes": 99016,
+      "observedBuild": "index-DYjhqTCn.js"
+    },
+    {
+      "path": "final-desktop-cng-seated-opaque.png",
+      "bytes": 114000,
+      "observedBuild": "index-DYjhqTCn.js"
+    },
+    {
+      "path": "final-desktop-evening-rickshaw.png",
+      "bytes": 121214,
+      "observedBuild": "index-DYjhqTCn.js"
+    }
+  ],
+  "pending": [
+    "Latest whole-patrol spawn change: rendered idle-through-one-full-patrol-cycle observation",
+    "Latest build: foreground desktop/mobile FPS and targeted final gameplay check"
+  ],
+  "blocker": {
+    "observedBackgroundFps": "approximately 1 FPS; low-sample evidence retained",
+    "userResponse": "এখন সামনে রাখা সম্ভব নয়",
+    "responseMeaning": "User cannot keep preview foreground now. No final gameplay/FPS pass claimed."
+  },
+  "data": {
+    "primaryAudioUnchanged": true,
+    "qaPublishedConfigRestored": true,
+    "qaDraftConfigRestored": true,
+    "qaPublishedRevision": 9,
+    "qaDraftRevision": 10
+  },
+  "limits": [
+    "Local PC viewport emulation is not Android hardware qualification",
+    "Existing art remains stylized; final semi-realistic visual approval is open"
+  ]
+}

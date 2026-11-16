@@ -1,0 +1,66 @@
+{
+  "auditedAt": "2026-11-03T18:47:36.123Z",
+  "source": "mobile-foreground.json",
+  "entry": "/assets/index-CSdJS6tH.js",
+  "functionalIdle": {
+    "pass": true,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "quality": "mobile",
+    "ao": false,
+    "hdrReady": true,
+    "spawn": "west-south",
+    "position": [
+      -6.3,
+      0.2,
+      -16
+    ],
+    "unchangedAcrossAllSavedRecords": true,
+    "controlsClearedAcrossAllSavedRecords": true,
+    "simulationSeconds": 30.979200000009655,
+    "requiredPatrolSeconds": 19.634954084936208,
+    "minimumSavedNpcDistance": 7.693971177700198,
+    "requiredCentreClearance": 1,
+    "movingCivilians": [
+      {
+        "name": "রহিম চাচা",
+        "role": "civilian",
+        "rangeZ": 2.708769341340001
+      },
+      {
+        "name": "আসমা আপা",
+        "role": "civilian",
+        "rangeZ": 2.554736544565931
+      },
+      {
+        "name": "জয়নাল ভাই",
+        "role": "civilian",
+        "rangeZ": 2.9223786517941415
+      },
+      {
+        "name": "নীলা",
+        "role": "civilian",
+        "rangeZ": 2.9864807011008896
+      }
+    ]
+  },
+  "measurement": {
+    "pass": true,
+    "allSavedWindowFocusTrue": true,
+    "allSavedPageVisibleTrue": true,
+    "sampleRecords": 7,
+    "full600FrameRecords": 3,
+    "firstRecordFrameCount": 10,
+    "fullWindowMinFps": 29.582297952901722,
+    "fullWindowMaxFps": 30.000600011998003,
+    "lastFps": 30.000600011998003,
+    "lastFrames": 600,
+    "lastElapsedMs": 19999.60000000149,
+    "observedForegroundSpanMs": 31173,
+    "lastWindowFitsObservedForegroundSpan": true,
+    "realAndroidQualified": false
+  },
+  "scope": "Functional B verification and PC mobile-viewport measurement only. Early records are frame-window warmup, not600-frame samples. A ~30FPS result on a PC viewport does not establish stable30FPS on Android or the60FPS desktop target."
+}

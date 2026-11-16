@@ -1,0 +1,187 @@
+{
+  "kind": "Final read-only production HTML, entry JavaScript and CSS delivery probe; not browser, gameplay or listening verification",
+  "startedAt": "2026-11-03T10:48:46.486Z",
+  "completedAt": "2026-11-03T10:48:46.543Z",
+  "scope": "GET requests only; no service restart, account/session/content/data mutation. Only this evidence JSON is written. Unchanged audio/model assets were checked in the preceding full probe.",
+  "services": [
+    {
+      "port": 4300,
+      "base": "http://127.0.0.1:4300",
+      "health": {
+        "status": 200,
+        "result": {
+          "ok": true,
+          "testMode": false
+        }
+      },
+      "publishedContent": {
+        "status": 200,
+        "publicRevision": 1,
+        "assets": 88
+      },
+      "game": {
+        "index": {
+          "path": "/",
+          "status": 200,
+          "sha256": "f891cf7c2389429e824a895b166eaba687e24d018924544657f1338157101f6f",
+          "diskSha256": "f891cf7c2389429e824a895b166eaba687e24d018924544657f1338157101f6f",
+          "exactCurrentDistMatch": true,
+          "languageBengali": true
+        },
+        "entry": "/assets/index-SdHMXPBR.js",
+        "styles": [
+          "/assets/index-DHztAZe9.css"
+        ],
+        "linksMatchCurrentDist": true,
+        "assets": [
+          {
+            "path": "/assets/index-SdHMXPBR.js",
+            "status": 200,
+            "contentType": "text/javascript; charset=utf-8",
+            "bytes": 252592,
+            "sha256": "60b8e7f74687ed2e6689c93c752fd33aff7a2cbcb4c5c9ba028dae9b2c27cc0d",
+            "diskSha256": "60b8e7f74687ed2e6689c93c752fd33aff7a2cbcb4c5c9ba028dae9b2c27cc0d",
+            "exactCurrentDistMatch": true
+          },
+          {
+            "path": "/assets/index-DHztAZe9.css",
+            "status": 200,
+            "contentType": "text/css; charset=utf-8",
+            "bytes": 26195,
+            "sha256": "467a061490b08bfdcf14e4b899e8604a1122d60a4d6aaf1ca732b3316b64f2a8",
+            "diskSha256": "467a061490b08bfdcf14e4b899e8604a1122d60a4d6aaf1ca732b3316b64f2a8",
+            "exactCurrentDistMatch": true
+          }
+        ],
+        "pass": true
+      },
+      "admin": {
+        "index": {
+          "path": "/admin/",
+          "status": 200,
+          "sha256": "3371ab49f0f82b5eecfdc17747ae18de5f42627bc4b640955ccda1078fc43a23",
+          "diskSha256": "3371ab49f0f82b5eecfdc17747ae18de5f42627bc4b640955ccda1078fc43a23",
+          "exactCurrentDistMatch": true,
+          "languageBengali": true
+        },
+        "entry": "/admin/assets/index-XTbHxmde.js",
+        "styles": [
+          "/admin/assets/index-mycADR7w.css"
+        ],
+        "linksMatchCurrentDist": true,
+        "assets": [
+          {
+            "path": "/admin/assets/index-XTbHxmde.js",
+            "status": 200,
+            "contentType": "text/javascript; charset=utf-8",
+            "bytes": 241619,
+            "sha256": "ae8581dbbb41b93619d0f7401bd199e22d9a6ed11c645a1ad2b809d6297c74fa",
+            "diskSha256": "ae8581dbbb41b93619d0f7401bd199e22d9a6ed11c645a1ad2b809d6297c74fa",
+            "exactCurrentDistMatch": true
+          },
+          {
+            "path": "/admin/assets/index-mycADR7w.css",
+            "status": 200,
+            "contentType": "text/css; charset=utf-8",
+            "bytes": 8783,
+            "sha256": "faad7673cc02bc47e44972c0ead4e70526a5f4f194f1e9eef8087e9843ac781e",
+            "diskSha256": "faad7673cc02bc47e44972c0ead4e70526a5f4f194f1e9eef8087e9843ac781e",
+            "exactCurrentDistMatch": true
+          }
+        ],
+        "pass": true
+      },
+      "pass": true
+    },
+    {
+      "port": 4301,
+      "base": "http://127.0.0.1:4301",
+      "health": {
+        "status": 200,
+        "result": {
+          "ok": true,
+          "testMode": true
+        }
+      },
+      "publishedContent": {
+        "status": 200,
+        "publicRevision": 6,
+        "assets": 88
+      },
+      "game": {
+        "index": {
+          "path": "/",
+          "status": 200,
+          "sha256": "f891cf7c2389429e824a895b166eaba687e24d018924544657f1338157101f6f",
+          "diskSha256": "f891cf7c2389429e824a895b166eaba687e24d018924544657f1338157101f6f",
+          "exactCurrentDistMatch": true,
+          "languageBengali": true
+        },
+        "entry": "/assets/index-SdHMXPBR.js",
+        "styles": [
+          "/assets/index-DHztAZe9.css"
+        ],
+        "linksMatchCurrentDist": true,
+        "assets": [
+          {
+            "path": "/assets/index-SdHMXPBR.js",
+            "status": 200,
+            "contentType": "text/javascript; charset=utf-8",
+            "bytes": 252592,
+            "sha256": "60b8e7f74687ed2e6689c93c752fd33aff7a2cbcb4c5c9ba028dae9b2c27cc0d",
+            "diskSha256": "60b8e7f74687ed2e6689c93c752fd33aff7a2cbcb4c5c9ba028dae9b2c27cc0d",
+            "exactCurrentDistMatch": true
+          },
+          {
+            "path": "/assets/index-DHztAZe9.css",
+            "status": 200,
+            "contentType": "text/css; charset=utf-8",
+            "bytes": 26195,
+            "sha256": "467a061490b08bfdcf14e4b899e8604a1122d60a4d6aaf1ca732b3316b64f2a8",
+            "diskSha256": "467a061490b08bfdcf14e4b899e8604a1122d60a4d6aaf1ca732b3316b64f2a8",
+            "exactCurrentDistMatch": true
+          }
+        ],
+        "pass": true
+      },
+      "admin": {
+        "index": {
+          "path": "/admin/",
+          "status": 200,
+          "sha256": "3371ab49f0f82b5eecfdc17747ae18de5f42627bc4b640955ccda1078fc43a23",
+          "diskSha256": "3371ab49f0f82b5eecfdc17747ae18de5f42627bc4b640955ccda1078fc43a23",
+          "exactCurrentDistMatch": true,
+          "languageBengali": true
+        },
+        "entry": "/admin/assets/index-XTbHxmde.js",
+        "styles": [
+          "/admin/assets/index-mycADR7w.css"
+        ],
+        "linksMatchCurrentDist": true,
+        "assets": [
+          {
+            "path": "/admin/assets/index-XTbHxmde.js",
+            "status": 200,
+            "contentType": "text/javascript; charset=utf-8",
+            "bytes": 241619,
+            "sha256": "ae8581dbbb41b93619d0f7401bd199e22d9a6ed11c645a1ad2b809d6297c74fa",
+            "diskSha256": "ae8581dbbb41b93619d0f7401bd199e22d9a6ed11c645a1ad2b809d6297c74fa",
+            "exactCurrentDistMatch": true
+          },
+          {
+            "path": "/admin/assets/index-mycADR7w.css",
+            "status": 200,
+            "contentType": "text/css; charset=utf-8",
+            "bytes": 8783,
+            "sha256": "faad7673cc02bc47e44972c0ead4e70526a5f4f194f1e9eef8087e9843ac781e",
+            "diskSha256": "faad7673cc02bc47e44972c0ead4e70526a5f4f194f1e9eef8087e9843ac781e",
+            "exactCurrentDistMatch": true
+          }
+        ],
+        "pass": true
+      },
+      "pass": true
+    }
+  ],
+  "allPassed": true
+}

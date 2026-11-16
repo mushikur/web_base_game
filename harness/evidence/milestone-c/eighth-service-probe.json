@@ -1,0 +1,13 @@
+{
+  "at": "2026-11-05T09:54:35.4049337+06:00",
+  "primary": {
+    "ok": true,
+    "testMode": false
+  },
+  "qa": {
+    "ok": true,
+    "testMode": true
+  },
+  "primaryDataSha256": "165595C81DC7DD8EB2EDEA9BEA08468FE8F8AAD09BC970BC2B08CA28880CE23B",
+  "baseModelSha256": "41798DE6425D8FAA6308183DAB5825951DFEEF287B2D2C442FB04AE4BA4CF789"
+}

@@ -1,0 +1,26 @@
+{
+  "dataSha": "165595C81DC7DD8EB2EDEA9BEA08468FE8F8AAD09BC970BC2B08CA28880CE23B",
+  "status": "Preserved C10 WIP before Phase 01 priority changes; not accepted",
+  "created": "2026-11-05T10:37:13.4273485+06:00",
+  "gameBundle": "index-DHV-GkiL.js",
+  "characterSha": "41798DE6425D8FAA6308183DAB5825951DFEEF287B2D2C442FB04AE4BA4CF789",
+  "source": [
+    "apps/game/src",
+    "apps/game/dist",
+    "apps/admin/src",
+    "apps/admin/dist",
+    "apps/server/src",
+    "packages/shared/src",
+    "tests",
+    "public/assets/models",
+    "assets/source/generate.mjs",
+    "package.json",
+    "package-lock.json",
+    "tsconfig.json",
+    "eslint.config.js",
+    "AGENTS.md",
+    "GOALS.md",
+    "PLANS.md",
+    "README.md"
+  ]
+}

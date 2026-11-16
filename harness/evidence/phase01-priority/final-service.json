@@ -1,0 +1,16 @@
+{
+  "previewStatus": 200,
+  "reviewBundle": "index-BNKCBhuC.js",
+  "localBengali": true,
+  "modelStatus": 200,
+  "modelBytes": [
+    "1913148"
+  ],
+  "licenseStatus": 200,
+  "existingCStatus": 200,
+  "frozenBStatus": 200,
+  "frozenBBundle": "index-CSdJS6tH.js",
+  "publicContentSha": "165595C81DC7DD8EB2EDEA9BEA08468FE8F8AAD09BC970BC2B08CA28880CE23B",
+  "originalModelSha": "41798DE6425D8FAA6308183DAB5825951DFEEF287B2D2C442FB04AE4BA4CF789",
+  "newModelSha": "68197B83AA33838748B75FDB212419D43FD5AAF9D5C63A883FECC23AFCF53489"
+}

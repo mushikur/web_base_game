@@ -1,0 +1,16 @@
+{
+  "mobileLayout": {
+    "devanagari": false,
+    "height": 844,
+    "lang": "bn-BD",
+    "replacement": false,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  "mobileDialog": {
+    "client": 344,
+    "height": 813,
+    "scroll": 344,
+    "scrollHeight": 1083
+  }
+}

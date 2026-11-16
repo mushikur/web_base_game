@@ -1,0 +1,19 @@
+{
+  "bytes": 1663908,
+  "triangles": 33972,
+  "joints": 17,
+  "clips": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Throw",
+    "Hit",
+    "Pickup",
+    "EnterVehicle",
+    "Seated",
+    "ExitVehicle"
+  ],
+  "errors": 0,
+  "warnings": 0,
+  "infos": 27
+}

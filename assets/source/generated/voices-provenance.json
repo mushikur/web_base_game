@@ -1,0 +1,147 @@
+{
+  "model": "https://huggingface.co/rhasspy/piper-voices/resolve/main/bn/bn_BD/google/medium/bn_BD-google-medium.onnx",
+  "modelSHA256": "f2e7518ed5534a755024a48c71b80bf617efaf12570bbdf3ce255a9526a8afd3",
+  "tool": "https://github.com/OHF-Voice/piper1-gpl",
+  "toolVersion": "1.8.0",
+  "lines": [
+    {
+      "trigger": "spawn",
+      "text": "ভাইসব, প্রতিশ্রুতি শুনে যান!",
+      "speaker": 0,
+      "category": "voices"
+    },
+    {
+      "trigger": "idle",
+      "text": "আগে কমিটি ডাকো!",
+      "speaker": 0,
+      "category": "voices"
+    },
+    {
+      "trigger": "detected",
+      "text": "চা দাও, আলোচনা হবে!",
+      "speaker": 0,
+      "category": "voices"
+    },
+    {
+      "trigger": "firstHit",
+      "text": "ওরে বাবা!",
+      "speaker": 0,
+      "category": "voices"
+    },
+    {
+      "trigger": "repeatHit",
+      "text": "আমার লোক কই?",
+      "speaker": 0,
+      "category": "voices"
+    },
+    {
+      "trigger": "egg",
+      "text": "এটা আবার কী কাণ্ড!",
+      "speaker": 0,
+      "category": "voices"
+    },
+    {
+      "trigger": "sandal",
+      "text": "স্যান্ডেলটা কার?",
+      "speaker": 0,
+      "category": "voices"
+    },
+    {
+      "trigger": "rubberStone",
+      "text": "ওইটা তো রাবার!",
+      "speaker": 0,
+      "category": "voices"
+    },
+    {
+      "trigger": "baton",
+      "text": "এইটা কি বালিশ নাকি!",
+      "speaker": 0,
+      "category": "voices"
+    },
+    {
+      "trigger": "spark",
+      "text": "আরে, আলোটা বন্ধ করো!",
+      "speaker": 0,
+      "category": "voices"
+    },
+    {
+      "trigger": "lowResolve",
+      "text": "আমি তো এখানে ছিলাম না!",
+      "speaker": 0,
+      "category": "voices"
+    },
+    {
+      "trigger": "escape",
+      "text": "আগে চা খেয়ে আসি!",
+      "speaker": 0,
+      "category": "voices"
+    },
+    {
+      "trigger": "chased",
+      "text": "এই গলি আমার চেনা!",
+      "speaker": 0,
+      "category": "voices"
+    },
+    {
+      "trigger": "defeated",
+      "text": "আচ্ছা আচ্ছা, রাস্তা ছেড়ে দিচ্ছি!",
+      "speaker": 0,
+      "category": "voices"
+    },
+    {
+      "trigger": "ambulance",
+      "text": "চলুন, একটু বিশ্রাম নিই!",
+      "speaker": 0,
+      "category": "voices"
+    },
+    {
+      "trigger": "complete",
+      "text": "চায়ের দাওয়াত রইল!",
+      "speaker": 0,
+      "category": "voices"
+    },
+    {
+      "trigger": "slogan",
+      "text": "জয় ক্ষমতা!",
+      "speaker": 4,
+      "category": "crowd"
+    },
+    {
+      "trigger": "slogan",
+      "text": "নেতা এগিয়ে চলো!",
+      "speaker": 8,
+      "category": "crowd"
+    },
+    {
+      "trigger": "slogan",
+      "text": "কমিটি জিন্দাবাদ!",
+      "speaker": 11,
+      "category": "crowd"
+    },
+    {
+      "trigger": "slogan",
+      "text": "মাইক চলবে!",
+      "speaker": 4,
+      "category": "crowd"
+    },
+    {
+      "trigger": "conversation",
+      "text": "চা খাইয়া যান, প্রতিশ্রুতি ফ্রি!",
+      "speaker": 8,
+      "category": "crowd"
+    },
+    {
+      "trigger": "conversation",
+      "text": "চিনি কম, আলাপ বেশি!",
+      "speaker": 11,
+      "category": "crowd"
+    },
+    {
+      "trigger": "conversation",
+      "text": "ভাই, একটু রাস্তা ছাড়েন।",
+      "speaker": 4,
+      "category": "crowd"
+    }
+  ],
+  "license": "CC BY-SA 4.0 with retained CMU source notice"
+}

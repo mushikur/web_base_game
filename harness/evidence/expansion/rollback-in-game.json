@@ -1,0 +1,239 @@
+{
+  "state": "running",
+  "unlocked": true,
+  "catalogSource": "published",
+  "revision": 6,
+  "context": "exploration",
+  "activeVoices": 4,
+  "music": {
+    "trackId": "track-exploration",
+    "assetId": "music-exploration",
+    "configuredVolume": 0.55,
+    "gain": 0.550000011920929,
+    "loop": true
+  },
+  "loops": [
+    {
+      "id": "traffic",
+      "assetId": "traffic",
+      "category": "environment",
+      "gain": 0.18000000715255737
+    },
+    {
+      "id": "cng",
+      "assetId": "cng",
+      "category": "vehicles",
+      "gain": 0.15000000596046448
+    }
+  ],
+  "repetitions": {
+    "cue-crow": 1,
+    "cue-bell": 2,
+    "cue-tea": 3,
+    "cue-microphone": 1,
+    "cue-construction": 1,
+    "voice-cue-22": 1,
+    "cue-bus": 1
+  },
+  "outputRms": 0.004465373924160037,
+  "dropped": 0,
+  "eventCounts": {
+    "music-exploration": 3,
+    "footstep": 804,
+    "bell": 40,
+    "tea": 65,
+    "microphone": 24,
+    "conversation": 24,
+    "bus": 29,
+    "crow": 29,
+    "construction": 19
+  },
+  "recent": [
+    {
+      "event": "footstep",
+      "at": 482.6906666666667,
+      "surface": "concrete",
+      "frame": 15.035915591996229,
+      "foot": "আসমা আপা:R"
+    },
+    {
+      "event": "footstep",
+      "at": 483.0613333333333,
+      "surface": "concrete",
+      "frame": 15.2527880092901,
+      "foot": "নীলা:R"
+    },
+    {
+      "event": "footstep",
+      "at": 484.56,
+      "surface": "concrete",
+      "frame": 45.01595290424416,
+      "foot": "জয়নাল ভাই:L"
+    },
+    {
+      "event": "footstep",
+      "at": 484.752,
+      "surface": "concrete",
+      "frame": 45.05507396616635,
+      "foot": "নীলা:L"
+    },
+    {
+      "event": "microphone",
+      "at": 485.41066666666666
+    },
+    {
+      "event": "footstep",
+      "at": 485.8906666666667,
+      "surface": "concrete",
+      "frame": 15.208544038820522,
+      "foot": "রহিম চাচা:R"
+    },
+    {
+      "event": "tea",
+      "at": 486.29066666666665
+    },
+    {
+      "event": "construction",
+      "at": 486.78133333333335
+    },
+    {
+      "event": "footstep",
+      "at": 486.9413333333333,
+      "surface": "concrete",
+      "frame": 15.22681929572683,
+      "foot": "আসমা আপা:R"
+    },
+    {
+      "event": "footstep",
+      "at": 487.61066666666665,
+      "surface": "concrete",
+      "frame": 45.01846113478423,
+      "foot": "রহিম চাচা:L"
+    },
+    {
+      "event": "conversation",
+      "at": 487.672
+    },
+    {
+      "event": "footstep",
+      "at": 488.66133333333335,
+      "surface": "concrete",
+      "frame": 45.15510748939059,
+      "foot": "আসমা আপা:L"
+    },
+    {
+      "event": "footstep",
+      "at": 488.672,
+      "surface": "concrete",
+      "frame": 15.019562626238425,
+      "foot": "জয়নাল ভাই:R"
+    },
+    {
+      "event": "bus",
+      "at": 488.98133333333334
+    },
+    {
+      "event": "footstep",
+      "at": 489.09066666666666,
+      "surface": "concrete",
+      "frame": 15.102068019032956,
+      "foot": "রহিম চাচা:R"
+    },
+    {
+      "event": "footstep",
+      "at": 489.54133333333334,
+      "surface": "concrete",
+      "frame": 15.038602518693885,
+      "foot": "নীলা:R"
+    },
+    {
+      "event": "footstep",
+      "at": 490.12,
+      "surface": "concrete",
+      "frame": 15.027511543650107,
+      "foot": "আসমা আপা:R"
+    },
+    {
+      "event": "footstep",
+      "at": 490.41066666666666,
+      "surface": "concrete",
+      "frame": 45.07299027130594,
+      "foot": "জয়নাল ভাই:L"
+    },
+    {
+      "event": "footstep",
+      "at": 490.74133333333333,
+      "surface": "concrete",
+      "frame": 45.16298331459744,
+      "foot": "রহিম চাচা:L"
+    },
+    {
+      "event": "footstep",
+      "at": 491.28,
+      "surface": "concrete",
+      "frame": 45.14205872892595,
+      "foot": "নীলা:L"
+    },
+    {
+      "event": "bell",
+      "at": 491.34133333333335
+    },
+    {
+      "event": "tea",
+      "at": 491.6906666666667
+    },
+    {
+      "event": "footstep",
+      "at": 491.78133333333335,
+      "surface": "concrete",
+      "frame": 45.02523780332558,
+      "foot": "আসমা আপা:L"
+    },
+    {
+      "event": "footstep",
+      "at": 491.8906666666667,
+      "surface": "concrete",
+      "frame": 15.286471473873732,
+      "foot": "জয়নাল ভাই:R"
+    }
+  ],
+  "settings": {
+    "master": {
+      "volume": 0.75,
+      "muted": false
+    },
+    "music": {
+      "volume": 0.23,
+      "muted": false
+    },
+    "environment": {
+      "volume": 0.75,
+      "muted": false
+    },
+    "footsteps": {
+      "volume": 0.75,
+      "muted": false
+    },
+    "vehicles": {
+      "volume": 0.75,
+      "muted": false
+    },
+    "combat": {
+      "volume": 0.75,
+      "muted": false
+    },
+    "voices": {
+      "volume": 0.75,
+      "muted": false
+    },
+    "crowd": {
+      "volume": 0.75,
+      "muted": false
+    },
+    "interface": {
+      "volume": 0.75,
+      "muted": false
+    }
+  },
+  "lastError": ""
+}

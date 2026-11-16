@@ -1,0 +1,29 @@
+✔ leader actually notices, seeks cover, changes heading, flees and emits bounded harmless props (7.1899ms)
+✔ tutorial and pause suppress dangerous behavior before state/actions, with no stale motion burst (1.7632ms)
+✔ unreachable cover never slides through a wall or produces movement facts (0.6178ms)
+✔ height clearance preserves accepted curbs, rejects the dais ledge and permits a real ramp (0.2978ms)
+✔ egg and sandal reactions differ and duplicate impact ids cannot restart reaction (0.5081ms)
+✔ workers warn, follow, dodge incoming props and scatter after completion (1.8301ms)
+✔ workers yield to a siren at one bounded safe goal and resting workers stop before any action (1.8225ms)
+✔ civilians yield at traffic crossings, visit shops, react to sirens and return to patrol (4.8751ms)
+BJS - [11:40:20]: Babylon.js v9.33.1 - Null engine
+✔ mission motion bank preserves every base byte and matches all17 real rest joints (3.751ms)
+✔ required gestures contain finite normalized joint motions with positive exact durations and seamless loops (14.7599ms)
+✔ defeated and resting pelvis poses join without a positional pop (0.5312ms)
+✔ Babylon actually imports the meshless bank and maps its motions onto real skinned instance joints (1525.8538ms)
+✔ full rotated body detects thin posts, inside-body NPCs and conservative walking detours (1.838ms)
+✔ all5 authored ambulance approaches clear their complete actual body footprint (138.6904ms)
+✔ each real area can evacuate a leader from its dais/escape position via actual body-safe doors (1207.2822ms)
+✔ an occupied actual hub bay waits until the worker really yields to the approaching siren (429.8071ms)
+✔ ambulance completes exactly once only after actual assistance, loading, door closure and observed exit (24.3436ms)
+✔ blocked vehicle route waits indefinitely and resumes only when actually clear (14.8649ms)
+✔ blocked rear door cannot complete loading, and pause freezes every actor and stage clock (15.006ms)
+✔ cancel/retry resets only the intended request token, while invalid routes cannot start (0.3115ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2037.6465

@@ -1,0 +1,314 @@
+[
+  {
+    "sim": 153.1248999999994,
+    "health": 95,
+    "pos": [
+      -47.97270950802423,
+      0,
+      29.62133880382699
+    ],
+    "mission": {
+      "id": "committee-lane",
+      "phase": "active",
+      "resolve": 100,
+      "attempt": 1,
+      "hitCount": 0,
+      "fleeRequested": false,
+      "outsideSeconds": 0.8029000000000235,
+      "boundsWarning": true,
+      "ambulanceRequested": false,
+      "leaderLoaded": false,
+      "completionSequence": null,
+      "failure": ""
+    },
+    "completed": [
+      "promise-junction"
+    ]
+  },
+  {
+    "sim": 154.05879999999942,
+    "health": 95,
+    "pos": [
+      -47.97270950802423,
+      0,
+      29.62133880382699
+    ],
+    "mission": {
+      "id": "committee-lane",
+      "phase": "active",
+      "resolve": 100,
+      "attempt": 1,
+      "hitCount": 0,
+      "fleeRequested": false,
+      "outsideSeconds": 1.6162999999999887,
+      "boundsWarning": true,
+      "ambulanceRequested": false,
+      "leaderLoaded": false,
+      "completionSequence": null,
+      "failure": ""
+    },
+    "completed": [
+      "promise-junction"
+    ]
+  },
+  {
+    "sim": 154.98389999999932,
+    "health": 95,
+    "pos": [
+      -47.97270950802423,
+      0,
+      29.62133880382699
+    ],
+    "mission": {
+      "id": "committee-lane",
+      "phase": "active",
+      "resolve": 100,
+      "attempt": 1,
+      "hitCount": 0,
+      "fleeRequested": false,
+      "outsideSeconds": 2.867099999999977,
+      "boundsWarning": true,
+      "ambulanceRequested": false,
+      "leaderLoaded": false,
+      "completionSequence": null,
+      "failure": ""
+    },
+    "completed": [
+      "promise-junction"
+    ]
+  },
+  {
+    "sim": 155.9087999999993,
+    "health": 95,
+    "pos": [
+      -47.97270950802423,
+      0,
+      29.62133880382699
+    ],
+    "mission": {
+      "id": "committee-lane",
+      "phase": "active",
+      "resolve": 100,
+      "attempt": 1,
+      "hitCount": 0,
+      "fleeRequested": false,
+      "outsideSeconds": 3.6830999999999774,
+      "boundsWarning": true,
+      "ambulanceRequested": false,
+      "leaderLoaded": false,
+      "completionSequence": null,
+      "failure": ""
+    },
+    "completed": [
+      "promise-junction"
+    ]
+  },
+  {
+    "sim": 156.8441999999992,
+    "health": 95,
+    "pos": [
+      -47.97270950802423,
+      0,
+      29.62133880382699
+    ],
+    "mission": {
+      "id": "committee-lane",
+      "phase": "active",
+      "resolve": 100,
+      "attempt": 1,
+      "hitCount": 0,
+      "fleeRequested": false,
+      "outsideSeconds": 4.500900000000024,
+      "boundsWarning": true,
+      "ambulanceRequested": false,
+      "leaderLoaded": false,
+      "completionSequence": null,
+      "failure": ""
+    },
+    "completed": [
+      "promise-junction"
+    ]
+  },
+  {
+    "sim": 157.77459999999923,
+    "health": 95,
+    "pos": [
+      -47.97270950802423,
+      0,
+      29.62133880382699
+    ],
+    "mission": {
+      "id": "committee-lane",
+      "phase": "active",
+      "resolve": 100,
+      "attempt": 1,
+      "hitCount": 0,
+      "fleeRequested": false,
+      "outsideSeconds": 5.316799999999989,
+      "boundsWarning": true,
+      "ambulanceRequested": false,
+      "leaderLoaded": false,
+      "completionSequence": null,
+      "failure": ""
+    },
+    "completed": [
+      "promise-junction"
+    ]
+  },
+  {
+    "sim": 158.6921999999991,
+    "health": 95,
+    "pos": [
+      -47.97270950802423,
+      0,
+      29.62133880382699
+    ],
+    "mission": {
+      "id": "committee-lane",
+      "phase": "active",
+      "resolve": 100,
+      "attempt": 1,
+      "hitCount": 0,
+      "fleeRequested": false,
+      "outsideSeconds": 6.533700000000012,
+      "boundsWarning": true,
+      "ambulanceRequested": false,
+      "leaderLoaded": false,
+      "completionSequence": null,
+      "failure": ""
+    },
+    "completed": [
+      "promise-junction"
+    ]
+  },
+  {
+    "sim": 159.591699999999,
+    "health": 95,
+    "pos": [
+      -47.97270950802423,
+      0,
+      29.62133880382699
+    ],
+    "mission": {
+      "id": "committee-lane",
+      "phase": "active",
+      "resolve": 100,
+      "attempt": 1,
+      "hitCount": 0,
+      "fleeRequested": false,
+      "outsideSeconds": 7.355799999999989,
+      "boundsWarning": true,
+      "ambulanceRequested": false,
+      "leaderLoaded": false,
+      "completionSequence": null,
+      "failure": ""
+    },
+    "completed": [
+      "promise-junction"
+    ]
+  },
+  {
+    "sim": 160.5258999999991,
+    "health": 95,
+    "pos": [
+      -47.97270950802423,
+      0,
+      29.62133880382699
+    ],
+    "mission": {
+      "id": "committee-lane",
+      "phase": "failed",
+      "resolve": 100,
+      "attempt": 1,
+      "hitCount": 0,
+      "fleeRequested": false,
+      "outsideSeconds": 8.18279999999999,
+      "boundsWarning": true,
+      "ambulanceRequested": false,
+      "leaderLoaded": false,
+      "completionSequence": null,
+      "failure": "bounds"
+    },
+    "completed": [
+      "promise-junction"
+    ]
+  },
+  {
+    "sim": 161.458699999999,
+    "health": 95,
+    "pos": [
+      -47.97270950802423,
+      0,
+      29.62133880382699
+    ],
+    "mission": {
+      "id": "committee-lane",
+      "phase": "failed",
+      "resolve": 100,
+      "attempt": 1,
+      "hitCount": 0,
+      "fleeRequested": false,
+      "outsideSeconds": 8.18279999999999,
+      "boundsWarning": true,
+      "ambulanceRequested": false,
+      "leaderLoaded": false,
+      "completionSequence": null,
+      "failure": "bounds"
+    },
+    "completed": [
+      "promise-junction"
+    ]
+  },
+  {
+    "sim": 162.25859999999895,
+    "health": 95,
+    "pos": [
+      -47.97270950802423,
+      0,
+      29.62133880382699
+    ],
+    "mission": {
+      "id": "committee-lane",
+      "phase": "failed",
+      "resolve": 100,
+      "attempt": 1,
+      "hitCount": 0,
+      "fleeRequested": false,
+      "outsideSeconds": 8.18279999999999,
+      "boundsWarning": true,
+      "ambulanceRequested": false,
+      "leaderLoaded": false,
+      "completionSequence": null,
+      "failure": "bounds"
+    },
+    "completed": [
+      "promise-junction"
+    ]
+  },
+  {
+    "sim": 163.32579999999894,
+    "health": 95,
+    "pos": [
+      -47.97270950802423,
+      0,
+      29.62133880382699
+    ],
+    "mission": {
+      "id": "committee-lane",
+      "phase": "failed",
+      "resolve": 100,
+      "attempt": 1,
+      "hitCount": 0,
+      "fleeRequested": false,
+      "outsideSeconds": 8.18279999999999,
+      "boundsWarning": true,
+      "ambulanceRequested": false,
+      "leaderLoaded": false,
+      "completionSequence": null,
+      "failure": "bounds"
+    },
+    "completed": [
+      "promise-junction"
+    ]
+  }
+]

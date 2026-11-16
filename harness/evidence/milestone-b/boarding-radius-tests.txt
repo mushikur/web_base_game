@@ -1,0 +1,25 @@
+✔ a legal roadside walking pose can begin and finish the actual CNG approach without a larger boarding radius rejecting it (10.1912ms)
+✔ matching the walking radius still rejects CNG body penetration and unrelated doorway obstructions (0.587ms)
+✔ boarding walks to the door, enters continuously, follows the seat and exits to ground (9.6075ms)
+✔ door arrival turns continuously at 60 Hz and uses Idle for stationary alignment (1.1407ms)
+✔ entry begins at actual ground height when the authored outside anchor is on a raised curb (1.6041ms)
+✔ busy, distant or obstructed vehicles cannot claim occupancy or move the player (0.5597ms)
+✔ a new approach obstruction stops at the last safe position and releases occupancy (0.2822ms)
+✔ entry obstruction freezes motion and animation together, then resumes once clear (1.489ms)
+✔ blocked exits keep the player seated, while an alternate safe door is selected (0.9976ms)
+✔ an exit obstruction freezes at the last safe pose and resumes without a ground-height pop (0.8418ms)
+✔ reset releases occupancy without inventing a position, and invalid tick times do nothing (0.3801ms)
+✔ approach planning validates thin-wall crossings, routes around obstacles and fails finitely when enclosed (1.9352ms)
+✔ footprint clearance rejects navigation edges, obstruction corners, water overlap and invalid geometry (1.4235ms)
+✔ all current and future occupancy categories exclude the full player footprint (0.2296ms)
+✔ trusted factory publication rejects client approval, unknown points, y and mismatched world (6.6116ms)
+✔ finite injectable shuffle chooses only safe trusted points and reports all occupied (1.227ms)
+✔ all curated starts clear authored southern street buildings, parked vehicles, poles and enlarged puddles (0.7756ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 258.7695

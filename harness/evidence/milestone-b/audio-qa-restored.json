@@ -1,0 +1,37 @@
+{
+  "at": "2026-11-03T17:55:55.555Z",
+  "primaryHash": "165595c81dc7dd8eb2edea9bea08468fe8f8aad09bc970bc2b08ca28880ce23b",
+  "primaryUnchanged": true,
+  "qaPublishedContentRestored": true,
+  "qaDraftContentRestored": true,
+  "originalPublishedRevision": 6,
+  "newPublishedRevision": 9,
+  "originalDraftRevision": 7,
+  "newDraftRevision": 10,
+  "historyRevisions": [
+    1,
+    4,
+    6,
+    8
+  ],
+  "draftSnapshots": [
+    5,
+    6,
+    8,
+    9
+  ],
+  "lastAudit": [
+    {
+      "at": "2026-11-03T17:54:41.908Z",
+      "action": "শব্দ প্রকাশ"
+    },
+    {
+      "at": "2026-11-03T17:55:42.678Z",
+      "action": "আগের প্রকাশ ফিরিয়ে আনা"
+    },
+    {
+      "at": "2026-11-03T17:55:43.270Z",
+      "action": "সংরক্ষিত খসড়া ফিরিয়ে আনা"
+    }
+  ]
+}

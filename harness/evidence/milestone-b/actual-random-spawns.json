@@ -1,0 +1,757 @@
+[
+  {
+    "at": "2026-11-03T17:45:57.072Z",
+    "spawn": "east-middle",
+    "position": [
+      6.3,
+      0.2,
+      -11
+    ],
+    "tutorialOpen": false,
+    "registry": {
+      "revision": 1,
+      "source": "factory",
+      "origin": "server-factory"
+    },
+    "actors": [
+      {
+        "name": "সজল পথিক",
+        "role": "civilian",
+        "position": [
+          6.3,
+          0.2,
+          -11
+        ],
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "বজলু প্রতিশ্রুতি",
+        "role": "leader",
+        "position": [
+          1.8,
+          0.46,
+          10.6
+        ],
+        "animation": "Idle",
+        "localGarments": [
+          "বজলু প্রতিশ্রুতি/Optional moustache",
+          "বজলু প্রতিশ্রুতি/Woven cotton optional tunic"
+        ]
+      },
+      {
+        "name": "পল্টু পোস্টার",
+        "role": "worker",
+        "position": [
+          -1.8,
+          0,
+          7.8
+        ],
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "মন্টু মাইক",
+        "role": "worker",
+        "position": [
+          3.3,
+          0,
+          7.4
+        ],
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "কমল কমিটি",
+        "role": "worker",
+        "position": [
+          0.1,
+          0,
+          6.6
+        ],
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "রহিম চাচা",
+        "role": "civilian",
+        "position": [
+          -6.1,
+          0.2,
+          -6.447309476793056
+        ],
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "আসমা আপা",
+        "role": "civilian",
+        "position": [
+          6.3,
+          0.2,
+          7.270843671248707
+        ],
+        "animation": "Idle",
+        "localGarments": [
+          "আসমা আপা/Woven cotton optional tunic",
+          "আসমা আপা/Optional woven dupatta",
+          "আসমা আপা/Optional long hair"
+        ]
+      },
+      {
+        "name": "জয়নাল ভাই",
+        "role": "civilian",
+        "position": [
+          -6.1,
+          0.2,
+          7.778554736703626
+        ],
+        "animation": "Idle",
+        "localGarments": [
+          "জয়নাল ভাই/Optional moustache"
+        ]
+      },
+      {
+        "name": "নীলা",
+        "role": "civilian",
+        "position": [
+          6.4,
+          0.2,
+          -8.907145559938915
+        ],
+        "animation": "Idle",
+        "localGarments": [
+          "নীলা/Woven cotton optional tunic",
+          "নীলা/Optional woven dupatta",
+          "নীলা/Optional long hair"
+        ]
+      },
+      {
+        "name": "চা-মামা কুদ্দুস",
+        "role": "civilian",
+        "position": [
+          -8.4,
+          0.33,
+          0.6
+        ],
+        "animation": "Idle",
+        "localGarments": [
+          "চা-মামা কুদ্দুস/Optional moustache"
+        ]
+      }
+    ],
+    "controls": {
+      "keys": [],
+      "touch": {
+        "x": 0,
+        "y": 0
+      },
+      "running": false,
+      "pointer": null
+    }
+  },
+  {
+    "at": "2026-11-03T17:45:59.082Z",
+    "spawn": "west-middle",
+    "position": [
+      -6.3,
+      0.2,
+      -11
+    ],
+    "tutorialOpen": false,
+    "registry": {
+      "revision": 1,
+      "source": "factory",
+      "origin": "server-factory"
+    },
+    "actors": [
+      {
+        "name": "সজল পথিক",
+        "role": "civilian",
+        "position": [
+          -6.3,
+          0.2,
+          -11
+        ],
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "বজলু প্রতিশ্রুতি",
+        "role": "leader",
+        "position": [
+          1.8,
+          0.46,
+          10.6
+        ],
+        "animation": "Idle",
+        "localGarments": [
+          "বজলু প্রতিশ্রুতি/Optional moustache",
+          "বজলু প্রতিশ্রুতি/Woven cotton optional tunic"
+        ]
+      },
+      {
+        "name": "পল্টু পোস্টার",
+        "role": "worker",
+        "position": [
+          -1.8,
+          0,
+          7.8
+        ],
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "মন্টু মাইক",
+        "role": "worker",
+        "position": [
+          3.3,
+          0,
+          7.4
+        ],
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "কমল কমিটি",
+        "role": "worker",
+        "position": [
+          0.1,
+          0,
+          6.6
+        ],
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "রহিম চাচা",
+        "role": "civilian",
+        "position": [
+          -6.1,
+          0.2,
+          -7.389735650806566
+        ],
+        "animation": "Walk",
+        "localGarments": []
+      },
+      {
+        "name": "আসমা আপা",
+        "role": "civilian",
+        "position": [
+          6.3,
+          0.2,
+          6.803782360408668
+        ],
+        "animation": "Walk",
+        "localGarments": [
+          "আসমা আপা/Woven cotton optional tunic",
+          "আসমা আপা/Optional woven dupatta",
+          "আসমা আপা/Optional long hair"
+        ]
+      },
+      {
+        "name": "জয়নাল ভাই",
+        "role": "civilian",
+        "position": [
+          -6.1,
+          0.2,
+          8.708611172524447
+        ],
+        "animation": "Walk",
+        "localGarments": [
+          "জয়নাল ভাই/Optional moustache"
+        ]
+      },
+      {
+        "name": "নীলা",
+        "role": "civilian",
+        "position": [
+          6.4,
+          0.2,
+          -8.509800184212079
+        ],
+        "animation": "Idle",
+        "localGarments": [
+          "নীলা/Woven cotton optional tunic",
+          "নীলা/Optional woven dupatta",
+          "নীলা/Optional long hair"
+        ]
+      },
+      {
+        "name": "চা-মামা কুদ্দুস",
+        "role": "civilian",
+        "position": [
+          -8.4,
+          0.33,
+          0.6
+        ],
+        "animation": "Idle",
+        "localGarments": [
+          "চা-মামা কুদ্দুস/Optional moustache"
+        ]
+      }
+    ],
+    "controls": {
+      "keys": [],
+      "touch": {
+        "x": 0,
+        "y": 0
+      },
+      "running": false,
+      "pointer": null
+    }
+  },
+  {
+    "at": "2026-11-03T17:46:01.038Z",
+    "spawn": "west-middle",
+    "position": [
+      -6.3,
+      0.2,
+      -11
+    ],
+    "tutorialOpen": false,
+    "registry": {
+      "revision": 1,
+      "source": "factory",
+      "origin": "server-factory"
+    },
+    "actors": [
+      {
+        "name": "সজল পথিক",
+        "role": "civilian",
+        "position": [
+          -6.3,
+          0.2,
+          -11
+        ],
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "বজলু প্রতিশ্রুতি",
+        "role": "leader",
+        "position": [
+          1.8,
+          0.46,
+          10.6
+        ],
+        "animation": "Idle",
+        "localGarments": [
+          "বজলু প্রতিশ্রুতি/Optional moustache",
+          "বজলু প্রতিশ্রুতি/Woven cotton optional tunic"
+        ]
+      },
+      {
+        "name": "পল্টু পোস্টার",
+        "role": "worker",
+        "position": [
+          -1.8,
+          0,
+          7.8
+        ],
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "মন্টু মাইক",
+        "role": "worker",
+        "position": [
+          3.3,
+          0,
+          7.4
+        ],
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "কমল কমিটি",
+        "role": "worker",
+        "position": [
+          0.1,
+          0,
+          6.6
+        ],
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "রহিম চাচা",
+        "role": "civilian",
+        "position": [
+          -6.1,
+          0.2,
+          -8.167455567981346
+        ],
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "আসমা আপা",
+        "role": "civilian",
+        "position": [
+          6.3,
+          0.2,
+          5.9557127336745825
+        ],
+        "animation": "Idle",
+        "localGarments": [
+          "আসমা আপা/Woven cotton optional tunic",
+          "আসমা আপা/Optional woven dupatta",
+          "আসমা আপা/Optional long hair"
+        ]
+      },
+      {
+        "name": "জয়নাল ভাই",
+        "role": "civilian",
+        "position": [
+          -6.1,
+          0.2,
+          9.350894957500547
+        ],
+        "animation": "Idle",
+        "localGarments": [
+          "জয়নাল ভাই/Optional moustache"
+        ]
+      },
+      {
+        "name": "নীলা",
+        "role": "civilian",
+        "position": [
+          6.4,
+          0.2,
+          -8.694374097277867
+        ],
+        "animation": "Idle",
+        "localGarments": [
+          "নীলা/Woven cotton optional tunic",
+          "নীলা/Optional woven dupatta",
+          "নীলা/Optional long hair"
+        ]
+      },
+      {
+        "name": "চা-মামা কুদ্দুস",
+        "role": "civilian",
+        "position": [
+          -8.4,
+          0.33,
+          0.6
+        ],
+        "animation": "Idle",
+        "localGarments": [
+          "চা-মামা কুদ্দুস/Optional moustache"
+        ]
+      }
+    ],
+    "controls": {
+      "keys": [],
+      "touch": {
+        "x": 0,
+        "y": 0
+      },
+      "running": false,
+      "pointer": null
+    }
+  },
+  {
+    "at": "2026-11-03T17:46:02.999Z",
+    "spawn": "east-south",
+    "position": [
+      6.3,
+      0.2,
+      -16
+    ],
+    "tutorialOpen": false,
+    "registry": {
+      "revision": 1,
+      "source": "factory",
+      "origin": "server-factory"
+    },
+    "actors": [
+      {
+        "name": "সজল পথিক",
+        "role": "civilian",
+        "position": [
+          6.3,
+          0.2,
+          -16
+        ],
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "বজলু প্রতিশ্রুতি",
+        "role": "leader",
+        "position": [
+          1.8,
+          0.46,
+          10.6
+        ],
+        "animation": "Idle",
+        "localGarments": [
+          "বজলু প্রতিশ্রুতি/Optional moustache",
+          "বজলু প্রতিশ্রুতি/Woven cotton optional tunic"
+        ]
+      },
+      {
+        "name": "পল্টু পোস্টার",
+        "role": "worker",
+        "position": [
+          -1.8,
+          0,
+          7.8
+        ],
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "মন্টু মাইক",
+        "role": "worker",
+        "position": [
+          3.3,
+          0,
+          7.4
+        ],
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "কমল কমিটি",
+        "role": "worker",
+        "position": [
+          0.1,
+          0,
+          6.6
+        ],
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "রহিম চাচা",
+        "role": "civilian",
+        "position": [
+          -6.1,
+          0.2,
+          -8.49885959173037
+        ],
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "আসমা আপা",
+        "role": "civilian",
+        "position": [
+          6.3,
+          0.2,
+          5.034149410311185
+        ],
+        "animation": "Walk",
+        "localGarments": [
+          "আসমা আপা/Woven cotton optional tunic",
+          "আসমা আপা/Optional woven dupatta",
+          "আসমা আপা/Optional long hair"
+        ]
+      },
+      {
+        "name": "জয়নাল ভাই",
+        "role": "civilian",
+        "position": [
+          -6.1,
+          0.2,
+          9.472954228051918
+        ],
+        "animation": "Idle",
+        "localGarments": [
+          "জয়নাল ভাই/Optional moustache"
+        ]
+      },
+      {
+        "name": "নীলা",
+        "role": "civilian",
+        "position": [
+          6.4,
+          0.2,
+          -9.393555638921756
+        ],
+        "animation": "Walk",
+        "localGarments": [
+          "নীলা/Woven cotton optional tunic",
+          "নীলা/Optional woven dupatta",
+          "নীলা/Optional long hair"
+        ]
+      },
+      {
+        "name": "চা-মামা কুদ্দুস",
+        "role": "civilian",
+        "position": [
+          -8.4,
+          0.33,
+          0.6
+        ],
+        "animation": "Idle",
+        "localGarments": [
+          "চা-মামা কুদ্দুস/Optional moustache"
+        ]
+      }
+    ],
+    "controls": {
+      "keys": [],
+      "touch": {
+        "x": 0,
+        "y": 0
+      },
+      "running": false,
+      "pointer": null
+    }
+  },
+  {
+    "at": "2026-11-03T17:46:04.973Z",
+    "spawn": "west-south",
+    "position": [
+      -6.3,
+      0.2,
+      -16
+    ],
+    "tutorialOpen": false,
+    "registry": {
+      "revision": 1,
+      "source": "factory",
+      "origin": "server-factory"
+    },
+    "actors": [
+      {
+        "name": "সজল পথিক",
+        "role": "civilian",
+        "position": [
+          -6.3,
+          0.2,
+          -16
+        ],
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "বজলু প্রতিশ্রুতি",
+        "role": "leader",
+        "position": [
+          1.8,
+          0.46,
+          10.6
+        ],
+        "animation": "Idle",
+        "localGarments": [
+          "বজলু প্রতিশ্রুতি/Optional moustache",
+          "বজলু প্রতিশ্রুতি/Woven cotton optional tunic"
+        ]
+      },
+      {
+        "name": "পল্টু পোস্টার",
+        "role": "worker",
+        "position": [
+          -1.8,
+          0,
+          7.8
+        ],
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "মন্টু মাইক",
+        "role": "worker",
+        "position": [
+          3.3,
+          0,
+          7.4
+        ],
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "কমল কমিটি",
+        "role": "worker",
+        "position": [
+          0.1,
+          0,
+          6.6
+        ],
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "রহিম চাচা",
+        "role": "civilian",
+        "position": [
+          -6.1,
+          0.2,
+          -8.254868735143987
+        ],
+        "animation": "Idle",
+        "localGarments": []
+      },
+      {
+        "name": "আসমা আপা",
+        "role": "civilian",
+        "position": [
+          6.3,
+          0.2,
+          4.428032946908141
+        ],
+        "animation": "Idle",
+        "localGarments": [
+          "আসমা আপা/Woven cotton optional tunic",
+          "আসমা আপা/Optional woven dupatta",
+          "আসমা আপা/Optional long hair"
+        ]
+      },
+      {
+        "name": "জয়নাল ভাই",
+        "role": "civilian",
+        "position": [
+          -6.1,
+          0.2,
+          9.035368392116643
+        ],
+        "animation": "Idle",
+        "localGarments": [
+          "জয়নাল ভাই/Optional moustache"
+        ]
+      },
+      {
+        "name": "নীলা",
+        "role": "civilian",
+        "position": [
+          6.4,
+          0.2,
+          -10.301788142280916
+        ],
+        "animation": "Idle",
+        "localGarments": [
+          "নীলা/Woven cotton optional tunic",
+          "নীলা/Optional woven dupatta",
+          "নীলা/Optional long hair"
+        ]
+      },
+      {
+        "name": "চা-মামা কুদ্দুস",
+        "role": "civilian",
+        "position": [
+          -8.4,
+          0.33,
+          0.6
+        ],
+        "animation": "Idle",
+        "localGarments": [
+          "চা-মামা কুদ্দুস/Optional moustache"
+        ]
+      }
+    ],
+    "controls": {
+      "keys": [],
+      "touch": {
+        "x": 0,
+        "y": 0
+      },
+      "running": false,
+      "pointer": null
+    }
+  }
+]

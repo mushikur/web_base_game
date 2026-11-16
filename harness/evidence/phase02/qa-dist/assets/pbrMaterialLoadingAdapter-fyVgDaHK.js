@@ -1,0 +1,1 @@
+export{b as PBRMaterialLoadingAdapter}from"./game-B2HhaQ38.js";
